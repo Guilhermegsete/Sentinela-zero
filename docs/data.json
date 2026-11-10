@@ -1,6 +1,6 @@
 {
   "schema_version": "0.4",
-  "generated_at": "2026-11-10T00:43:01.280249+00:00",
+  "generated_at": "2026-11-10T01:32:56.507918+00:00",
   "solar": {
     "regions": {
       "data": [
@@ -99,6 +99,37 @@
         },
         {
           "observed_date": "2026-11-09",
+          "region": 4571,
+          "latitude": -14,
+          "longitude": -67,
+          "location": "S14W67",
+          "carrington_longitude": 194,
+          "old_carrington_longitude": 192,
+          "area": 10,
+          "spot_class": "Bxo",
+          "extent": 5,
+          "number_spots": 2,
+          "mag_class": "B",
+          "mag_string": null,
+          "status": "f",
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 10,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-11-08T05:07:05"
+        },
+        {
+          "observed_date": "2026-11-09",
           "region": 4565,
           "latitude": 12,
           "longitude": -59,
@@ -127,6 +158,37 @@
           "x_flare_probability": 1,
           "proton_probability": 1,
           "first_date": "2026-10-30T18:40:39"
+        },
+        {
+          "observed_date": "2026-11-09",
+          "region": 4570,
+          "latitude": -13,
+          "longitude": 20,
+          "location": "S13E20",
+          "carrington_longitude": 107,
+          "old_carrington_longitude": 107,
+          "area": null,
+          "spot_class": null,
+          "extent": null,
+          "number_spots": null,
+          "mag_class": null,
+          "mag_string": null,
+          "status": "f",
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 0,
+          "m_flare_probability": 0,
+          "x_flare_probability": 0,
+          "proton_probability": 0,
+          "first_date": "2026-11-06T06:51:49"
         },
         {
           "observed_date": "2026-11-09",
@@ -189,371 +251,15 @@
           "x_flare_probability": 15,
           "proton_probability": 15,
           "first_date": "2026-11-02T07:20:01"
-        },
-        {
-          "observed_date": "2026-11-09",
-          "region": 4570,
-          "latitude": -13,
-          "longitude": 20,
-          "location": "S13E20",
-          "carrington_longitude": 107,
-          "old_carrington_longitude": 107,
-          "area": null,
-          "spot_class": null,
-          "extent": null,
-          "number_spots": null,
-          "mag_class": null,
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 0,
-          "m_flare_probability": 0,
-          "x_flare_probability": 0,
-          "proton_probability": 0,
-          "first_date": "2026-11-06T06:51:49"
-        },
-        {
-          "observed_date": "2026-11-09",
-          "region": 4571,
-          "latitude": -14,
-          "longitude": -67,
-          "location": "S14W67",
-          "carrington_longitude": 194,
-          "old_carrington_longitude": 192,
-          "area": 10,
-          "spot_class": "Bxo",
-          "extent": 5,
-          "number_spots": 2,
-          "mag_class": "B",
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 10,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-08T05:07:05"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/solar_regions.json",
-      "fetched_at": "2026-11-10T00:43:01.280249+00:00",
+      "fetched_at": "2026-11-10T01:32:56.507918+00:00",
       "observed_at": "2026-11-09T00:00:00+00:00",
       "stale": false
     },
     "kp": {
       "data": [
-        {
-          "time_tag": "2026-11-09T18:43:00",
-          "kp_index": 2,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-09T18:44:00",
-          "kp_index": 2,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-09T18:45:00",
-          "kp_index": 2,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-09T18:46:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T18:47:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T18:48:00",
-          "kp_index": 2,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-09T18:49:00",
-          "kp_index": 2,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-09T18:50:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T18:51:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T18:52:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T18:53:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T18:54:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T18:55:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T18:56:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T18:57:00",
-          "kp_index": 2,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-09T18:58:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T18:59:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:00:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:01:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:02:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:03:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:04:00",
-          "kp_index": 2,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-09T19:05:00",
-          "kp_index": 2,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-09T19:06:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:07:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:08:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:09:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:10:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:11:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:12:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:13:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:14:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:15:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:16:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:17:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:18:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:19:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:20:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:21:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:22:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:23:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:24:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:25:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:26:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:27:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:28:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:29:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:30:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-09T19:31:00",
-          "kp_index": 2,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
         {
           "time_tag": "2026-11-09T19:32:00",
           "kp_index": 2,
@@ -1066,21 +772,21 @@
         },
         {
           "time_tag": "2026-11-09T20:57:00",
-          "kp_index": 3,
-          "estimated_kp": 2.67,
-          "kp": "3M"
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
         },
         {
           "time_tag": "2026-11-09T20:58:00",
-          "kp_index": 3,
-          "estimated_kp": 2.67,
-          "kp": "3M"
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
         },
         {
           "time_tag": "2026-11-09T20:59:00",
-          "kp_index": 3,
-          "estimated_kp": 2.67,
-          "kp": "3M"
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
         },
         {
           "time_tag": "2026-11-09T21:00:00",
@@ -2356,9 +2062,9 @@
         },
         {
           "time_tag": "2026-11-10T00:32:00",
-          "kp_index": 1,
-          "estimated_kp": 1.33,
-          "kp": "1P"
+          "kp_index": 2,
+          "estimated_kp": 1.67,
+          "kp": "2M"
         },
         {
           "time_tag": "2026-11-10T00:33:00",
@@ -2380,15 +2086,15 @@
         },
         {
           "time_tag": "2026-11-10T00:36:00",
-          "kp_index": 1,
-          "estimated_kp": 1.33,
-          "kp": "1P"
+          "kp_index": 2,
+          "estimated_kp": 1.67,
+          "kp": "2M"
         },
         {
           "time_tag": "2026-11-10T00:37:00",
-          "kp_index": 1,
-          "estimated_kp": 1.33,
-          "kp": "1P"
+          "kp_index": 2,
+          "estimated_kp": 1.67,
+          "kp": "2M"
         },
         {
           "time_tag": "2026-11-10T00:38:00",
@@ -2399,37 +2105,337 @@
         {
           "time_tag": "2026-11-10T00:39:00",
           "kp_index": 2,
+          "estimated_kp": 2.0,
+          "kp": "2Z"
+        },
+        {
+          "time_tag": "2026-11-10T00:40:00",
+          "kp_index": 2,
+          "estimated_kp": 2.0,
+          "kp": "2Z"
+        },
+        {
+          "time_tag": "2026-11-10T00:41:00",
+          "kp_index": 2,
+          "estimated_kp": 2.0,
+          "kp": "2Z"
+        },
+        {
+          "time_tag": "2026-11-10T00:42:00",
+          "kp_index": 2,
           "estimated_kp": 2.33,
           "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:43:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:44:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:45:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:46:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:47:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:48:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:49:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:50:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:51:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:52:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:53:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:54:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:55:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:56:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:57:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:58:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T00:59:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T01:00:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T01:01:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T01:02:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T01:03:00",
+          "kp_index": 2,
+          "estimated_kp": 2.33,
+          "kp": "2P"
+        },
+        {
+          "time_tag": "2026-11-10T01:04:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:05:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:06:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:07:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:08:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:09:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:10:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:11:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:12:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:13:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:14:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:15:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:16:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:17:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:18:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:19:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:20:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:21:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:22:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:23:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:24:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:25:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:26:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:27:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:28:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
+        },
+        {
+          "time_tag": "2026-11-10T01:29:00",
+          "kp_index": 3,
+          "estimated_kp": 2.67,
+          "kp": "3M"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-      "fetched_at": "2026-11-10T00:43:01.280249+00:00",
-      "observed_at": "2026-11-10T00:39:00+00:00",
+      "fetched_at": "2026-11-10T01:32:56.507918+00:00",
+      "observed_at": "2026-11-10T01:29:00+00:00",
       "stale": false
     },
     "flares": {
       "data": [
         {
-          "time_tag": "2026-11-10T00:39:00Z",
+          "time_tag": "2026-11-10T01:30:00Z",
           "satellite": 18,
-          "current_class": "B7.8",
-          "current_ratio": 0.002352902814820311,
-          "current_int_xrlong": 0.002987052546814084,
-          "begin_time": "2026-11-09T23:37:00Z",
-          "begin_class": "C1.2",
-          "max_time": "2026-11-09T23:49:00Z",
-          "max_class": "C3.0",
-          "max_xrlong": 3.048696726182243e-06,
-          "end_time": "2026-11-09T23:58:00Z",
-          "max_ratio_time": "2026-11-09T23:44:16Z",
-          "max_ratio": 0.20146483526859912,
-          "end_class": "C2.0"
+          "current_class": "C1.2",
+          "current_ratio": 0.025742854052160064,
+          "current_int_xrlong": 0.00169001379981637,
+          "begin_time": "2026-11-10T01:07:00Z",
+          "begin_class": "B7.4",
+          "max_time": "2026-11-10T01:17:00Z",
+          "max_class": "C1.3",
+          "max_xrlong": 1.3603047364085796e-06,
+          "end_time": "Unk",
+          "max_ratio_time": "2026-11-10T01:07:09Z",
+          "max_ratio": 1.0595795789827902,
+          "end_class": null
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/goes/primary/xray-flares-latest.json",
-      "fetched_at": "2026-11-10T00:43:01.280249+00:00",
-      "observed_at": "2026-11-10T00:39:00+00:00",
+      "fetched_at": "2026-11-10T01:32:56.507918+00:00",
+      "observed_at": "2026-11-10T01:30:00+00:00",
       "stale": false
     },
     "flare_history": {
@@ -4060,7 +4066,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/goes/primary/xray-flares-7-day.json",
-      "fetched_at": "2026-11-10T00:43:01.280249+00:00",
+      "fetched_at": "2026-11-10T01:32:56.507918+00:00",
       "observed_at": "2026-11-09T23:49:00+00:00",
       "stale": false
     },
@@ -4143,7 +4149,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/products/alerts.json",
-      "fetched_at": "2026-11-10T00:43:01.280249+00:00",
+      "fetched_at": "2026-11-10T01:32:56.507918+00:00",
       "observed_at": null,
       "stale": false
     }
@@ -4154,7 +4160,7 @@
         {
           "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
           "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 00:34:53 GMT"
+          "pubDate": "Tue, 10 Nov 2026 01:22:10 GMT"
         },
         {
           "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
@@ -4228,13 +4234,33 @@
         }
       ],
       "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "fetched_at": "2026-11-10T00:43:01.280249+00:00",
+      "fetched_at": "2026-11-10T01:32:56.507918+00:00",
       "stale": false
     },
     "Al Jazeera": {
       "items": [
         {
-          "title": "Iran war live: Trump says war ‘effectively over’, Iran demands ‘surrender’",
+          "title": "France blames Iran for October supermarket cyberattack",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
+          "pubDate": "Tue, 10 Nov 2026 01:01:47 +0000"
+        },
+        {
+          "title": "Trump signals ‘positive momentum’ with Iran after meeting Qatari PM",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm?traffic_source=rss",
+          "pubDate": "Tue, 10 Nov 2026 01:00:00 +0000"
+        },
+        {
+          "title": "Verdict delayed in Honduras sex-trafficking case linked to disappearance",
+          "link": "https://www.aljazeera.com/news/2026/11/10/verdict-delayed-in-honduras-sex-trafficking-case-linked-to-disappearance?traffic_source=rss",
+          "pubDate": "Tue, 10 Nov 2026 00:57:58 +0000"
+        },
+        {
+          "title": "Trump says FBI probing Nvidia CEO’s affair with alleged spy",
+          "link": "https://www.aljazeera.com/economy/2026/11/10/trump-says-fbi-probing-nvidia-ceos-affair-with-alleged-spy?traffic_source=rss",
+          "pubDate": "Tue, 10 Nov 2026 00:44:28 +0000"
+        },
+        {
+          "title": "Iran war live: Iran demands US ‘surrender’ to its conditions",
           "link": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-war-effectively-over-iran-demands-surrender?traffic_source=rss",
           "pubDate": "Mon, 09 Nov 2026 23:55:23 +0000"
         },
@@ -4259,7 +4285,7 @@
           "pubDate": "Mon, 09 Nov 2026 23:13:44 +0000"
         },
         {
-          "title": "Trump says war on Iran ‘effectively over’ after talks with Qatar’s PM",
+          "title": "After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily",
           "link": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss",
           "pubDate": "Mon, 09 Nov 2026 22:31:19 +0000"
         },
@@ -4287,30 +4313,10 @@
           "title": "Will Najib Razak be transferred to house arrest?",
           "link": "https://www.aljazeera.com/video/inside-story/2026/11/9/will-najib-razak-be-transferred-to-house-arrest?traffic_source=rss",
           "pubDate": "Mon, 09 Nov 2026 21:13:02 +0000"
-        },
-        {
-          "title": "Republican lawmaker moves to impeach US Defense Secretary Hegseth",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/republican-lawmaker-moves-to-impeach-us-defense-secretary-hegseth?traffic_source=rss",
-          "pubDate": "Mon, 09 Nov 2026 21:04:11 +0000"
-        },
-        {
-          "title": "Cyprus rivals agree new crossings across island’s dividing line",
-          "link": "https://www.aljazeera.com/news/2026/11/9/cyprus-rivals-agree-new-crossings-across-islands-dividing-line?traffic_source=rss",
-          "pubDate": "Mon, 09 Nov 2026 20:50:20 +0000"
-        },
-        {
-          "title": "Deadly explosion at Iron and steel plant in Turkiye",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/deadly-explosion-at-iron-and-steel-plant-in-turkiye?traffic_source=rss",
-          "pubDate": "Mon, 09 Nov 2026 20:19:18 +0000"
-        },
-        {
-          "title": "Russell Brand sentenced to 10.5 years over sexual assault charges",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/russell-brand-sentenced-to-10-5-years-over-sexual-assault-charges?traffic_source=rss",
-          "pubDate": "Mon, 09 Nov 2026 20:08:18 +0000"
         }
       ],
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "fetched_at": "2026-11-10T00:43:01.280249+00:00",
+      "fetched_at": "2026-11-10T01:32:56.507918+00:00",
       "stale": false
     }
   },
