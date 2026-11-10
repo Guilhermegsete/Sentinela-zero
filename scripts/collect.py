@@ -53,3 +53,5 @@ for name,url in news.items():
   result['status'][name]='failed: '+type(e).__name__
 OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2))
 print(json.dumps(result['status'],indent=2))
+if all(result['status'].get(k)!='ok' for k in feeds):
+ raise SystemExit('No fresh NOAA solar feeds; marking workflow failed')
