@@ -38,7 +38,7 @@
 const $=id=>document.getElementById(id);
 const make=(tag,value)=>{const e=document.createElement(tag);e.textContent=value;return e};
 const fmt=t=>t&&Number.isFinite(Date.parse(t))?new Date(t).toLocaleString('pt-BR'):'desconhecido';
-const kpValue=r=>{const n=Number(r?.kp_index??r?.Kp);return Number.isFinite(n)?n:null};
+const kpValue=r=>{const raw=r?.kp_index??r?.Kp;if(raw==null||raw==='')return null;const n=Number(raw);return Number.isFinite(n)?n:null};
 const gScale=k=>k==null?'Indisponível':k>=9?'G5':k>=8?'G4':k>=7?'G3':k>=6?'G2':k>=5?'G1':'G0 — sem tempestade geomagnética';
 function solarImage(id,path){const image=$(id),info=$(id+'Status');image.onload=()=>info.textContent='Imagem carregada · confirme o horário de observação no rodapé';image.onerror=()=>{image.removeAttribute('src');info.textContent='Imagem indisponível na fonte NASA'};image.src='https://sdo.gsfc.nasa.gov/assets/img/latest/latest_512_'+path+'.jpg?v='+Math.floor(Date.now()/900000)}
 function canvasContext(id){const c=$(id);const width=Math.max(260,Math.round(c.getBoundingClientRect().width));const height=Math.round(c.getBoundingClientRect().height)||245;const ratio=Math.min(2,window.devicePixelRatio||1);c.width=width*ratio;c.height=height*ratio;const ctx=c.getContext('2d');ctx.scale(ratio,ratio);ctx.clearRect(0,0,width,height);return {ctx,w:width,h:height}}
