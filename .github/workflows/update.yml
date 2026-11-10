@@ -1,8 +1,16 @@
 name: SENTINELA collect
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/collect.py'
+      - 'docs/index.html'
   schedule:
     - cron: '7,22,37,52 * * * *'
+concurrency:
+  group: sentinela-collect
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
