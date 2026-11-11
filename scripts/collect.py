@@ -25,6 +25,10 @@ FEEDS = {
 NEWS = {
     "BBC World": "https://feeds.bbci.co.uk/news/world/rss.xml",
     "Al Jazeera": "https://www.aljazeera.com/xml/rss/all.xml",
+    "Deutsche Welle": "https://rss.dw.com/xml/rss-en-all",
+    "France 24": "https://www.france24.com/en/rss",
+    "The Guardian": "https://www.theguardian.com/world/rss",
+    "Euronews": "https://www.euronews.com/rss",
 }
 NASA = {
     "aia": ("https://sdo.gsfc.nasa.gov/assets/img/latest/times0193.txt",
@@ -171,7 +175,7 @@ def image_data(name, raw, now):
 
 
 TRANSLATION_URL = "https://api.mymemory.translated.net/get"
-NEWS_LANGUAGES = {"BBC World": "en", "Al Jazeera": "en"}
+NEWS_LANGUAGES = {name: "en" for name in NEWS}
 TRANSLATION_BUDGET = 4500  # Conservative rolling 24h ceiling; anonymous provider limit is 5000.
 
 

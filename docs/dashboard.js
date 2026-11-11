@@ -115,6 +115,20 @@
   const suffix = state => state === "ok" ? "" : " · " + label(state);
   const gScale = value => value == null ? "Indisponível" :
     value >= 9 ? "G5" : value >= 8 ? "G4" : value >= 7 ? "G3" : value >= 6 ? "G2" : value >= 5 ? "G1" : "G0 — sem tempestade geomagnética";
+  // Transparent heuristic labels are not independent verification of a headline.
+  function newsTopic(title) {
+    const value = String(title || "").toLowerCase();
+    const rules = [
+      ["security", /\b(war|wars|military|missile|drone|attack|attacks|ceasefire|troops|defen[cs]e|conflict|invasion|nuclear weapons|guerra|ataque|conflito|militar|míssil)\b/],
+      ["diplomacy", /\b(diplomacy|diplomatic|treaty|summit|negotiat|peace talks|embassy|foreign minister|united nations|sanction talks|diplomacia|tratado|cúpula|negociações)\b/],
+      ["economy", /\b(oil|gas|energy|trade|tariff|sanction|economy|economic|inflation|supply chain|opec|pipeline|petroleum|shipping|energia|petróleo|comércio|tarifa|sanções|economia)\b/],
+      ["technology", /\b(semiconductor|chips|artificial intelligence|cyber|satellite|space race|critical mineral|rare earth|technology|tecnologia|cibernétic|satélite|inteligência artificial)\b/],
+      ["politics", /\b(election|president|parliament|government|prime minister|minister|vote|legislation|congress|senate|eleição|presidente|parlamento|governo|congresso)\b/]
+    ];
+    return rules.find(([, expression]) => expression.test(value))?.[0] || "other";
+  }
+  const NEWS_TOPIC_NAMES = {security:"Conflitos e segurança",diplomacy:"Diplomacia",economy:"Economia e energia",technology:"Tecnologia estratégica",politics:"Política internacional",other:"Outros assuntos"};
+  const newsFilter = {source:"all",topic:"all",age:"all"};
   let lastPayload = null, inFlight = false, transportError = "", lastImageRefresh = 0;
   const imageLoaded = {};
   function imageStatus(id) {
@@ -254,27 +268,49 @@
     }
     drawKp(solar.kp, states.kp, now); drawFlares(solar.flare_history, states.flare_history, now);
     $("news").replaceChildren();
+    const newsSources = Object.keys(data.news || {});
+    const sourcePicker = $("newsSource");
+    if (sourcePicker && sourcePicker.children.length !== newsSources.length + 1) {
+      sourcePicker.replaceChildren();
+      const all = make("option", "Todas as fontes"); all.value = "all"; sourcePicker.append(all);
+      for (const source of newsSources) { const option = make("option", source); option.value = source; sourcePicker.append(option); }
+      sourcePicker.value = newsFilter.source;
+    }
+    const seen = new Set();
+    let visibleCount = 0, duplicateCount = 0;
     for (const [source, entry] of Object.entries(data.news || {})) {
+      if (newsFilter.source !== "all" && source !== newsFilter.source) continue;
       const section = make("div", ""); section.append(make("h3", source + suffix(states[source])));
       const translatedCount = (entry.items || []).filter(item => item.translation_status === "translated" && item.title_pt).length;
       section.append(make("p", "Manchetes em português por tradução automática (MyMemory). " +
         translatedCount + "/" + (entry.items || []).length + " traduzidas. Artigos abrem no idioma da fonte."));
       const ul = make("ul", "");
       for (const item of entry.items || []) {
+        const timestamp = Date.parse(item.pubDate || "");
+        const topic = newsTopic(item.title_original || item.title);
+        if (newsFilter.topic !== "all" && topic !== newsFilter.topic) continue;
+        if (newsFilter.age !== "all" && (!Number.isFinite(timestamp) || timestamp > now + 5 * MINUTE || now - timestamp > Number(newsFilter.age) * HOUR)) continue;
+        const duplicateKey = String(item.title_original || item.title || "").toLowerCase().replace(/[^a-z0-9\p{L}]+/gu," ").trim();
+        if (!duplicateKey || seen.has(duplicateKey)) { duplicateCount++; continue; }
+        seen.add(duplicateKey); visibleCount++;
         const translated = item.translation_status === "translated" && typeof item.title_pt === "string" && item.title_pt.trim();
         const original = item.title_original || item.title || "Sem título";
         const li = make("li", ""), link = make("a", translated ? item.title_pt : original);
         if (/^https:\/\//.test(item.link)) { link.href = item.link; link.target = "_blank"; link.rel = "noopener noreferrer"; }
+        li.className = "news-entry";
         li.append(link, make("span", " · " + (item.pubDate || "")));
         if (translated) {
           const details = make("details", "");
           details.append(make("summary", "Ver título original"), make("p", original));
           li.append(details);
         } else li.append(make("small", " · Original: tradução indisponível ou limite gratuito atingido"));
+        li.append(make("small", " · " + NEWS_TOPIC_NAMES[topic]));
         ul.append(li);
       }
-      section.append(ul); $("news").append(section);
+      if (ul.children.length) { section.append(ul); $("news").append(section); }
     }
+    $("newsSummary").textContent = visibleCount + " manchetes exibidas · " + duplicateCount + " repetições idênticas omitidas · classificação indicativa, não checagem factual.";
+    if (!visibleCount) $("news").append(make("p", "Nenhuma manchete corresponde aos filtros atuais."));
     $("status").replaceChildren();
     for (const [name, state] of Object.entries(states)) {
       const entry = solar[name] || data.news?.[name] || data.images?.[name.replace("nasa_", "")];
@@ -312,6 +348,9 @@
       if (lastPayload) render();
       else $("notice").textContent = "Não foi possível carregar os dados: " + transportError;
     }
+  }
+  for (const [id, field] of [["newsSource", "source"], ["newsTopic", "topic"], ["newsAge", "age"]]) {
+    $(id).addEventListener("change", function () { newsFilter[field] = this.value; render(); });
   }
   $("refresh").addEventListener("click", () => { solarImages(); load(); });
   window.addEventListener("resize", render);
