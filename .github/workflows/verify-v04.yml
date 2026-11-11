@@ -2,7 +2,17 @@ name: SENTINELA V0.4 validation
 on:
   push:
     branches:
+      - main
+      - 'codex/**'
       - feature/sentinela-v04-visual
+    paths:
+      - 'scripts/**'
+      - 'docs/index.html'
+      - 'docs/dashboard.js'
+      - 'tests/**'
+      - '.github/workflows/**'
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
@@ -11,31 +21,20 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1; Node 24
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0; Node 24
         with:
           python-version: '3.12'
-      - name: Python syntax and unit tests
+      - name: Python syntax and offline integration tests
         run: |
           python -m py_compile scripts/collect.py
           python -m unittest discover -s tests -v
-      - name: Browser JS syntax
+      - name: Dashboard syntax and behavior
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          html=Path("docs/index.html").read_text()
-          if "<script>" not in html or "</script>" not in html: raise SystemExit("Missing dashboard JavaScript")
-          Path("/tmp/sentinela-v04.js").write_text(html.split("<script>",1)[1].split("</script>",1)[0])
-          PY
-          node --check /tmp/sentinela-v04.js
-      - name: Visual asset references
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          html=Path("docs/index.html").read_text()
-          assert "solarImage('aia','0193')" in html
-          assert "solarImage('hmi','HMII')" in html
-          assert "flare_history" in html
-          assert "kpChart" in html and "flareChart" in html
-          print("Visual references: OK")
-          PY
+          node --check docs/dashboard.js
+          node --test tests/test_dashboard.cjs
+      - name: Dashboard under a second browser timezone
+        env:
+          TZ: Pacific/Auckland
+        run: node --test tests/test_dashboard.cjs
+
