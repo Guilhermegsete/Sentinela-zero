@@ -9,17 +9,30 @@
 @media(max-width:780px){main{padding:13px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.two{grid-template-columns:1fr}.panel{padding:13px}canvas{height:215px}}
 @media(max-width:400px){.grid{grid-template-columns:1fr 1fr;gap:8px}.stat{font-size:21px}.panel{padding:10px}}
 .pulse.warn{background:var(--warn);box-shadow:0 0 0 5px #ffd08a22}.status-row span:last-child{text-align:right;overflow-wrap:anywhere}.heading{flex-wrap:wrap}.stat{overflow-wrap:anywhere}
+.explanation{font-size:13px;line-height:1.5;color:var(--muted);margin:0 0 12px}.diagnosis-title{font-size:20px;font-weight:700}.diagnosis-note{border-top:1px solid var(--line);padding-top:12px}#diagnosis details{margin-top:12px}#diagnosis summary{cursor:pointer;color:#8bddff}
 </style>
 </head>
 <body><main>
 <header><div><div class="heading"><span class="pulse" aria-hidden="true"></span><h1>SENTINELA ZERO</h1><span class="tag">V0.4.1 Visual</span></div><p class="subtitle">Heliofísica e inteligência geopolítica · Dados públicos · Sem serviços pagos</p></div><div><button id="refresh" type="button">Atualizar painel</button><p class="date" id="time">Aguardando coleta</p></div></header>
 <p role="status" class="notice" id="notice"></p>
 <div class="grid">
-<section class="panel"><div class="eyebrow">Índice planetário</div><h2>Kp</h2><div class="stat" id="kp">—</div><p class="muted tiny" id="gscale">Escala NOAA indisponível</p></section>
-<section class="panel"><div class="eyebrow">Observação diária</div><h2>Regiões solares</h2><div class="stat" id="regions">—</div><p class="muted tiny" id="regionsDate">Data indisponível</p></section>
-<section class="panel"><div class="eyebrow">Evento GOES</div><h2>Flare recente</h2><div class="stat" id="flares">—</div><p class="muted tiny" id="flaresDate">Último registro disponível, não previsão</p></section>
-<section class="panel"><div class="eyebrow">Comunicados</div><h2>NOAA SWPC</h2><div class="stat" id="alerts">—</div><p class="muted tiny">Boletins recentes, não necessariamente ativos</p></section>
+<section class="panel"><div class="eyebrow">Índice planetário</div><h2>Kp</h2><p class="explanation">Mede a perturbação do campo magnético da Terra, de 0 a 9. A partir de 5, indica tempestade geomagnética.</p><div class="stat" id="kp">—</div><p class="muted tiny" id="gscale">Escala NOAA indisponível</p></section>
+<section class="panel"><div class="eyebrow">Observação diária</div><h2>Regiões solares</h2><p class="explanation">Regiões solares registradas pela NOAA na data indicada. A quantidade, sozinha, não mede a chance de uma erupção.</p><div class="stat" id="regions">—</div><p class="muted tiny" id="regionsDate">Data indisponível</p></section>
+<section class="panel"><div class="eyebrow">Evento GOES</div><h2>Flare recente</h2><p class="explanation">Último pico de emissão de raios X reportado pelo GOES. Classes A, B, C, M e X indicam intensidade crescente.</p><div class="stat" id="flares">—</div><p class="muted tiny" id="flaresDate">Último registro disponível, não previsão</p></section>
+<section class="panel"><div class="eyebrow">Comunicados</div><h2>NOAA SWPC</h2><p class="explanation">Boletins de clima espacial guardados na coleta. O total inclui comunicados anteriores e não representa alertas ativos.</p><div class="stat" id="alerts">—</div><p class="muted tiny">Boletins recentes, não necessariamente ativos</p></section>
 </div>
+<section class="panel stack" id="diagnosis" aria-labelledby="diagnosisHeading">
+<div class="source"><h2 id="diagnosisHeading">Síntese solar e geomagnética</h2><span class="tag">Leitura automática</span></div>
+<p class="muted tiny" id="diagnosisTime">Aguardando dados para a leitura</p>
+<p class="diagnosis-title" id="diagnosisTitle">Avaliação indisponível</p>
+<div class="two"><div><h3>Campo magnético da Terra</h3><p id="diagnosisGeomagnetic">Aguardando Kp válido e recente.</p></div><div><h3>Atividade solar registrada</h3><p id="diagnosisSolar">Aguardando registro de flares.</p></div></div>
+<p id="diagnosisContext" class="muted tiny"></p>
+<p id="diagnosisLimits" class="diagnosis-note tiny"></p>
+<details><summary>Como esta leitura é produzida</summary>
+<p class="tiny">A classificação geomagnética usa o Kp válido e recente: abaixo de 5 não alcança G1; 5 → G1, 6 → G2, 7 → G3, 8 → G4 e 9 → G5. O flare é descrito pelo último pico registrado; um evento passado não comprova atividade em curso.</p>
+<p class="tiny">A contagem de regiões não estima a probabilidade de erupção. A quantidade de boletins não informa sua vigência. Dados antigos ou falhos limitam a avaliação; não são substituídos por zero. Esta síntese não é previsão, alerta oficial nem avaliação de impactos locais.</p>
+<p class="tiny"><a href="https://www.swpc.noaa.gov/noaa-scales-explanation" target="_blank" rel="noopener noreferrer">Escalas NOAA</a> · <a href="https://www.swpc.noaa.gov/phenomena/solar-flares-radio-blackouts" target="_blank" rel="noopener noreferrer">Flares e suas classes</a></p>
+</details></section>
 <div class="two">
 <section class="panel"><div class="source"><h2>Sol · AIA 193 Å</h2><span class="tag">NASA SDO</span></div><img class="solar" id="aia" alt="Imagem recente da coroa solar em ultravioleta extremo, canal AIA 193 Å" loading="eager"><p class="placeholder tiny" id="aiaStatus"></p><p class="muted tiny">Estruturas coronais e regiões escuras. A data da observação aparece na própria imagem; o carregamento não comprova a atualidade.</p><a href="https://sdo.gsfc.nasa.gov/data/" target="_blank" rel="noopener noreferrer">Fonte NASA SDO</a></section>
 <section class="panel"><div class="source"><h2>Sol · HMI contínuo</h2><span class="tag">NASA SDO</span></div><img class="solar" id="hmi" alt="Imagem recente da fotosfera solar em luz visível, instrumento HMI" loading="eager"><p class="placeholder tiny" id="hmiStatus"></p><p class="muted tiny">Disco solar em intensidade contínua para inspeção visual de manchas. Pode haver atrasos instrumentais.</p><a href="https://sdo.gsfc.nasa.gov/data/" target="_blank" rel="noopener noreferrer">Fonte NASA SDO</a></section>
@@ -36,4 +49,3 @@
 <footer>Pesquisa e visualização informativa, sem garantia de tempo real ou uso para alertas críticos. Fontes: NASA/SDO, NOAA/SWPC, BBC e Al Jazeera.</footer>
 </main>
 <script src="dashboard.js" defer></script></body></html>
-

@@ -86,6 +86,22 @@ O recurso é aditivo: snapshots antigos continuam mostrando os originais até um
 
 Referências: [contrato GET MyMemory](https://mymemory.translated.net/doc/spec.php) e [limites oficiais](https://mymemory.translated.net/doc/usagelimits.php).
 
+## Síntese solar e geomagnética
+
+Os quatro cartões iniciais incluem descrições curtas do indicador e do significado do número exibido.
+
+A síntese é uma interpretação automática por regras explícitas, calculada no navegador a partir do snapshot e reavaliada a cada 30 segundos. Não utiliza outro serviço, modelo ou API paga.
+
+- A condição geomagnética depende de Kp válido e recente e de snapshot recente. Kp abaixo de 5 não alcança o limiar G1; 5, 6, 7, 8 e 9 correspondem a G1, G2, G3, G4 e G5.
+- Dados Kp antigos, ausentes, inválidos ou com falha suspendem a avaliação atual; não se infere normalidade.
+- O último flare é descrito por classe e pico do evento. Não se presume que continue em curso nem que vá provocar tempestade geomagnética.
+- Quantidade de regiões é contexto observacional, sem estimativa de probabilidade de erupção.
+- Quantidade de boletins é contexto de coleta; não há classificação de vigência ou análise individual dos comunicados.
+- Intervalo histórico e lacunas Kp aparecem nas limitações. Histórico incompleto não sustenta uma conclusão sobre todas as últimas 24 horas.
+- Não avalia chegada de ejeções de massa coronal, tempestades de radiação, impactos locais ou causalidade com notícias/Schumann. Não é previsão ou alerta oficial.
+
+Referências: [escalas NOAA](https://www.swpc.noaa.gov/noaa-scales-explanation), [flares](https://www.swpc.noaa.gov/phenomena/solar-flares-radio-blackouts), [regiões solares](https://www.swpc.noaa.gov/products/solar-region-summary) e [boletins](https://www.swpc.noaa.gov/products/alerts-watches-and-warnings).
+
 ## Limites
 
 Visualização informativa, sem uso como alerta crítico. O Kp é estimativa NOAA atualizada por minuto, não uma medição independente. Boletins listados não são necessariamente ativos. Manchetes são conteúdo de terceiros. Fontes podem mudar de esquema ou ficar indisponíveis. Repositório e dados publicados são públicos.

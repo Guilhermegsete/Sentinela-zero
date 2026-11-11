@@ -54,7 +54,56 @@
     }
     return days;
   }
-  const api = {utcTime, kpValue, sourceState, kpPoints, flareDays};
+
+  function buildDiagnosis(payload, now = Date.now()) {
+    const solar = payload?.solar || {}, status = payload?.status || {};
+    const snapshot = utcTime(payload?.generated_at);
+    const snapshotCurrent = Number.isFinite(snapshot) && snapshot <= now + 5 * MINUTE && now - snapshot <= MAX_FETCH_AGE;
+    const states = Object.fromEntries(["kp", "flares", "regions", "alerts"].map(name =>
+      [name, sourceState(solar[name], status[name], name, now)]));
+    const points = kpPoints(solar.kp?.data, now);
+    const value = points.at(-1)?.v ?? null;
+    const kpUsable = snapshotCurrent && states.kp === "ok" && value != null &&
+      now - points.at(-1).t <= 45 * MINUTE;
+    const result = {title: "Dados insuficientes para avaliar a condição geomagnética atual",
+      geomagnetic: "Kp ausente, antigo ou com falha. Não é possível classificar a condição geomagnética atual.",
+      solar: "Registro de flares ausente, antigo ou com falha. Não é possível resumir o último evento com segurança.",
+      context: [], limits: [], level: "limited"};
+    if (kpUsable) {
+      const scale = value >= 9 ? "G5" : value >= 8 ? "G4" : value >= 7 ? "G3" : value >= 6 ? "G2" : value >= 5 ? "G1" : null;
+      result.title = scale ? "Kp indica condição de tempestade geomagnética " + scale : "Kp abaixo do limiar de tempestade geomagnética";
+      result.geomagnetic = "Kp " + value + (scale ? " corresponde ao nível " + scale + " na escala geomagnética NOAA." :
+        " está abaixo de 5, o limiar G1. Essa leitura não indica tempestade geomagnética pelo Kp.");
+      result.level = scale ? "storm" : "below";
+    } else result.limits.push("A classificação geomagnética está suspensa até haver Kp válido e recente.");
+    if (snapshotCurrent && states.flares === "ok" && Array.isArray(solar.flares?.data)) {
+      const events = solar.flares.data.filter(row => /^[ABCMX]\d+(?:\.\d+)?$/.test(row?.max_class || "") &&
+        Number.isFinite(utcTime(row.max_time)) && utcTime(row.max_time) <= now).sort((a, b) => utcTime(a.max_time) - utcTime(b.max_time));
+      if (events.length) {
+        const last = events.at(-1), cls = last.max_class.charAt(0);
+        result.solar = "Último flare reportado: " + last.max_class + " (classe " + cls + "). O horário do pico está no cartão acima. " +
+          "É um registro de evento; não demonstra que o flare continue em curso.";
+      } else if (solar.flares.data.length === 0) {
+        result.solar = "A consulta válida não retornou evento no feed de flare recente. Isso não comprova ausência de atividade solar.";
+      } else result.limits.push("O registro de flares não contém classe e horário válidos.");
+    } else result.limits.push("O resumo solar está limitado pela disponibilidade ou idade do feed de flares.");
+    if (states.regions === "ok" && Array.isArray(solar.regions?.data)) {
+      result.context.push(solar.regions.data.length + " regiões catalogadas na observação diária; a contagem isolada não prevê erupções.");
+    } else result.context.push("Contagem de regiões sem observação válida e recente.");
+    if (states.alerts === "ok" && Array.isArray(solar.alerts?.data)) {
+      result.context.push(solar.alerts.data.length + " boletins armazenados; a vigência e o conteúdo de cada comunicado não foram classificados nesta síntese.");
+    } else result.context.push("Comunicados sem consulta válida e recente.");
+    if (points.length >= 2) {
+      const interval = (points.at(-1).t - points[0].t) / HOUR;
+      const gaps = points.slice(1).filter((p, i) => p.t - points[i].t > 2 * MINUTE).length;
+      result.limits.push("Histórico Kp: intervalo de " + interval.toFixed(1) + "h entre primeira e última leitura, com " + gaps +
+        " lacunas maiores que 2 min." + (interval < 23.9 || gaps ? " Não há base contínua de 24 horas para resumir o período completo." : ""));
+    } else result.limits.push("Histórico Kp insuficiente para uma leitura do período de 24 horas.");
+    result.limits.push("Não avalia chegada de ejeções de massa coronal, tempestades de radiação, efeitos locais ou causalidade com notícias e Schumann.");
+    return result;
+  }
+
+  const api = {utcTime, kpValue, sourceState, kpPoints, flareDays, buildDiagnosis};
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   if (typeof document === "undefined") return;
 
@@ -209,6 +258,15 @@
       signal.className = state === "ok" ? "good" : state === "stale" ? "warn" : "bad";
       row.append(make("span", name), signal); $("status").append(row);
     }
+
+    const diagnosis = buildDiagnosis(data, now);
+    $("diagnosisTime").textContent = "Base: coleta de " + fmt(data.generated_at) + " · critérios reavaliados a cada 30 s";
+    $("diagnosisTitle").textContent = diagnosis.title;
+    $("diagnosisTitle").className = "diagnosis-title " + (diagnosis.level === "below" ? "" : "warn");
+    $("diagnosisGeomagnetic").textContent = diagnosis.geomagnetic;
+    $("diagnosisSolar").textContent = diagnosis.solar;
+    $("diagnosisContext").textContent = diagnosis.context.join(" ");
+    $("diagnosisLimits").textContent = diagnosis.limits.join(" ");
     imageStatus("aia"); imageStatus("hmi");
   }
   async function load() {
