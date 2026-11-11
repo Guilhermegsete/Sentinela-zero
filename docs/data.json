@@ -1,53 +1,22 @@
 {
   "schema_version": "0.4.1",
-  "generated_at": "2026-11-11T02:13:47.977615+00:00",
+  "generated_at": "2026-11-11T02:46:32.388907+00:00",
   "solar": {
     "regions": {
       "data": [
         {
           "observed_date": "2026-11-10",
-          "region": 4570,
-          "latitude": -13,
-          "longitude": 6,
-          "location": "S13E06",
-          "carrington_longitude": 108,
-          "old_carrington_longitude": 107,
+          "region": 4571,
+          "latitude": -14,
+          "longitude": -81,
+          "location": "S14W81",
+          "carrington_longitude": 195,
+          "old_carrington_longitude": 194,
           "area": null,
           "spot_class": null,
           "extent": null,
           "number_spots": null,
           "mag_class": null,
-          "mag_string": null,
-          "status": null,
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 0,
-          "m_flare_probability": 0,
-          "x_flare_probability": 0,
-          "proton_probability": 0,
-          "first_date": "2026-11-06T06:51:49"
-        },
-        {
-          "observed_date": "2026-11-10",
-          "region": 4572,
-          "latitude": 12,
-          "longitude": 57,
-          "location": "N12E57",
-          "carrington_longitude": 57,
-          "old_carrington_longitude": 57,
-          "area": 60,
-          "spot_class": "Hsx",
-          "extent": 3,
-          "number_spots": 2,
-          "mag_class": "A",
           "mag_string": null,
           "status": "f",
           "c_xray_events": 0,
@@ -60,11 +29,11 @@
           "impulse_flares_3": 0,
           "impulse_flares_4": 0,
           "protons": null,
-          "c_flare_probability": 10,
+          "c_flare_probability": 5,
           "m_flare_probability": 1,
           "x_flare_probability": 1,
           "proton_probability": 1,
-          "first_date": "2026-11-09T08:11:37"
+          "first_date": "2026-11-08T05:07:05"
         },
         {
           "observed_date": "2026-11-10",
@@ -99,37 +68,6 @@
         },
         {
           "observed_date": "2026-11-10",
-          "region": 4568,
-          "latitude": -9,
-          "longitude": -15,
-          "location": "S09W15",
-          "carrington_longitude": 129,
-          "old_carrington_longitude": 128,
-          "area": 40,
-          "spot_class": "Cso",
-          "extent": 6,
-          "number_spots": 5,
-          "mag_class": "B",
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 15,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-05T15:02:52"
-        },
-        {
-          "observed_date": "2026-11-10",
           "region": 4569,
           "latitude": -6,
           "longitude": -50,
@@ -158,6 +96,37 @@
           "x_flare_probability": 0,
           "proton_probability": 0,
           "first_date": "2026-11-06T06:50:18"
+        },
+        {
+          "observed_date": "2026-11-10",
+          "region": 4568,
+          "latitude": -9,
+          "longitude": -15,
+          "location": "S09W15",
+          "carrington_longitude": 129,
+          "old_carrington_longitude": 128,
+          "area": 40,
+          "spot_class": "Cso",
+          "extent": 6,
+          "number_spots": 5,
+          "mag_class": "B",
+          "mag_string": null,
+          "status": "f",
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 15,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-11-05T15:02:52"
         },
         {
           "observed_date": "2026-11-10",
@@ -223,17 +192,17 @@
         },
         {
           "observed_date": "2026-11-10",
-          "region": 4571,
-          "latitude": -14,
-          "longitude": -81,
-          "location": "S14W81",
-          "carrington_longitude": 195,
-          "old_carrington_longitude": 194,
-          "area": null,
-          "spot_class": null,
-          "extent": null,
-          "number_spots": null,
-          "mag_class": null,
+          "region": 4572,
+          "latitude": 12,
+          "longitude": 57,
+          "location": "N12E57",
+          "carrington_longitude": 57,
+          "old_carrington_longitude": 57,
+          "area": 60,
+          "spot_class": "Hsx",
+          "extent": 3,
+          "number_spots": 2,
+          "mag_class": "A",
           "mag_string": null,
           "status": "f",
           "c_xray_events": 0,
@@ -246,11 +215,11 @@
           "impulse_flares_3": 0,
           "impulse_flares_4": 0,
           "protons": null,
-          "c_flare_probability": 5,
+          "c_flare_probability": 10,
           "m_flare_probability": 1,
           "x_flare_probability": 1,
           "proton_probability": 1,
-          "first_date": "2026-11-08T05:07:05"
+          "first_date": "2026-11-09T08:11:37"
         },
         {
           "observed_date": "2026-11-10",
@@ -282,10 +251,41 @@
           "x_flare_probability": 0,
           "proton_probability": 0,
           "first_date": "2026-10-29T17:37:05"
+        },
+        {
+          "observed_date": "2026-11-10",
+          "region": 4570,
+          "latitude": -13,
+          "longitude": 6,
+          "location": "S13E06",
+          "carrington_longitude": 108,
+          "old_carrington_longitude": 107,
+          "area": null,
+          "spot_class": null,
+          "extent": null,
+          "number_spots": null,
+          "mag_class": null,
+          "mag_string": null,
+          "status": null,
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 0,
+          "m_flare_probability": 0,
+          "x_flare_probability": 0,
+          "proton_probability": 0,
+          "first_date": "2026-11-06T06:51:49"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/solar_regions.json",
-      "fetched_at": "2026-11-11T02:13:47.977615+00:00",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
       "observed_at": "2026-11-10T00:00:00+00:00",
       "stale": false
     },
@@ -2922,50 +2922,248 @@
         {
           "time_tag": "2026-11-11T02:06:00+00:00",
           "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
+          "estimated_kp": 1.33,
+          "kp": "1P"
         },
         {
           "time_tag": "2026-11-11T02:07:00+00:00",
           "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
+          "estimated_kp": 1.33,
+          "kp": "1P"
         },
         {
           "time_tag": "2026-11-11T02:08:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T02:09:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T02:10:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T02:11:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T02:12:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T02:13:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T02:14:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:15:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:16:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:17:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:18:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:19:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:20:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:21:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:22:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:23:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:24:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:25:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:26:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:27:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:28:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:29:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:30:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:31:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:32:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:33:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:34:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:35:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:36:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:37:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:38:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:39:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:40:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T02:41:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T02:42:00+00:00",
           "kp_index": 1.0,
           "estimated_kp": 1.0,
           "kp": "1Z"
         },
         {
-          "time_tag": "2026-11-11T02:09:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T02:10:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
+          "time_tag": "2026-11-11T02:43:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-      "fetched_at": "2026-11-11T02:13:47.977615+00:00",
-      "observed_at": "2026-11-11T02:10:00+00:00",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "observed_at": "2026-11-11T02:43:00+00:00",
       "stale": false,
-      "coverage_hours": 7.367,
+      "coverage_hours": 7.917,
       "gap_count": 0,
-      "window_start": "2026-11-10T02:13:47.977615+00:00",
-      "window_end": "2026-11-11T02:13:47.977615+00:00"
+      "window_start": "2026-11-10T02:46:32.388907+00:00",
+      "window_end": "2026-11-11T02:46:32.388907+00:00"
     },
     "flares": {
       "data": [
         {
-          "time_tag": "2026-11-11T02:10:00+00:00",
+          "time_tag": "2026-11-11T02:42:00+00:00",
           "satellite": 18,
-          "current_class": "B8.0",
-          "current_ratio": 0.042794795446796825,
+          "current_class": "C1.0",
+          "current_ratio": 0.05039484866094072,
           "current_int_xrlong": 0.0020133042708039284,
           "begin_time": "2026-11-10T20:23:00+00:00",
           "begin_class": "C1.2",
@@ -2979,7 +3177,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/goes/primary/xray-flares-latest.json",
-      "fetched_at": "2026-11-11T02:13:47.977615+00:00",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
       "observed_at": "2026-11-10T20:34:00+00:00",
       "stale": false
     },
@@ -4737,7 +4935,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/goes/primary/xray-flares-7-day.json",
-      "fetched_at": "2026-11-11T02:13:47.977615+00:00",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
       "observed_at": "2026-11-10T20:34:00+00:00",
       "stale": false
     },
@@ -4820,7 +5018,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/products/alerts.json",
-      "fetched_at": "2026-11-11T02:13:47.977615+00:00",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
       "observed_at": "2026-11-10T05:01:21.150000+00:00",
       "stale": false
     }
@@ -4829,15 +5027,15 @@
     "aia": {
       "source": "https://sdo.gsfc.nasa.gov/assets/img/latest/times0193.txt",
       "image_url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_512_0193.jpg",
-      "observed_at": "2026-11-11T01:57:29+00:00",
-      "fetched_at": "2026-11-11T02:13:47.977615+00:00",
+      "observed_at": "2026-11-11T02:37:41+00:00",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
       "stale": false
     },
     "hmi": {
       "source": "https://sdo.gsfc.nasa.gov/assets/img/latest/hmitimes.txt",
       "image_url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_512_HMII.jpg",
-      "observed_at": "2026-11-11T01:45:00+00:00",
-      "fetched_at": "2026-11-11T02:13:47.977615+00:00",
+      "observed_at": "2026-11-11T02:15:00+00:00",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
       "stale": false
     }
   },
@@ -4874,7 +5072,7 @@
         {
           "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
           "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 22:17:45 GMT",
+          "pubDate": "Wed, 11 Nov 2026 02:41:16 GMT",
           "title_original": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
           "source_language": "en",
           "translation_status": "translated",
@@ -4981,11 +5179,47 @@
         }
       ],
       "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "fetched_at": "2026-11-11T02:13:47.977615+00:00",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
       "stale": false
     },
     "Al Jazeera": {
       "items": [
+        {
+          "title": "Protesters throw milk at Joe Biden during Hunter event in Dublin",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/protesters-throw-milk-at-joe-biden-during-hunter-event-in-dublin?traffic_source=rss",
+          "pubDate": "Wed, 11 Nov 2026 02:12:22 +0000",
+          "title_original": "Protesters throw milk at Joe Biden during Hunter event in Dublin",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Manifestantes jogam leite em Joe Biden durante evento da Hunter em Dublin"
+        },
+        {
+          "title": "Former Iraqi lawmaker Ahmed al-Alwani found dead in Beirut",
+          "link": "https://www.aljazeera.com/news/2026/11/11/former-iraqi-awmaker-ahmed-al-alwani-found-dead-in-beirut?traffic_source=rss",
+          "pubDate": "Wed, 11 Nov 2026 02:07:15 +0000",
+          "title_original": "Former Iraqi lawmaker Ahmed al-Alwani found dead in Beirut",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Ex-deputado iraquiano Ahmed al-Alwani encontrado morto em Beirute"
+        },
+        {
+          "title": "US charges 3 ‘Iranian-backed’ men over alleged plot at UK Fairford air base",
+          "link": "https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base?traffic_source=rss",
+          "pubDate": "Wed, 11 Nov 2026 01:44:21 +0000",
+          "title_original": "US charges 3 ‘Iranian-backed’ men over alleged plot at UK Fairford air base",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "EUA acusam 3 homens \"apoiados pelo Irã\" por suposta conspiração na base aérea britânica de Fairford"
+        },
+        {
+          "title": "Republicans block Hegseth impeachment motion",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/republicans-block-hegseth-impeachment-motion?traffic_source=rss",
+          "pubDate": "Wed, 11 Nov 2026 01:43:42 +0000",
+          "title_original": "Republicans block Hegseth impeachment motion",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Republicanos bloqueiam moção de impeachment de Hegseth"
+        },
         {
           "title": "Tigray displaced families fear renewed war as hopes of returning home fade",
           "link": "https://www.aljazeera.com/news/2026/11/11/tigray-displaced-families-fear-renewed-war-as-hopes-of-returning-home-fade?traffic_source=rss",
@@ -5084,46 +5318,544 @@
           "source_language": "en",
           "translation_status": "translated",
           "title_pt": "Pesquisa dos EUA mostra que pena de morte perdeu apoio majoritário pela primeira vez desde 1971"
-        },
-        {
-          "title": "IBM’s biggest division ends most US foreign worker sponsorships",
-          "link": "https://www.aljazeera.com/news/2026/11/10/ibms-biggest-division-ends-most-us-foreign-worker-sponsorships?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 21:55:49 +0000",
-          "title_original": "IBM’s biggest division ends most US foreign worker sponsorships",
-          "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "A maior divisão da IBM encerra a maioria dos patrocínios de trabalhadores estrangeiros dos EUA"
-        },
-        {
-          "title": "2026 Midterms: Blue wave or anti-establishment backlash?",
-          "link": "https://www.aljazeera.com/video/lets-focus/2026/11/10/2026-midterms-blue-wave-or-anti-establishment-backlash?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 21:00:55 +0000",
-          "title_original": "2026 Midterms: Blue wave or anti-establishment backlash?",
-          "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "2026 Meio de mandato: onda azul ou reação anti-establishment?"
-        },
-        {
-          "title": "White House announces funds for law enforcement programme in several cities",
-          "link": "https://www.aljazeera.com/news/2026/11/10/white-house-announces-funds-for-law-enforcement-programme-in-several-cities?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 21:00:01 +0000",
-          "title_original": "White House announces funds for law enforcement programme in several cities",
-          "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "Casa Branca anuncia fundos para programa de aplicação da lei em várias cidades"
-        },
-        {
-          "title": "US soldier arrested in UK on suspicion of spying for Russia",
-          "link": "https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 20:41:53 +0000",
-          "title_original": "US soldier arrested in UK on suspicion of spying for Russia",
-          "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "Soldado dos EUA preso no Reino Unido por suspeita de espionagem para a Rússia"
         }
       ],
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "fetched_at": "2026-11-11T02:13:47.977615+00:00",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "stale": false
+    },
+    "Deutsche Welle": {
+      "items": [
+        {
+          "title": "US Republicans derail push to impeach Defense Secretary Pete Hegseth",
+          "link": "https://www.dw.com/en/us-republicans-derail-push-to-impeach-defense-secretary-pete-hegseth/a-79913761?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Wed, 11 Nov 2026 02:04:00 GMT",
+          "title_original": "US Republicans derail push to impeach Defense Secretary Pete Hegseth",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Republicanos dos EUA inviabilizam tentativa de impeachment do secretário de Defesa Pete Hegseth"
+        },
+        {
+          "title": "US charges 3 alleged Iranian operatives over plots targeting Jewish communities and a UK airbase",
+          "link": "https://www.dw.com/en/us-charges-3-alleged-iranian-operatives-over-plots-targeting-jewish-communities-and-a-uk-airbase/a-79913543?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 23:18:00 GMT",
+          "title_original": "US charges 3 alleged Iranian operatives over plots targeting Jewish communities and a UK airbase",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "EUA acusam 3 supostos agentes iranianos por conspirações visando comunidades judaicas e uma base aérea do Reino Unido"
+        },
+        {
+          "title": "Former Malaysian leader Najib Razak returns home under royal pardon, but faces a separate 15-year prison sentence",
+          "link": "https://www.dw.com/en/former-malaysian-leader-najib-razak-returns-home-under-royal-pardon-but-faces-a-separate-15-year-prison-sentence/a-79913437?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 20:39:00 GMT",
+          "title_original": "Former Malaysian leader Najib Razak returns home under royal pardon, but faces a separate 15-year prison sentence",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "O ex-líder malaio Najib Razak volta para casa sob perdão real, mas enfrenta uma sentença separada de 15 anos de prisão"
+        },
+        {
+          "title": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
+          "link": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 19:35:00 GMT",
+          "title_original": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Polícia antiterrorista britânica prende soldado dos EUA acusado de espionagem em nome da Rússia"
+        },
+        {
+          "title": "UK Privy Council overrules Trinidad and Tobago gay sex law",
+          "link": "https://www.dw.com/en/uk-privy-council-overrules-trinidad-and-tobago-gay-sex-law/a-79912163?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 19:21:00 GMT",
+          "title_original": "UK Privy Council overrules Trinidad and Tobago gay sex law",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "O Conselho Privado do Reino Unido anula a lei de sexo gay de Trinidad e Tobago"
+        },
+        {
+          "title": "Victims of Nazi war in Poland call on Germany for support",
+          "link": "https://www.dw.com/en/victims-of-nazi-war-in-poland-call-on-germany-for-support/a-79909311?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 17:53:00 GMT",
+          "title_original": "Victims of Nazi war in Poland call on Germany for support",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Vítimas da guerra nazista na Polônia pedem apoio à Alemanha"
+        },
+        {
+          "title": "Iran denies role in fridge hack, France summons ambassador",
+          "link": "https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 15:57:00 GMT",
+          "title_original": "Iran denies role in fridge hack, France summons ambassador",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Irã nega papel em invasão de geladeira, França convoca embaixador"
+        },
+        {
+          "title": "Controversial kinship: From colonial rule to the Holocaust?",
+          "link": "https://www.dw.com/en/controversial-kinship-from-colonial-rule-to-the-holocaust/a-79902228?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 15:49:00 GMT",
+          "title_original": "Controversial kinship: From colonial rule to the Holocaust?",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Poland: Krakow shooting suspect 'fascinated' by Norwegian mass murder Anders Breivik, says justice minister",
+          "link": "https://www.dw.com/en/poland-krakow-shooting-suspect-fascinated-by-norwegian-mass-murder-anders-breivik-says-justice-minister/a-79910435?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 15:30:00 GMT",
+          "title_original": "Poland: Krakow shooting suspect 'fascinated' by Norwegian mass murder Anders Breivik, says justice minister",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Neuer injury gives Urbig chance to shape Bayern and Germany future",
+          "link": "https://www.dw.com/en/neuer-injury-gives-urbig-chance-to-shape-bayern-and-germany-future/a-79910042?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 15:13:00 GMT",
+          "title_original": "Neuer injury gives Urbig chance to shape Bayern and Germany future",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Megaspeed and the battle to go high-end Nvidia chips into China",
+          "link": "https://www.dw.com/en/megaspeed-and-the-battle-to-go-high-end-nvidia-chips-into-china/a-79909129?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 14:32:00 GMT",
+          "title_original": "Megaspeed and the battle to go high-end Nvidia chips into China",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Pope Leo vs. Javier Milei: How political is the pope?",
+          "link": "https://www.dw.com/en/pope-leo-vs-javier-milei-how-political-is-the-pope/a-79907666?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 13:47:00 GMT",
+          "title_original": "Pope Leo vs. Javier Milei: How political is the pope?",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Japan watches for signs of change in Trump's foreign policy priorities",
+          "link": "https://www.dw.com/en/japan-watches-for-signs-of-change-in-trump-s-foreign-policy-priorities/a-79909398?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 13:31:00 GMT",
+          "title_original": "Japan watches for signs of change in Trump's foreign policy priorities",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Bulgaria highway pileup kills 12, dozens injured: PM",
+          "link": "https://www.dw.com/en/bulgaria-highway-pileup-kills-12-dozens-injured-pm/a-79907978?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 11:57:00 GMT",
+          "title_original": "Bulgaria highway pileup kills 12, dozens injured: PM",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "India: Sonia Gandhi's memoir 'Belonging: A Journey of Love' released",
+          "link": "https://www.dw.com/en/india-sonia-gandhi-s-memoir-belonging-a-journey-of-love-released/a-79908336?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 10 Nov 2026 11:46:00 GMT",
+          "title_original": "India: Sonia Gandhi's memoir 'Belonging: A Journey of Love' released",
+          "source_language": "en",
+          "translation_status": "limited"
+        }
+      ],
+      "source": "https://rss.dw.com/xml/rss-en-all",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "stale": false
+    },
+    "France 24": {
+      "items": [
+        {
+          "title": "Egyptian journalist Lina Attalah faces prison as trial sparks international outcry",
+          "link": "https://www.france24.com/en/middle-east/20261111-lina-attalah-egypt-trial-prison",
+          "pubDate": "Wed, 11 Nov 2026 01:53:51 GMT",
+          "title_original": "Egyptian journalist Lina Attalah faces prison as trial sparks international outcry",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "A jornalista egípcia Lina Attalah enfrenta a prisão enquanto o julgamento provoca protestos internacionais"
+        },
+        {
+          "title": "Boat capsized off Senegal's northwest coast leaving 39 dead",
+          "link": "https://www.france24.com/en/tv-shows/eye-on-africa/20261111-boat-capsized-off-senegal-s-northwest-coast-leaving-39-dead",
+          "pubDate": "Wed, 11 Nov 2026 01:50:25 GMT",
+          "title_original": "Boat capsized off Senegal's northwest coast leaving 39 dead",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Barco naufragou na costa noroeste do Senegal deixando 39 mortos"
+        },
+        {
+          "title": "Haiti PM praises Bukele after Salvadoran troops help destroy gang headquarters",
+          "link": "https://www.france24.com/en/americas/20261111-haiti-pm-bukele-salvadoran-troops-gang-headquarters",
+          "pubDate": "Wed, 11 Nov 2026 01:41:43 GMT",
+          "title_original": "Haiti PM praises Bukele after Salvadoran troops help destroy gang headquarters",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Premiê do Haiti elogia Bukele após tropas salvadorenhas ajudarem a destruir quartel-general de g"
+        },
+        {
+          "title": "Teddy Riner candidacy 'illustrative of this hunger for an alternative' to Le Pen or Mélenchon",
+          "link": "https://www.france24.com/en/video/20261110-teddy-riner-candidacy-illustrative-of-this-hunger-for-an-alternative-to-le-pen-or-m%C3%A9lenchon",
+          "pubDate": "Tue, 10 Nov 2026 23:13:58 GMT",
+          "title_original": "Teddy Riner candidacy 'illustrative of this hunger for an alternative' to Le Pen or Mélenchon",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Candidatura de Teddy Riner 'ilustrativa dessa fome por uma alternativa' a Le Pen ou Mélenchon"
+        },
+        {
+          "title": "Trump ally Jim Jordan elected House Republican leader after midterm defeat",
+          "link": "https://www.france24.com/en/americas/20261110-trump-jim-jordan-elected-house-republican-leader-midterm-defeat",
+          "pubDate": "Tue, 10 Nov 2026 22:42:42 GMT",
+          "title_original": "Trump ally Jim Jordan elected House Republican leader after midterm defeat",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Jim Jordan, aliado de Trump, eleito líder republicano da Câmara após derrota no meio do mandato"
+        },
+        {
+          "title": "US charges three 'Iranian operatives' over RAF Fairford terror plot",
+          "link": "https://www.france24.com/en/americas/20261110-us-iranian-operatives-raf-fairford-terror-plot",
+          "pubDate": "Tue, 10 Nov 2026 22:26:36 GMT",
+          "title_original": "US charges three 'Iranian operatives' over RAF Fairford terror plot",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "EUA acusam três 'agentes iranianos' por conspiração terrorista da RAF em Fairford"
+        },
+        {
+          "title": "West Bank: Population and healthcare actors, such as MSF, 'still facing movement restrictions'",
+          "link": "https://www.france24.com/en/video/20261110-west-bank-population-and-healthcare-actors-such-as-msf-still-facing-movement-restrictions",
+          "pubDate": "Tue, 10 Nov 2026 22:25:48 GMT",
+          "title_original": "West Bank: Population and healthcare actors, such as MSF, 'still facing movement restrictions'",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Cisjordânia: População e agentes de saúde, como MSF, 'ainda enfrentam restrições de movimento'"
+        },
+        {
+          "title": "'Europe not going anywhere': G7 summit a 'signal to Russians' that Europe is standing behind Ukraine",
+          "link": "https://www.france24.com/en/europe-not-going-anywhere-g7-summit-a-signal-to-russians-that-europe-is-standing-behind-ukraine",
+          "pubDate": "Tue, 10 Nov 2026 21:57:47 GMT",
+          "title_original": "'Europe not going anywhere': G7 summit a 'signal to Russians' that Europe is standing behind Ukraine",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Eisenkot pushes October 7 inquiry as Netanyahu targets Arab parties in tense new parliament",
+          "link": "https://www.france24.com/en/middle-east/20261110-eisenkot-pushes-october-7-inquiry-as-netanyahu-targets-arab-parties-in-tense-new-parliament",
+          "pubDate": "Tue, 10 Nov 2026 21:53:40 GMT",
+          "title_original": "Eisenkot pushes October 7 inquiry as Netanyahu targets Arab parties in tense new parliament",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "'Central role in ecosystem: If something happens to Nvidia, it's going to be a catastrophe'",
+          "link": "https://www.france24.com/en/central-role-in-ecosystem-if-something-happens-to-nvidia-it-s-going-to-be-a-catastrophe",
+          "pubDate": "Tue, 10 Nov 2026 21:40:18 GMT",
+          "title_original": "'Central role in ecosystem: If something happens to Nvidia, it's going to be a catastrophe'",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Anthropic eyes $1.4 trillion valuation in blockbuster IPO",
+          "link": "https://www.france24.com/en/tv-shows/business/20261110-anthropic-eyes-1-4-trillion-valuation-in-blockbuster-ipo",
+          "pubDate": "Tue, 10 Nov 2026 21:39:05 GMT",
+          "title_original": "Anthropic eyes $1.4 trillion valuation in blockbuster IPO",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Asymmetric cyberwarfare: 'States increasingly use cyberattacks in support of their other objectives'",
+          "link": "https://www.france24.com/en/asymmetric-cyberwarfare-states-increasingly-use-cyberattacks-in-support-of-their-other-objectives",
+          "pubDate": "Tue, 10 Nov 2026 21:25:45 GMT",
+          "title_original": "Asymmetric cyberwarfare: 'States increasingly use cyberattacks in support of their other objectives'",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "US soldier arrested in Britain on suspicion of assisting Russian intelligence",
+          "link": "https://www.france24.com/en/europe/20261110-us-soldier-arrested-in-britain-on-suspicion-of-assisting-russian-intelligence",
+          "pubDate": "Tue, 10 Nov 2026 20:23:04 GMT",
+          "title_original": "US soldier arrested in Britain on suspicion of assisting Russian intelligence",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "What the hack? Europeans face growing psyops and cyberattacks",
+          "link": "https://www.france24.com/en/tv-shows/the-debate/20261110-what-the-hack-europeans-face-growing-psyops-and-cyberattacks",
+          "pubDate": "Tue, 10 Nov 2026 20:19:22 GMT",
+          "title_original": "What the hack? Europeans face growing psyops and cyberattacks",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Filming amongst body bags: New Colombian president’s comms campaign sparks backlash",
+          "link": "https://www.france24.com/en/americas/20261110-filming-amongst-body-bags-new-colombian-president-s-comms-campaign-sparks-backlash",
+          "pubDate": "Tue, 10 Nov 2026 18:18:30 GMT",
+          "title_original": "Filming amongst body bags: New Colombian president’s comms campaign sparks backlash",
+          "source_language": "en",
+          "translation_status": "limited"
+        }
+      ],
+      "source": "https://www.france24.com/en/rss",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "stale": false
+    },
+    "The Guardian": {
+      "items": [
+        {
+          "title": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
+          "link": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities",
+          "pubDate": "Tue, 10 Nov 2026 15:39:26 GMT",
+          "title_original": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Lewis Hamilton visita passagem de Rafah no Egito e instalações de ajuda em Gaza"
+        },
+        {
+          "title": "Collision of two trains in Egypt kills at least seven",
+          "link": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+          "pubDate": "Sun, 08 Nov 2026 17:51:17 GMT",
+          "title_original": "Collision of two trains in Egypt kills at least seven",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Colisão de dois trens no Egito mata pelo menos sete"
+        },
+        {
+          "title": "How African philosophies inspired a new approach to staging film festivals in Manchester",
+          "link": "https://www.theguardian.com/news/2026/nov/08/african-philosophies-see-my-world-film-festival-manchester",
+          "pubDate": "Sun, 08 Nov 2026 12:00:39 GMT",
+          "title_original": "How African philosophies inspired a new approach to staging film festivals in Manchester",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Como as filosofias africanas inspiraram uma nova abordagem para a realização de festivais de cinema em Manchester"
+        },
+        {
+          "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+          "link": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
+          "pubDate": "Fri, 06 Nov 2026 15:08:43 GMT",
+          "title_original": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Líder queniano da seita apocalíptica condenado a 200 anos de prisão pelo assassinato de 190 crianças"
+        },
+        {
+          "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+          "link": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
+          "pubDate": "Fri, 06 Nov 2026 12:48:37 GMT",
+          "title_original": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "ANC enfrenta derrota contundente nas eleições locais da África do Sul com 80% dos votos contados"
+        },
+        {
+          "title": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
+          "link": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
+          "pubDate": "Tue, 10 Nov 2026 19:01:33 GMT",
+          "title_original": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Ilhas Falkland enfrentam ‘consequências devastadoras’ se Argentina bloquear projeto de petróleo, diz Reino Unido"
+        },
+        {
+          "title": "Deadly floods hit Iraq as thunderstorms sweep across region",
+          "link": "https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow",
+          "pubDate": "Mon, 09 Nov 2026 10:59:06 GMT",
+          "title_original": "Deadly floods hit Iraq as thunderstorms sweep across region",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit",
+          "link": "https://www.theguardian.com/world/2026/nov/09/pope-leo-argentina-visit-speech-javier-milei-austerity",
+          "pubDate": "Mon, 09 Nov 2026 02:11:25 GMT",
+          "title_original": "Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
+          "link": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
+          "pubDate": "Sun, 08 Nov 2026 09:00:35 GMT",
+          "title_original": "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Banana producers in Latin America want better pay to cope with effects of climate crisis",
+          "link": "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
+          "pubDate": "Sun, 08 Nov 2026 07:00:34 GMT",
+          "title_original": "Banana producers in Latin America want better pay to cope with effects of climate crisis",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "US and rest of world must follow China’s lead on green energy, says John Kerry",
+          "link": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31",
+          "pubDate": "Tue, 10 Nov 2026 12:08:23 GMT",
+          "title_original": "US and rest of world must follow China’s lead on green energy, says John Kerry",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+          "link": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+          "pubDate": "Mon, 09 Nov 2026 00:25:28 GMT",
+          "title_original": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
+          "link": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation",
+          "pubDate": "Sun, 08 Nov 2026 03:00:28 GMT",
+          "title_original": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "NZ election 2026: New Zealand faces weeks of uncertainty with results ‘too close to call’",
+          "link": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count",
+          "pubDate": "Sun, 08 Nov 2026 01:00:48 GMT",
+          "title_original": "NZ election 2026: New Zealand faces weeks of uncertainty with results ‘too close to call’",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "New Zealand election coalition talks will likely take weeks – as it happened",
+          "link": "https://www.theguardian.com/world/live/2026/nov/07/nz-general-election-2026-live-updates-results-new-zealand-polls",
+          "pubDate": "Sat, 07 Nov 2026 13:12:22 GMT",
+          "title_original": "New Zealand election coalition talks will likely take weeks – as it happened",
+          "source_language": "en",
+          "translation_status": "limited"
+        }
+      ],
+      "source": "https://www.theguardian.com/world/rss",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "stale": false
+    },
+    "Euronews": {
+      "items": [
+        {
+          "title": "Spain: 69 candles lit at Toledo Cathedral for train crash victims",
+          "link": "https://www.euronews.com/video/2026/11/10/spain-69-candles-lit-at-toledo-cathedral-for-train-crash-victims",
+          "pubDate": "Tue, 10 Nov 2026 23:53:11 +0100",
+          "title_original": "Spain: 69 candles lit at Toledo Cathedral for train crash victims",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Espanha: 69 velas acesas na Catedral de Toledo para vítimas de acidente de trem"
+        },
+        {
+          "title": "Argentina: Pope Leo XIV celebrates Mass before 650,000 in Córdoba",
+          "link": "https://www.euronews.com/video/2026/11/10/argentina-pope-leo-xiv-celebrates-mass-before-650000-in-cordoba",
+          "pubDate": "Tue, 10 Nov 2026 23:19:02 +0100",
+          "title_original": "Argentina: Pope Leo XIV celebrates Mass before 650,000 in Córdoba",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Argentina: Papa Leão XIV celebra missa diante de 650 mil pessoas em Córdoba"
+        },
+        {
+          "title": "Pope Leo XIV draws huge crowds in Córdoba after record Buenos Aires mass",
+          "link": "https://www.euronews.com/2026/11/10/pope-leo-xiv-draws-huge-crowds-in-cordoba-after-record-buenos-aires-mass",
+          "pubDate": "Tue, 10 Nov 2026 22:15:52 +0100",
+          "title_original": "Pope Leo XIV draws huge crowds in Córdoba after record Buenos Aires mass",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Papa Leão XIV atrai grandes multidões em Córdoba após missa recorde em Buenos Aires"
+        },
+        {
+          "title": "Paraguay's new president vows to recover pension funds at risk in Ueno Bank crisis",
+          "link": "https://www.euronews.com/2026/11/10/paraguays-new-president-vows-to-recover-pension-funds-at-risk-in-ueno-bank-crisis",
+          "pubDate": "Tue, 10 Nov 2026 22:00:19 +0100",
+          "title_original": "Paraguay's new president vows to recover pension funds at risk in Ueno Bank crisis",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Novo presidente do Paraguai promete recuperar fundos de pensão em risco na crise do Banco Ueno"
+        },
+        {
+          "title": "Web Summit Lisbon day 2 cancelled due to Storm Charles",
+          "link": "https://www.euronews.com/2026/11/10/web-summit-lisbon-day-2-cancelled-due-to-storm-charles",
+          "pubDate": "Tue, 10 Nov 2026 21:29:15 +0100",
+          "title_original": "Web Summit Lisbon day 2 cancelled due to Storm Charles",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Web Summit Lisboa dia 2 cancelado devido à tempestade Charles"
+        },
+        {
+          "title": "Energy boss Birol urges governments to accelerate global electrification at COP31",
+          "link": "https://www.euronews.com/2026/11/10/energy-boss-birol-urges-governments-to-accelerate-global-electrification-at-cop31",
+          "pubDate": "Tue, 10 Nov 2026 21:09:36 +0100",
+          "title_original": "Energy boss Birol urges governments to accelerate global electrification at COP31",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Chefe de energia, Birol pede aos governos que acelerem a eletrificação global na COP31"
+        },
+        {
+          "title": "Democrats took the House, Senate and a good deal of Republican pride: So who are the real winners and losers?",
+          "link": "https://www.euronews.com/2026/11/10/democrats-took-the-house-senate-and-a-good-deal-of-republican-pride-so-who-are-the-real-wi",
+          "pubDate": "Tue, 10 Nov 2026 19:55:26 +0100",
+          "title_original": "Democrats took the House, Senate and a good deal of Republican pride: So who are the real winners and losers?",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Costa seeks to reassure Merz after EU budget ultimatum",
+          "link": "https://www.euronews.com/2026/11/10/costa-seeks-to-reassure-merz-after-eu-budget-ultimatum",
+          "pubDate": "Tue, 10 Nov 2026 19:17:06 +0100",
+          "title_original": "Costa seeks to reassure Merz after EU budget ultimatum",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Latest news bulletin | November 10th, 2026 – Evening",
+          "link": "https://www.euronews.com/video/2026/11/10/latest-news-bulletin-november-10th-2026-evening",
+          "pubDate": "Tue, 10 Nov 2026 18:00:26 +0100",
+          "title_original": "Latest news bulletin | November 10th, 2026 – Evening",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Portugal on alert as storms Bruna and Charles raise sting jet risk of 160 km/h winds",
+          "link": "https://www.euronews.com/2026/11/10/portugal-on-alert-as-storms-bruna-and-charles-raise-sting-jet-risk-of-160-kmh-winds",
+          "pubDate": "Tue, 10 Nov 2026 17:41:31 +0100",
+          "title_original": "Portugal on alert as storms Bruna and Charles raise sting jet risk of 160 km/h winds",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Italian government debates aid to Kyiv while Abu Dhabi holds talks on Ukraine's future",
+          "link": "https://www.euronews.com/2026/11/10/italian-government-debates-aid-to-kyiv-while-abu-dhabi-holds-talks-on-ukraines-future",
+          "pubDate": "Tue, 10 Nov 2026 17:23:30 +0100",
+          "title_original": "Italian government debates aid to Kyiv while Abu Dhabi holds talks on Ukraine's future",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Russia’s ‘unfriendly countries’ list now targets property, child custody and debts",
+          "link": "https://www.euronews.com/2026/11/10/russias-unfriendly-countries-list-now-targets-property-child-custody-and-debts",
+          "pubDate": "Tue, 10 Nov 2026 16:40:07 +0100",
+          "title_original": "Russia’s ‘unfriendly countries’ list now targets property, child custody and debts",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Belgium: Prince Harry and Meghan visit EU Parliament for child safety event",
+          "link": "https://www.euronews.com/video/2026/11/10/belgium-prince-harry-and-meghan-visit-eu-parliament-for-child-safety-event",
+          "pubDate": "Tue, 10 Nov 2026 16:37:43 +0100",
+          "title_original": "Belgium: Prince Harry and Meghan visit EU Parliament for child safety event",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "DLR, NASA and Canada plan lunar greenhouses to grow food for astronauts",
+          "link": "https://www.euronews.com/2026/11/10/dlr-nasa-and-canada-plan-lunar-greenhouses-to-grow-food-for-astronauts",
+          "pubDate": "Tue, 10 Nov 2026 16:28:53 +0100",
+          "title_original": "DLR, NASA and Canada plan lunar greenhouses to grow food for astronauts",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "GCC members agree to station forces at new military command post in Kuwait",
+          "link": "https://www.euronews.com/2026/11/10/gcc-members-agree-to-station-forces-at-new-military-command-post-in-kuwait",
+          "pubDate": "Tue, 10 Nov 2026 16:19:03 +0100",
+          "title_original": "GCC members agree to station forces at new military command post in Kuwait",
+          "source_language": "en",
+          "translation_status": "limited"
+        }
+      ],
+      "source": "https://www.euronews.com/rss",
+      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
       "stale": false
     }
   },
@@ -5136,12 +5868,166 @@
     "nasa_aia": "ok",
     "nasa_hmi": "ok",
     "BBC World": "ok",
-    "Al Jazeera": "ok"
+    "Al Jazeera": "ok",
+    "Deutsche Welle": "ok",
+    "France 24": "ok",
+    "The Guardian": "ok",
+    "Euronews": "ok"
   },
   "translation": {
     "provider": "MyMemory",
     "target_language": "pt-BR",
     "cache": {
+      "898d50bea8811ffa1f22c591659973dbd0a33dd1e140e18539ac81688eb74b0e": {
+        "original": "Protesters throw milk at Joe Biden during Hunter event in Dublin",
+        "text": "Manifestantes jogam leite em Joe Biden durante evento da Hunter em Dublin",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "56e738079b1844582b3830b902dacbc9782efbc102fa89288d0ca874d44e016f": {
+        "original": "US Republicans derail push to impeach Defense Secretary Pete Hegseth",
+        "text": "Republicanos dos EUA inviabilizam tentativa de impeachment do secretário de Defesa Pete Hegseth",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "9d070e3babe4b15648515b0b17ac3b6763f9c6bd2edd352948b60065adf62ede": {
+        "original": "Egyptian journalist Lina Attalah faces prison as trial sparks international outcry",
+        "text": "A jornalista egípcia Lina Attalah enfrenta a prisão enquanto o julgamento provoca protestos internacionais",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "bc6a1e36308679ed0842c8e5c65cb3d692fe23a3247953b67ca69b97347286e6": {
+        "original": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
+        "text": "Lewis Hamilton visita passagem de Rafah no Egito e instalações de ajuda em Gaza",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "b9823361d78e5a9b6dc2fd57b0f594190804c3af3a0212716a34ea457efdbd4e": {
+        "original": "Spain: 69 candles lit at Toledo Cathedral for train crash victims",
+        "text": "Espanha: 69 velas acesas na Catedral de Toledo para vítimas de acidente de trem",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "a72efe4db7ebb45c9e49c6e943bda0c690c4138354dc93ff459628bf773c8cf3": {
+        "original": "Former Iraqi lawmaker Ahmed al-Alwani found dead in Beirut",
+        "text": "Ex-deputado iraquiano Ahmed al-Alwani encontrado morto em Beirute",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "0eb00cc00785f34876525d98d286ecc21cf86f88b246f6aa3814487b7be58219": {
+        "original": "US charges 3 alleged Iranian operatives over plots targeting Jewish communities and a UK airbase",
+        "text": "EUA acusam 3 supostos agentes iranianos por conspirações visando comunidades judaicas e uma base aérea do Reino Unido",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "3a8add7559bdb380af3ddf8e8cc5063f2c2034bd060b20afc31755bd8c3fc44d": {
+        "original": "Boat capsized off Senegal's northwest coast leaving 39 dead",
+        "text": "Barco naufragou na costa noroeste do Senegal deixando 39 mortos",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "d184b6d0db65b109d718ce74c60ec3029e69e924690eb3dc60f2f45b8d72ff1b": {
+        "original": "Collision of two trains in Egypt kills at least seven",
+        "text": "Colisão de dois trens no Egito mata pelo menos sete",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "4f87695ac734a1d886622383667e4855db8d8e1f83ab1741271668c82ffd7062": {
+        "original": "Argentina: Pope Leo XIV celebrates Mass before 650,000 in Córdoba",
+        "text": "Argentina: Papa Leão XIV celebra missa diante de 650 mil pessoas em Córdoba",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "96aa823cab2b2f50ffe6d653b28dc49fe4146429ca67b677dd72af8c2b4a02d7": {
+        "original": "US charges 3 ‘Iranian-backed’ men over alleged plot at UK Fairford air base",
+        "text": "EUA acusam 3 homens \"apoiados pelo Irã\" por suposta conspiração na base aérea britânica de Fairford",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "885eec1517303e0025006e86834dc8243ba3a678d89307151affbda704d65caa": {
+        "original": "Former Malaysian leader Najib Razak returns home under royal pardon, but faces a separate 15-year prison sentence",
+        "text": "O ex-líder malaio Najib Razak volta para casa sob perdão real, mas enfrenta uma sentença separada de 15 anos de prisão",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "7d3a76c37ab9ebb0147a39a3fd1a90d12fd2c905b2b9b903e441c774e9c621fe": {
+        "original": "Haiti PM praises Bukele after Salvadoran troops help destroy gang headquarters",
+        "text": "Premiê do Haiti elogia Bukele após tropas salvadorenhas ajudarem a destruir quartel-general de g",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "2804c99a32b8a446817084a33ca1d2878d0b491406304d665d03b225d2e59194": {
+        "original": "How African philosophies inspired a new approach to staging film festivals in Manchester",
+        "text": "Como as filosofias africanas inspiraram uma nova abordagem para a realização de festivais de cinema em Manchester",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "8c7bdab5af956f8122f59528d234a7733d4f8ec5c839ab13a5daffe0db3a5be2": {
+        "original": "Pope Leo XIV draws huge crowds in Córdoba after record Buenos Aires mass",
+        "text": "Papa Leão XIV atrai grandes multidões em Córdoba após missa recorde em Buenos Aires",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "562e1ee9ca4eddd7a65230fe05fd208e52d75420e6ac852766f168bfd3d7c431": {
+        "original": "Republicans block Hegseth impeachment motion",
+        "text": "Republicanos bloqueiam moção de impeachment de Hegseth",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "84d988bfcd9ca4c40e253c3924744b4be94dd5abd3ad101abff1351d6f4d4547": {
+        "original": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
+        "text": "Polícia antiterrorista britânica prende soldado dos EUA acusado de espionagem em nome da Rússia",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "c41431013ad8f9eccf73d59df2b320913f44a0614bdb2cef5e3d1483a6091dad": {
+        "original": "Teddy Riner candidacy 'illustrative of this hunger for an alternative' to Le Pen or Mélenchon",
+        "text": "Candidatura de Teddy Riner 'ilustrativa dessa fome por uma alternativa' a Le Pen ou Mélenchon",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "3834c58872f5850bbdf0288061923fffe53b723f7bb5e50c71e806cac73527d3": {
+        "original": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+        "text": "Líder queniano da seita apocalíptica condenado a 200 anos de prisão pelo assassinato de 190 crianças",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "2274dcb2a4875050c307f262948376f0d86a25f3cac19a5a7e0ae70c129d9e0d": {
+        "original": "Paraguay's new president vows to recover pension funds at risk in Ueno Bank crisis",
+        "text": "Novo presidente do Paraguai promete recuperar fundos de pensão em risco na crise do Banco Ueno",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "fa4aafbff2b689520c3046e6f32bcaf209234e7faa3ff44035c4d59641740d6c": {
+        "original": "UK Privy Council overrules Trinidad and Tobago gay sex law",
+        "text": "O Conselho Privado do Reino Unido anula a lei de sexo gay de Trinidad e Tobago",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "2a965767a069d7523e077e34f86ef971f6e4046f20eb52aad3a9ba301a23b8b4": {
+        "original": "Trump ally Jim Jordan elected House Republican leader after midterm defeat",
+        "text": "Jim Jordan, aliado de Trump, eleito líder republicano da Câmara após derrota no meio do mandato",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "7de656129f8af2348be9169a9dccedad478964a7937322ef14607dd522bc6230": {
+        "original": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+        "text": "ANC enfrenta derrota contundente nas eleições locais da África do Sul com 80% dos votos contados",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "a6e435e0bb07c0f6e22b8bb956042e8ac4ed62dea17fa308dea1c895654604a5": {
+        "original": "Web Summit Lisbon day 2 cancelled due to Storm Charles",
+        "text": "Web Summit Lisboa dia 2 cancelado devido à tempestade Charles",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "6a93cbc9ad00e719cb5a0fd5dafa42260465659ae995f8f450bf28bfd935c616": {
+        "original": "Victims of Nazi war in Poland call on Germany for support",
+        "text": "Vítimas da guerra nazista na Polônia pedem apoio à Alemanha",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "e85811b2c2b01c375deef3d12508fd5dcd91e0819fdd3226e82b190c58079801": {
+        "original": "US charges three 'Iranian operatives' over RAF Fairford terror plot",
+        "text": "EUA acusam três 'agentes iranianos' por conspiração terrorista da RAF em Fairford",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "9d006dfe5981a884eda7841a413e9753d177d36255fe015a252f3de398f377b5": {
+        "original": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
+        "text": "Ilhas Falkland enfrentam ‘consequências devastadoras’ se Argentina bloquear projeto de petróleo, diz Reino Unido",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "304d791302c22c775eba63558755ff14d310922278f173ba8ec3783560476089": {
+        "original": "Energy boss Birol urges governments to accelerate global electrification at COP31",
+        "text": "Chefe de energia, Birol pede aos governos que acelerem a eletrificação global na COP31",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "098759929b79bde60fb4ad8685eaf9691f2ec455d6eec2fb478ee240e4400ffb": {
+        "original": "Iran denies role in fridge hack, France summons ambassador",
+        "text": "Irã nega papel em invasão de geladeira, França convoca embaixador",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
+      "b5ca7517b7ae1277bedbcf7570929957e639da515921fad437d01bf2fb282637": {
+        "original": "West Bank: Population and healthcare actors, such as MSF, 'still facing movement restrictions'",
+        "text": "Cisjordânia: População e agentes de saúde, como MSF, 'ainda enfrentam restrições de movimento'",
+        "at": "2026-11-11T02:46:32.388907+00:00"
+      },
       "604f69bfddd86730edf46cd581565076211a9eef392e0dc09736dc29ec825d8f": {
         "original": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
         "text": "Três suspeitos apoiados pelo Irã planejaram ataques, incluindo o incidente da RAF em Fairford, dizem os EUA",
@@ -5413,6 +6299,126 @@
       {
         "at": "2026-11-11T01:32:12.164146+00:00",
         "chars": 59
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 64
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 68
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 82
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 68
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 65
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 58
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 96
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 59
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 53
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 65
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 75
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 113
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 78
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 88
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 72
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 44
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 87
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 93
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 75
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 82
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 58
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 74
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 86
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 54
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 57
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 67
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 91
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 81
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 58
+      },
+      {
+        "at": "2026-11-11T02:46:32.388907+00:00",
+        "chars": 94
       }
     ],
     "blocked_until": null
