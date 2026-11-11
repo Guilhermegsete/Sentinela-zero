@@ -64,6 +64,69 @@ test("NOAA timestamps without suffix are UTC in any host timezone", () => {
   assert.ok(Number.isNaN(dashboard.utcTime("bad")));
 });
 
+test("diagnosis keeps geomagnetic and solar observations separate", () => {
+  const data = fixture();
+  data.solar.flares.data = [{max_time: "2026-11-10T18:18:00Z", max_class: "C2.2"}];
+  const result = dashboard.buildDiagnosis(data, NOW);
+  assert.equal(result.level, "below");
+  assert.match(result.title, /Kp abaixo/);
+  assert.match(result.solar, /C2.2 \(classe C\)/);
+  assert.match(result.solar, /não demonstra que o flare continue/);
+});
+test("diagnosis applies NOAA geomagnetic thresholds", () => {
+  for (const [kp, expected] of [[4.99, null], [5, "G1"], [6, "G2"], [7, "G3"], [8, "G4"], [9, "G5"]]) {
+    const data = fixture(); data.solar.kp.data[0].kp_index = kp;
+    const result = dashboard.buildDiagnosis(data, NOW);
+    assert.equal(result.level, expected ? "storm" : "below");
+    if (expected) assert.ok(result.title.endsWith(expected));
+  }
+});
+test("stale, failed or invalid Kp cannot produce a reassuring diagnosis", () => {
+  for (const variant of ["stale", "failed", "missing", "invalid"]) {
+    const data = fixture();
+    if (variant === "stale") data.solar.kp.observed_at = "2026-11-10T18:00:00Z";
+    if (variant === "failed") data.status.kp = "failed: URLError";
+    if (variant === "missing") delete data.solar.kp;
+    if (variant === "invalid") data.solar.kp.data[0].kp_index = 99;
+    const result = dashboard.buildDiagnosis(data, NOW);
+    assert.equal(result.level, "limited");
+    assert.match(result.title, /Dados insuficientes/);
+  }
+});
+test("old snapshot suspends current assessment even if stored statuses say OK", () => {
+  const data = fixture(); data.generated_at = "2026-11-10T18:00:00Z";
+  const result = dashboard.buildDiagnosis(data, NOW);
+  assert.equal(result.level, "limited");
+  assert.match(result.solar, /ausente, antigo ou com falha/);
+});
+test("region and bulletin counts do not change geomagnetic severity", () => {
+  const data = fixture(); data.solar.regions.data = Array(50).fill({}); data.solar.alerts.data = Array(15).fill({});
+  const result = dashboard.buildDiagnosis(data, NOW);
+  assert.equal(result.level, "below");
+  assert.match(result.context.join(" "), /contagem isolada não prevê/);
+  assert.match(result.context.join(" "), /vigência.*não foram classificados/);
+});
+test("valid empty flare response is distinct from unavailable data", () => {
+  assert.match(dashboard.buildDiagnosis(fixture(), NOW).solar, /não retornou evento/);
+  const data = fixture(); delete data.solar.flares;
+  assert.match(dashboard.buildDiagnosis(data, NOW).solar, /ausente, antigo ou com falha/);
+});
+test("diagnosis does not interpret future flare records", () => {
+  const data = fixture(); data.solar.flares.data = [{max_time: "2026-11-11T21:00:00Z", max_class: "X9"}];
+  const result = dashboard.buildDiagnosis(data, NOW);
+  assert.doesNotMatch(result.solar, /X9/);
+  assert.match(result.limits.join(" "), /classe e horário válidos/);
+});
+test("partial Kp history is disclosed and diagnosis ages on tick", async () => {
+  const data = fixture();
+  data.solar.kp.data.push({time_tag: "2026-11-10T20:00:00Z", kp_index: 1});
+  assert.match(dashboard.buildDiagnosis(data, NOW).limits.join(" "), /Não há base contínua de 24 horas/);
+  const app = browser(data); await settle();
+  assert.match(app.get("diagnosisTitle").textContent, /Kp abaixo/);
+  app.advance(46 * minute); app.intervals.get(30000)();
+  assert.match(app.get("diagnosisTitle").textContent, /Dados insuficientes/);
+});
+
 test("Portuguese headline links to original article and reveals original title", async () => {
   const data = fixture();
   data.news = {"BBC World": {items: [{title: "Peace talks resume", title_original: "Peace talks resume",
