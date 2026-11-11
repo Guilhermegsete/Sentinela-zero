@@ -299,12 +299,12 @@
         if (/^https:\/\//.test(item.link)) { link.href = item.link; link.target = "_blank"; link.rel = "noopener noreferrer"; }
         li.className = "news-entry";
         li.append(link, make("span", " · " + (item.pubDate || "")));
-        li.append(make("small", " · " + NEWS_TOPIC_NAMES[topic]));
         if (translated) {
           const details = make("details", "");
           details.append(make("summary", "Ver título original"), make("p", original));
           li.append(details);
         } else li.append(make("small", " · Original: tradução indisponível ou limite gratuito atingido"));
+        li.append(make("small", " · " + NEWS_TOPIC_NAMES[topic]));
         ul.append(li);
       }
       if (ul.children.length) { section.append(ul); $("news").append(section); }
