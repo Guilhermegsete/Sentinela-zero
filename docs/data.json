@@ -1,71 +1,9 @@
 {
   "schema_version": "0.4.1",
-  "generated_at": "2026-11-11T01:16:37.954709+00:00",
+  "generated_at": "2026-11-11T01:32:12.164146+00:00",
   "solar": {
     "regions": {
       "data": [
-        {
-          "observed_date": "2026-11-10",
-          "region": 4565,
-          "latitude": 12,
-          "longitude": -73,
-          "location": "N12W73",
-          "carrington_longitude": 187,
-          "old_carrington_longitude": 186,
-          "area": 50,
-          "spot_class": "Hsx",
-          "extent": 3,
-          "number_spots": 2,
-          "mag_class": "A",
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 10,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-10-30T18:40:39"
-        },
-        {
-          "observed_date": "2026-11-10",
-          "region": 4570,
-          "latitude": -13,
-          "longitude": 6,
-          "location": "S13E06",
-          "carrington_longitude": 108,
-          "old_carrington_longitude": 107,
-          "area": null,
-          "spot_class": null,
-          "extent": null,
-          "number_spots": null,
-          "mag_class": null,
-          "mag_string": null,
-          "status": null,
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 0,
-          "m_flare_probability": 0,
-          "x_flare_probability": 0,
-          "proton_probability": 0,
-          "first_date": "2026-11-06T06:51:49"
-        },
         {
           "observed_date": "2026-11-10",
           "region": 4573,
@@ -96,6 +34,37 @@
           "x_flare_probability": 1,
           "proton_probability": 1,
           "first_date": "2026-11-10T17:38:07"
+        },
+        {
+          "observed_date": "2026-11-10",
+          "region": 4565,
+          "latitude": 12,
+          "longitude": -73,
+          "location": "N12W73",
+          "carrington_longitude": 187,
+          "old_carrington_longitude": 186,
+          "area": 50,
+          "spot_class": "Hsx",
+          "extent": 3,
+          "number_spots": 2,
+          "mag_class": "A",
+          "mag_string": null,
+          "status": "f",
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 10,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-10-30T18:40:39"
         },
         {
           "observed_date": "2026-11-10",
@@ -130,6 +99,68 @@
         },
         {
           "observed_date": "2026-11-10",
+          "region": 4570,
+          "latitude": -13,
+          "longitude": 6,
+          "location": "S13E06",
+          "carrington_longitude": 108,
+          "old_carrington_longitude": 107,
+          "area": null,
+          "spot_class": null,
+          "extent": null,
+          "number_spots": null,
+          "mag_class": null,
+          "mag_string": null,
+          "status": null,
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 0,
+          "m_flare_probability": 0,
+          "x_flare_probability": 0,
+          "proton_probability": 0,
+          "first_date": "2026-11-06T06:51:49"
+        },
+        {
+          "observed_date": "2026-11-10",
+          "region": 4566,
+          "latitude": -7,
+          "longitude": -34,
+          "location": "S07W34",
+          "carrington_longitude": 148,
+          "old_carrington_longitude": 148,
+          "area": 420,
+          "spot_class": "Ekc",
+          "extent": 12,
+          "number_spots": 31,
+          "mag_class": "BGD",
+          "mag_string": null,
+          "status": "f",
+          "c_xray_events": 14,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 5,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": 0,
+          "c_flare_probability": 90,
+          "m_flare_probability": 60,
+          "x_flare_probability": 15,
+          "proton_probability": 15,
+          "first_date": "2026-11-02T07:20:01"
+        },
+        {
+          "observed_date": "2026-11-10",
           "region": 4564,
           "latitude": 1,
           "longitude": -96,
@@ -158,6 +189,37 @@
           "x_flare_probability": 0,
           "proton_probability": 0,
           "first_date": "2026-10-29T17:37:05"
+        },
+        {
+          "observed_date": "2026-11-10",
+          "region": 4569,
+          "latitude": -6,
+          "longitude": -50,
+          "location": "S06W50",
+          "carrington_longitude": 164,
+          "old_carrington_longitude": 162,
+          "area": null,
+          "spot_class": null,
+          "extent": null,
+          "number_spots": null,
+          "mag_class": null,
+          "mag_string": null,
+          "status": "f",
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 0,
+          "m_flare_probability": 0,
+          "x_flare_probability": 0,
+          "proton_probability": 0,
+          "first_date": "2026-11-06T06:50:18"
         },
         {
           "observed_date": "2026-11-10",
@@ -220,72 +282,10 @@
           "x_flare_probability": 1,
           "proton_probability": 1,
           "first_date": "2026-11-08T05:07:05"
-        },
-        {
-          "observed_date": "2026-11-10",
-          "region": 4569,
-          "latitude": -6,
-          "longitude": -50,
-          "location": "S06W50",
-          "carrington_longitude": 164,
-          "old_carrington_longitude": 162,
-          "area": null,
-          "spot_class": null,
-          "extent": null,
-          "number_spots": null,
-          "mag_class": null,
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 0,
-          "m_flare_probability": 0,
-          "x_flare_probability": 0,
-          "proton_probability": 0,
-          "first_date": "2026-11-06T06:50:18"
-        },
-        {
-          "observed_date": "2026-11-10",
-          "region": 4566,
-          "latitude": -7,
-          "longitude": -34,
-          "location": "S07W34",
-          "carrington_longitude": 148,
-          "old_carrington_longitude": 148,
-          "area": 420,
-          "spot_class": "Ekc",
-          "extent": 12,
-          "number_spots": 31,
-          "mag_class": "BGD",
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 14,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 5,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": 0,
-          "c_flare_probability": 90,
-          "m_flare_probability": 60,
-          "x_flare_probability": 15,
-          "proton_probability": 15,
-          "first_date": "2026-11-02T07:20:01"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/solar_regions.json",
-      "fetched_at": "2026-11-11T01:16:37.954709+00:00",
+      "fetched_at": "2026-11-11T01:32:12.164146+00:00",
       "observed_at": "2026-11-10T00:00:00+00:00",
       "stale": false
     },
@@ -2600,24 +2600,120 @@
           "kp_index": 0.0,
           "estimated_kp": 0.33,
           "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T01:13:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T01:14:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T01:15:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T01:16:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T01:17:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T01:18:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T01:19:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T01:20:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T01:21:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T01:22:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T01:23:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T01:24:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T01:25:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T01:26:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T01:27:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T01:28:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-      "fetched_at": "2026-11-11T01:16:37.954709+00:00",
-      "observed_at": "2026-11-11T01:12:00+00:00",
+      "fetched_at": "2026-11-11T01:32:12.164146+00:00",
+      "observed_at": "2026-11-11T01:28:00+00:00",
       "stale": false,
-      "coverage_hours": 6.4,
+      "coverage_hours": 6.667,
       "gap_count": 0,
-      "window_start": "2026-11-10T01:16:37.954709+00:00",
-      "window_end": "2026-11-11T01:16:37.954709+00:00"
+      "window_start": "2026-11-10T01:32:12.164146+00:00",
+      "window_end": "2026-11-11T01:32:12.164146+00:00"
     },
     "flares": {
       "data": [
         {
-          "time_tag": "2026-11-11T01:13:00+00:00",
+          "time_tag": "2026-11-11T01:28:00+00:00",
           "satellite": 18,
-          "current_class": "B7.6",
-          "current_ratio": 0.023865045571973276,
+          "current_class": "B8.8",
+          "current_ratio": 0.027441474125165254,
           "current_int_xrlong": 0.0020133042708039284,
           "begin_time": "2026-11-10T20:23:00+00:00",
           "begin_class": "C1.2",
@@ -2631,7 +2727,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/goes/primary/xray-flares-latest.json",
-      "fetched_at": "2026-11-11T01:16:37.954709+00:00",
+      "fetched_at": "2026-11-11T01:32:12.164146+00:00",
       "observed_at": "2026-11-10T20:34:00+00:00",
       "stale": false
     },
@@ -4389,7 +4485,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/goes/primary/xray-flares-7-day.json",
-      "fetched_at": "2026-11-11T01:16:37.954709+00:00",
+      "fetched_at": "2026-11-11T01:32:12.164146+00:00",
       "observed_at": "2026-11-10T20:34:00+00:00",
       "stale": false
     },
@@ -4472,7 +4568,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/products/alerts.json",
-      "fetched_at": "2026-11-11T01:16:37.954709+00:00",
+      "fetched_at": "2026-11-11T01:32:12.164146+00:00",
       "observed_at": "2026-11-10T05:01:21.150000+00:00",
       "stale": false
     }
@@ -4481,15 +4577,15 @@
     "aia": {
       "source": "https://sdo.gsfc.nasa.gov/assets/img/latest/times0193.txt",
       "image_url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_512_0193.jpg",
-      "observed_at": "2026-11-11T00:57:29+00:00",
-      "fetched_at": "2026-11-11T01:16:37.954709+00:00",
+      "observed_at": "2026-11-11T01:17:29+00:00",
+      "fetched_at": "2026-11-11T01:32:12.164146+00:00",
       "stale": false
     },
     "hmi": {
       "source": "https://sdo.gsfc.nasa.gov/assets/img/latest/hmitimes.txt",
       "image_url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_512_HMII.jpg",
       "observed_at": "2026-11-11T00:45:00+00:00",
-      "fetched_at": "2026-11-11T01:16:37.954709+00:00",
+      "fetched_at": "2026-11-11T01:32:12.164146+00:00",
       "stale": false
     }
   },
@@ -4499,163 +4595,283 @@
         {
           "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
           "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 11 Nov 2026 01:01:20 GMT"
+          "pubDate": "Wed, 11 Nov 2026 01:01:20 GMT",
+          "title_original": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Três suspeitos apoiados pelo Irã planejaram ataques, incluindo o incidente da RAF em Fairford, dizem os EUA"
         },
         {
           "title": "US Army soldier suspected of spying for Russia arrested in UK",
           "link": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 20:20:04 GMT"
+          "pubDate": "Tue, 10 Nov 2026 20:20:04 GMT",
+          "title_original": "US Army soldier suspected of spying for Russia arrested in UK",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Soldado do Exército dos EUA suspeito de espionar para a Rússia é preso no Reino Unido"
         },
         {
           "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
           "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 11 Nov 2026 01:14:40 GMT"
+          "pubDate": "Wed, 11 Nov 2026 01:14:40 GMT",
+          "title_original": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Câmara dos EUA bloqueia tentativa de impeachment do secretário de Defesa Pete Hegseth, por enquanto"
         },
         {
           "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
           "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 22:17:45 GMT"
+          "pubDate": "Tue, 10 Nov 2026 22:17:45 GMT",
+          "title_original": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "O pai de Meghan, Thomas Markle, de volta à custódia federal depois de supostamente remover o monitor de tornozelo"
         },
         {
           "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
           "link": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 11 Nov 2026 00:18:07 GMT"
+          "pubDate": "Wed, 11 Nov 2026 00:18:07 GMT",
+          "title_original": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "'Isso pode nos matar': quenianos temem impacto do El Niño com previsão de enchentes"
         },
         {
           "title": "Violence erupts in Bangladesh as ousted PM's supporters stage protest",
           "link": "https://www.bbc.co.uk/news/articles/cwkg5g5pjpyko?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 19:26:42 GMT"
+          "pubDate": "Tue, 10 Nov 2026 19:26:42 GMT",
+          "title_original": "Violence erupts in Bangladesh as ousted PM's supporters stage protest",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Violência irrompe em Bangladesh enquanto apoiadores do primeiro-ministro destituídos protestam"
         },
         {
           "title": "Anti-homosexuality laws in Trinidad and Tobago overturned",
           "link": "https://www.bbc.co.uk/news/articles/cm0e0evlpp87o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 18:04:18 GMT"
+          "pubDate": "Tue, 10 Nov 2026 18:04:18 GMT",
+          "title_original": "Anti-homosexuality laws in Trinidad and Tobago overturned",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Leis anti-homossexualidade em Trinidad e Tobago derrubadas"
         },
         {
           "title": "Israel's new parliament sworn in as leaders compete to form government",
           "link": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 17:03:16 GMT"
+          "pubDate": "Tue, 10 Nov 2026 17:03:16 GMT",
+          "title_original": "Israel's new parliament sworn in as leaders compete to form government",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Novo parlamento de Israel toma posse enquanto líderes competem para formar governo"
         },
         {
           "title": "Spain's king and queen attend memorial service for rail crash victims",
           "link": "https://www.bbc.co.uk/news/articles/ckjwew54yd4wo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 20:46:40 GMT"
+          "pubDate": "Tue, 10 Nov 2026 20:46:40 GMT",
+          "title_original": "Spain's king and queen attend memorial service for rail crash victims",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Rei e rainha da Espanha participam de funeral para vítimas de acidente ferroviário"
         },
         {
           "title": "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
           "link": "https://www.bbc.co.uk/news/articles/cxnv0v4yln7do?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 18:33:51 GMT"
+          "pubDate": "Tue, 10 Nov 2026 18:33:51 GMT",
+          "title_original": "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Ex-primeiro-ministro caído em desgraça da Malásia deixa prisão por prisão domiciliar após desviar milhões"
         },
         {
           "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
           "link": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 15:21:18 GMT"
+          "pubDate": "Tue, 10 Nov 2026 15:21:18 GMT",
+          "title_original": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Conselho de Paz diz que resposta de ajuda de Israel após inundações em Gaza é 'insuficiente'"
         },
         {
           "title": "First day of Ukraine peace talks constructive, Zelensky says",
           "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 21:21:55 GMT"
+          "pubDate": "Tue, 10 Nov 2026 21:21:55 GMT",
+          "title_original": "First day of Ukraine peace talks constructive, Zelensky says",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Primeiro dia de negociações de paz na Ucrânia é construtivo, diz Zelensky"
         },
         {
           "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
           "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 22:52:15 GMT"
+          "pubDate": "Tue, 10 Nov 2026 22:52:15 GMT",
+          "title_original": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Nvidia contrata grande escritório de advocacia dos EUA para investigar suposto caso de espionagem chinesa"
         },
         {
           "title": "French wartime resistance heroine Solange Alexandre dies aged 104",
           "link": "https://www.bbc.co.uk/news/articles/cjdx3x7wg941o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 13:23:54 GMT"
+          "pubDate": "Tue, 10 Nov 2026 13:23:54 GMT",
+          "title_original": "French wartime resistance heroine Solange Alexandre dies aged 104",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Morre a heroína da resistência francesa Solange Alexandre aos 104 anos"
         },
         {
           "title": "Makers of GLP-1 drugs ordered to add warnings about rare eye condition that can lead to blindness",
           "link": "https://www.bbc.co.uk/news/articles/crwydyde0lp3o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 18:43:04 GMT"
+          "pubDate": "Tue, 10 Nov 2026 18:43:04 GMT",
+          "title_original": "Makers of GLP-1 drugs ordered to add warnings about rare eye condition that can lead to blindness",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Fabricantes de medicamentos GLP-1 encomendados para adicionar avisos sobre condições oculares raras que podem levar à cegueira"
         }
       ],
       "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "fetched_at": "2026-11-11T01:16:37.954709+00:00",
+      "fetched_at": "2026-11-11T01:32:12.164146+00:00",
       "stale": false
     },
     "Al Jazeera": {
       "items": [
         {
+          "title": "Tigray displaced families fear renewed war as hopes of returning home fade",
+          "link": "https://www.aljazeera.com/news/2026/11/11/tigray-displaced-families-fear-renewed-war-as-hopes-of-returning-home-fade?traffic_source=rss",
+          "pubDate": "Wed, 11 Nov 2026 01:11:04 +0000",
+          "title_original": "Tigray displaced families fear renewed war as hopes of returning home fade",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Famílias deslocadas de Tigray temem uma guerra renovada à medida que as esperanças de voltar para casa desaparecem"
+        },
+        {
           "title": "Spain holds state funeral for 69 victims of deadly train crash",
           "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/spain-holds-state-funeral-for-69-victims-of-deadly-train-crash?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 00:42:41 +0000"
+          "pubDate": "Wed, 11 Nov 2026 00:42:41 +0000",
+          "title_original": "Spain holds state funeral for 69 victims of deadly train crash",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Espanha realiza funeral de Estado para 69 vítimas de acidente de comboio"
         },
         {
           "title": "‘Everything and everyone we love is at stake’: Thunberg slams COP31 talks",
           "link": "https://www.aljazeera.com/news/2026/11/11/everything-and-everyone-we-love-is-at-stake-thunberg-slams-cop31-talks?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 00:24:27 +0000"
+          "pubDate": "Wed, 11 Nov 2026 00:24:27 +0000",
+          "title_original": "‘Everything and everyone we love is at stake’: Thunberg slams COP31 talks",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "‘Tudo e todos que amamos estão em jogo’: Thunberg critica as conversas da COP31"
         },
         {
           "title": "Iran war live: Hegseth survives impeachment bid; Iran denies US talks",
           "link": "https://www.aljazeera.com/news/liveblog/2026/11/11/iran-war-live-hegseth-survives-impeachment-bid-iran-denies-us-talks?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 00:01:26 +0000"
+          "pubDate": "Wed, 11 Nov 2026 00:01:26 +0000",
+          "title_original": "Iran war live: Hegseth survives impeachment bid; Iran denies US talks",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Guerra do Irã ao vivo: Hegseth sobrevive à tentativa de impeachment; Irã nega negociações com os EUA"
         },
         {
           "title": "Fire contained on platform in Iran’s South Pars gas field",
           "link": "https://www.aljazeera.com/news/2026/11/10/fire-contained-on-platform-in-irans-south-pars-gas-field?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 23:38:02 +0000"
+          "pubDate": "Tue, 10 Nov 2026 23:38:02 +0000",
+          "title_original": "Fire contained on platform in Iran’s South Pars gas field",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Incêndio contido em plataforma no campo de gás de South Pars, no Irã"
         },
         {
           "title": "Massive fire as Israeli settlers burn down business near Nablus",
           "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/massive-fire-as-israeli-settlers-burn-down-business-near-nablus?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 23:33:43 +0000"
+          "pubDate": "Tue, 10 Nov 2026 23:33:43 +0000",
+          "title_original": "Massive fire as Israeli settlers burn down business near Nablus",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Incêndio em massa enquanto colonos israelenses queimam negócios perto de Nablus"
         },
         {
           "title": "French far-right author Zemmour launches second bid for 2027 presidency",
           "link": "https://www.aljazeera.com/news/2026/11/10/french-far-right-author-zemmour-launches-second-presidential-bid?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 23:23:12 +0000"
+          "pubDate": "Tue, 10 Nov 2026 23:23:12 +0000",
+          "title_original": "French far-right author Zemmour launches second bid for 2027 presidency",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Autor francês de extrema-direita Zemmour lança segunda candidatura à presidência em 2027"
         },
         {
           "title": "Russia expels Moldovan diplomat in tit-for-tat move",
           "link": "https://www.aljazeera.com/news/2026/11/10/russia-expels-moldovan-diplomat-in-tit-for-tat-move?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 22:41:07 +0000"
+          "pubDate": "Tue, 10 Nov 2026 22:41:07 +0000",
+          "title_original": "Russia expels Moldovan diplomat in tit-for-tat move",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Rússia expulsa diplomata moldavo em movimento de retaliação"
         },
         {
           "title": "US House Republicans block Pete Hegseth impeachment effort",
           "link": "https://www.aljazeera.com/news/2026/11/10/us-house-begins-vote-on-motion-to-advance-impeachment-of-pete-hegseth?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 22:36:14 +0000"
+          "pubDate": "Tue, 10 Nov 2026 22:36:14 +0000",
+          "title_original": "US House Republicans block Pete Hegseth impeachment effort",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Republicanos da Câmara dos EUA bloqueiam o esforço de impeachment de Pete Hegseth"
         },
         {
           "title": "UNIFIL patrol comes under fire in southern Lebanon",
           "link": "https://www.aljazeera.com/news/2026/11/10/unifil-patrol-comes-under-fire-in-southern-lebanon?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 22:03:50 +0000"
+          "pubDate": "Tue, 10 Nov 2026 22:03:50 +0000",
+          "title_original": "UNIFIL patrol comes under fire in southern Lebanon",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Patrulha da UNIFIL é atacada no sul do Líbano"
         },
         {
           "title": "US poll shows death penalty lost majority support for first time since 1971",
           "link": "https://www.aljazeera.com/news/2026/11/10/us-poll-shows-death-penalty-lost-majority-support-for-first-time-since-1971?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 22:03:20 +0000"
+          "pubDate": "Tue, 10 Nov 2026 22:03:20 +0000",
+          "title_original": "US poll shows death penalty lost majority support for first time since 1971",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Pesquisa dos EUA mostra que pena de morte perdeu apoio majoritário pela primeira vez desde 1971"
         },
         {
           "title": "IBM’s biggest division ends most US foreign worker sponsorships",
           "link": "https://www.aljazeera.com/news/2026/11/10/ibms-biggest-division-ends-most-us-foreign-worker-sponsorships?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 21:55:49 +0000"
+          "pubDate": "Tue, 10 Nov 2026 21:55:49 +0000",
+          "title_original": "IBM’s biggest division ends most US foreign worker sponsorships",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "A maior divisão da IBM encerra a maioria dos patrocínios de trabalhadores estrangeiros dos EUA"
         },
         {
           "title": "2026 Midterms: Blue wave or anti-establishment backlash?",
           "link": "https://www.aljazeera.com/video/lets-focus/2026/11/10/2026-midterms-blue-wave-or-anti-establishment-backlash?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 21:00:55 +0000"
+          "pubDate": "Tue, 10 Nov 2026 21:00:55 +0000",
+          "title_original": "2026 Midterms: Blue wave or anti-establishment backlash?",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "2026 Meio de mandato: onda azul ou reação anti-establishment?"
         },
         {
           "title": "White House announces funds for law enforcement programme in several cities",
           "link": "https://www.aljazeera.com/news/2026/11/10/white-house-announces-funds-for-law-enforcement-programme-in-several-cities?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 21:00:01 +0000"
+          "pubDate": "Tue, 10 Nov 2026 21:00:01 +0000",
+          "title_original": "White House announces funds for law enforcement programme in several cities",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Casa Branca anuncia fundos para programa de aplicação da lei em várias cidades"
         },
         {
           "title": "US soldier arrested in UK on suspicion of spying for Russia",
           "link": "https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 20:41:53 +0000"
-        },
-        {
-          "title": "Netanyahu and Eisenkot push for new government after election deadlock",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/netanyahu-and-eisenkot-push-for-new-government-after-election-deadlock?traffic_source=rss",
-          "pubDate": "Tue, 10 Nov 2026 20:39:46 +0000"
+          "pubDate": "Tue, 10 Nov 2026 20:41:53 +0000",
+          "title_original": "US soldier arrested in UK on suspicion of spying for Russia",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Soldado dos EUA preso no Reino Unido por suspeita de espionagem para a Rússia"
         }
       ],
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "fetched_at": "2026-11-11T01:16:37.954709+00:00",
+      "fetched_at": "2026-11-11T01:32:12.164146+00:00",
       "stale": false
     }
   },
@@ -4669,6 +4885,285 @@
     "nasa_hmi": "ok",
     "BBC World": "ok",
     "Al Jazeera": "ok"
+  },
+  "translation": {
+    "provider": "MyMemory",
+    "target_language": "pt-BR",
+    "cache": {
+      "604f69bfddd86730edf46cd581565076211a9eef392e0dc09736dc29ec825d8f": {
+        "original": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+        "text": "Três suspeitos apoiados pelo Irã planejaram ataques, incluindo o incidente da RAF em Fairford, dizem os EUA",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "3a0a296e0f7196e9daf671965b5a0aca3e7c5879abeef2a52be8061c5123d387": {
+        "original": "Tigray displaced families fear renewed war as hopes of returning home fade",
+        "text": "Famílias deslocadas de Tigray temem uma guerra renovada à medida que as esperanças de voltar para casa desaparecem",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "10e0890b5845d3afa8748e5b5eeb4754dde61197d6543c8575a451d3c7be61c2": {
+        "original": "US Army soldier suspected of spying for Russia arrested in UK",
+        "text": "Soldado do Exército dos EUA suspeito de espionar para a Rússia é preso no Reino Unido",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "720615b994c9c2c6c0c540c8d2f0090d8d52d46f2070aa876a24c79a62438dc6": {
+        "original": "Spain holds state funeral for 69 victims of deadly train crash",
+        "text": "Espanha realiza funeral de Estado para 69 vítimas de acidente de comboio",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "1666fd992e478db808c9b2b9fac4c303f93284c60f85cb2af86431174a3cfed3": {
+        "original": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+        "text": "Câmara dos EUA bloqueia tentativa de impeachment do secretário de Defesa Pete Hegseth, por enquanto",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "dd870b3dcf3e5c20ab60768a0f7dc4301e7bbf95c9efab0b5778c4aaf5a8eae4": {
+        "original": "‘Everything and everyone we love is at stake’: Thunberg slams COP31 talks",
+        "text": "‘Tudo e todos que amamos estão em jogo’: Thunberg critica as conversas da COP31",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "ea9c8f7f3dfc0a8cc72297cb2e2132991dc4538a98ca2c117a2a2abe3436f9a4": {
+        "original": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+        "text": "O pai de Meghan, Thomas Markle, de volta à custódia federal depois de supostamente remover o monitor de tornozelo",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "3554c1c65f7e73e1e3095b909f1bca21a9176ad54a9d044e37d6e4fef52b8de6": {
+        "original": "Iran war live: Hegseth survives impeachment bid; Iran denies US talks",
+        "text": "Guerra do Irã ao vivo: Hegseth sobrevive à tentativa de impeachment; Irã nega negociações com os EUA",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "e922e1e7a4a09e2a05a0019512ddc3d4e60aad139472f4700c0da77af052885e": {
+        "original": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+        "text": "'Isso pode nos matar': quenianos temem impacto do El Niño com previsão de enchentes",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "ff1c557473b469cd2847a08f7ff25e4d9b49a6ab254539e9510ff1a803af8230": {
+        "original": "Fire contained on platform in Iran’s South Pars gas field",
+        "text": "Incêndio contido em plataforma no campo de gás de South Pars, no Irã",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "8619373654c5016e987d620701439606bbd33ba62fa630375a22663ed7864fc4": {
+        "original": "Violence erupts in Bangladesh as ousted PM's supporters stage protest",
+        "text": "Violência irrompe em Bangladesh enquanto apoiadores do primeiro-ministro destituídos protestam",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "90ac45ade9ea15d7bb038f693837aff1b5dd12f94c6e91e67e35665d58ba8897": {
+        "original": "Massive fire as Israeli settlers burn down business near Nablus",
+        "text": "Incêndio em massa enquanto colonos israelenses queimam negócios perto de Nablus",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "5983f67cd6793cbf62ba1c49103584b6ad1adc1dce9d9743c0a55dac6550b3ca": {
+        "original": "Anti-homosexuality laws in Trinidad and Tobago overturned",
+        "text": "Leis anti-homossexualidade em Trinidad e Tobago derrubadas",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "99b89eaf47e262ff461b94b13c29416a8aa8e01076f4de596d379717057e3913": {
+        "original": "French far-right author Zemmour launches second bid for 2027 presidency",
+        "text": "Autor francês de extrema-direita Zemmour lança segunda candidatura à presidência em 2027",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "d68accfbb6ea50f2dac154d25789966cf471501eb56e9fef6eccc37f1bc5bf99": {
+        "original": "Israel's new parliament sworn in as leaders compete to form government",
+        "text": "Novo parlamento de Israel toma posse enquanto líderes competem para formar governo",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "6a37289f0e42fd71ce482258a113307a2b0dcb6c974d26413f58bb300b314f33": {
+        "original": "Russia expels Moldovan diplomat in tit-for-tat move",
+        "text": "Rússia expulsa diplomata moldavo em movimento de retaliação",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "7c33f3f7c217f3452867778975977cfece36232c675450090ba68ccc23fd1fd7": {
+        "original": "Spain's king and queen attend memorial service for rail crash victims",
+        "text": "Rei e rainha da Espanha participam de funeral para vítimas de acidente ferroviário",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "a4d477bb9c82ac55c02cb7e05cc0b32c259181fb5a0a10ba0c4d6af8f5043bab": {
+        "original": "US House Republicans block Pete Hegseth impeachment effort",
+        "text": "Republicanos da Câmara dos EUA bloqueiam o esforço de impeachment de Pete Hegseth",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "4b51c6d7e0062f172a3140877a18c727195ea91d58a29e6beeb20e05eaaee254": {
+        "original": "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
+        "text": "Ex-primeiro-ministro caído em desgraça da Malásia deixa prisão por prisão domiciliar após desviar milhões",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "599405aa5c190dd434f459ad55f2226140c2a3b6cd42eb6a467cc022818730b9": {
+        "original": "UNIFIL patrol comes under fire in southern Lebanon",
+        "text": "Patrulha da UNIFIL é atacada no sul do Líbano",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "58940b374c31bf1b95fa157481b0d85f58b1b524679d53db16a9e16134c48627": {
+        "original": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+        "text": "Conselho de Paz diz que resposta de ajuda de Israel após inundações em Gaza é 'insuficiente'",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "ea046b836e9b3b0bc95fd04a28c4a61436f1382d3532951d43b237081b42bf8f": {
+        "original": "US poll shows death penalty lost majority support for first time since 1971",
+        "text": "Pesquisa dos EUA mostra que pena de morte perdeu apoio majoritário pela primeira vez desde 1971",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "a52e66b8312e0a66288657de28aabe8be0fedfc394bb7a15073a4bd137124f20": {
+        "original": "First day of Ukraine peace talks constructive, Zelensky says",
+        "text": "Primeiro dia de negociações de paz na Ucrânia é construtivo, diz Zelensky",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "39c34ae17c84f945e406719053539d74df05499c5decb711a606e17c3da25c83": {
+        "original": "IBM’s biggest division ends most US foreign worker sponsorships",
+        "text": "A maior divisão da IBM encerra a maioria dos patrocínios de trabalhadores estrangeiros dos EUA",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "8730f41b4fb89ade2318a8547f4fe3e329e26d70d7ec81acad549f9b91b31617": {
+        "original": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+        "text": "Nvidia contrata grande escritório de advocacia dos EUA para investigar suposto caso de espionagem chinesa",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "ea4bb44bdf3b7ed51f426d1c5660333d6069be961568eadd7ae6cae87c384c85": {
+        "original": "2026 Midterms: Blue wave or anti-establishment backlash?",
+        "text": "2026 Meio de mandato: onda azul ou reação anti-establishment?",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "f3d1640da4e7c9e652d4b43a4c72de3fa7c266eacf47160d068a0fd26a05e909": {
+        "original": "French wartime resistance heroine Solange Alexandre dies aged 104",
+        "text": "Morre a heroína da resistência francesa Solange Alexandre aos 104 anos",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "02d3b75294bc0efb0b9d5b8840469c989fbd3977a69449bbf84bdbc6fe9610ff": {
+        "original": "White House announces funds for law enforcement programme in several cities",
+        "text": "Casa Branca anuncia fundos para programa de aplicação da lei em várias cidades",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "ffb85a505192949036225351a9d6d683fb9c253c00af4d692b2008f1ca0e05e2": {
+        "original": "Makers of GLP-1 drugs ordered to add warnings about rare eye condition that can lead to blindness",
+        "text": "Fabricantes de medicamentos GLP-1 encomendados para adicionar avisos sobre condições oculares raras que podem levar à cegueira",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      },
+      "8d52de742c270acea9087aac2337a7a3cb68f0b5e48880d02e7b17b7abf3df1e": {
+        "original": "US soldier arrested in UK on suspicion of spying for Russia",
+        "text": "Soldado dos EUA preso no Reino Unido por suspeita de espionagem para a Rússia",
+        "at": "2026-11-11T01:32:12.164146+00:00"
+      }
+    },
+    "usage": [
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 83
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 74
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 61
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 62
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 70
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 73
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 92
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 69
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 70
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 57
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 69
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 63
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 57
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 71
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 70
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 51
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 69
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 58
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 85
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 50
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 73
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 75
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 60
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 63
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 72
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 56
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 65
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 75
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 97
+      },
+      {
+        "at": "2026-11-11T01:32:12.164146+00:00",
+        "chars": 59
+      }
+    ],
+    "blocked_until": null
   },
   "health": "ok"
 }
