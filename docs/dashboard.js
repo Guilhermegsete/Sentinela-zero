@@ -227,6 +227,31 @@
       states.flares === "ok" ? "Sem evento reportado" : "Indisponível") + suffix(states.flares);
     $("flaresDate").textContent = "Último pico: " + fmt(events.at(-1)?.max_time) + " · consulta: " + fmt(solar.flares?.fetched_at);
     $("alerts").textContent = (Array.isArray(solar.alerts?.data) ? solar.alerts.data.length : "Indisponível") + suffix(states.alerts);
+
+    // Display bulletin text retained in the same NOAA snapshot as the count.
+    const bulletinList = $("noaaBulletinList");
+    if (bulletinList) {
+      bulletinList.replaceChildren();
+      const rows = Array.isArray(solar.alerts?.data) ? solar.alerts.data : [];
+      if (!rows.length) bulletinList.append(make("p", states.alerts === "ok" ?
+        "A consulta não retornou boletins." : "Nenhum boletim armazenado disponível."));
+      for (const row of rows) {
+        const message = typeof row?.message === "string" ? row.message : "";
+        const lines = message.split(/\\r?\\n/).map(line => line.trim()).filter(Boolean);
+        const headline = lines.find(line => /^(?:CONTINUED ALERT|EXTENDED WARNING|ALERT|WARNING|WATCH|SUMMARY|CANCEL|UPDATE)[: ]/i.test(line)) ||
+          lines.find(line => !/^(?:Space Weather Message Code|Serial Number|Issue Time)[: ]/i.test(line)) ||
+          "Comunicado NOAA";
+        const entry = make("details", "");
+        entry.className = "bulletin-entry";
+        const date = Number.isFinite(utcTime(row?.issue_datetime)) ?
+          new Date(utcTime(row.issue_datetime)).toISOString().replace("T", " ").slice(0, 16) + " UTC" : "data não informada";
+        entry.append(make("summary", date + " · " + headline));
+        const original = make("pre", message || "Texto original indisponível.");
+        original.className = "bulletin-message";
+        entry.append(original);
+        bulletinList.append(entry);
+      }
+    }
     drawKp(solar.kp, states.kp, now); drawFlares(solar.flare_history, states.flare_history, now);
     $("news").replaceChildren();
     for (const [source, entry] of Object.entries(data.news || {})) {
