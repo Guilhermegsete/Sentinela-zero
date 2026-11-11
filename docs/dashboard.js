@@ -182,11 +182,22 @@
     $("news").replaceChildren();
     for (const [source, entry] of Object.entries(data.news || {})) {
       const section = make("div", ""); section.append(make("h3", source + suffix(states[source])));
+      const translatedCount = (entry.items || []).filter(item => item.translation_status === "translated" && item.title_pt).length;
+      section.append(make("p", "Manchetes em português por tradução automática (MyMemory). " +
+        translatedCount + "/" + (entry.items || []).length + " traduzidas. Artigos abrem no idioma da fonte."));
       const ul = make("ul", "");
       for (const item of entry.items || []) {
-        const li = make("li", ""), link = make("a", item.title || "Sem título");
+        const translated = item.translation_status === "translated" && typeof item.title_pt === "string" && item.title_pt.trim();
+        const original = item.title_original || item.title || "Sem título";
+        const li = make("li", ""), link = make("a", translated ? item.title_pt : original);
         if (/^https:\/\//.test(item.link)) { link.href = item.link; link.target = "_blank"; link.rel = "noopener noreferrer"; }
-        li.append(link, make("span", " · " + (item.pubDate || ""))); ul.append(li);
+        li.append(link, make("span", " · " + (item.pubDate || "")));
+        if (translated) {
+          const details = make("details", "");
+          details.append(make("summary", "Ver título original"), make("p", original));
+          li.append(details);
+        } else li.append(make("small", " · Original: tradução indisponível ou limite gratuito atingido"));
+        ul.append(li);
       }
       section.append(ul); $("news").append(section);
     }

@@ -63,6 +63,30 @@ test("NOAA timestamps without suffix are UTC in any host timezone", () => {
   assert.equal(dashboard.utcTime("2026-11-10T17:19:00-03:00"), Date.parse("2026-11-10T20:19:00Z"));
   assert.ok(Number.isNaN(dashboard.utcTime("bad")));
 });
+
+test("Portuguese headline links to original article and reveals original title", async () => {
+  const data = fixture();
+  data.news = {"BBC World": {items: [{title: "Peace talks resume", title_original: "Peace talks resume",
+    title_pt: "Negociações de paz são retomadas", translation_status: "translated", link: "https://example.com/story"}],
+    fetched_at: data.generated_at, stale: false}};
+  data.status["BBC World"] = "ok";
+  const app = browser(data); await settle();
+  const section = app.get("news").children[0], li = section.children.at(-1).children[0];
+  assert.equal(li.children[0].textContent, "Negociações de paz são retomadas");
+  assert.equal(li.children[0].href, "https://example.com/story");
+  assert.equal(li.children[2].children[0].textContent, "Ver título original");
+  assert.equal(li.children[2].children[1].textContent, "Peace talks resume");
+});
+test("missing translation is labelled and keeps original instead of blank text", async () => {
+  const data = fixture();
+  data.news = {"BBC World": {items: [{title: "Peace talks resume", translation_status: "limited",
+    link: "https://example.com/story"}], fetched_at: data.generated_at}};
+  data.status["BBC World"] = "ok";
+  const app = browser(data); await settle();
+  const li = app.get("news").children[0].children.at(-1).children[0];
+  assert.equal(li.children[0].textContent, "Peace talks resume");
+  assert.match(li.children[2].textContent, /tradução indisponível ou limite gratuito/);
+});
 test("Kp missing values stay missing and true zero remains zero", () => {
   for (const value of [null, "", true, -1, 99, Infinity, "bad"]) assert.equal(dashboard.kpValue({kp_index: value}), null);
   assert.equal(dashboard.kpValue({kp_index: 0}), 0);
