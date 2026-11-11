@@ -79,6 +79,17 @@ test("geopolitical source and thematic filters retain original links", async () 
   assert.equal(app.get("news").children[0].children[0].textContent, "Al Jazeera");
 });
 
+test("strategic radar requires a topic and a change trigger without treating celebrity or accidents as strategic", () => {
+  assert.equal(dashboard.strategicSignal("Lewis Hamilton visits Rafah crossing in Egypt"), null);
+  assert.equal(dashboard.strategicSignal("Two trains collide in Egypt"), null);
+  assert.equal(dashboard.strategicSignal("African film festival in Manchester"), null);
+  assert.equal(dashboard.strategicSignal("Military equipment on display"), null);
+  const lead = dashboard.strategicSignal("Country announces deployment of military troops near border");
+  assert.match(lead.axis, /Segurança/);
+  assert.match(lead.basis, /verificação/);
+  assert.match(dashboard.strategicSignal("Government imposes tariffs on energy exports").axis, /Economia/);
+});
+
 test("NOAA timestamps without suffix are UTC in any host timezone", () => {
   assert.equal(dashboard.utcTime("2026-11-10T20:19:00"), Date.parse("2026-11-10T20:19:00Z"));
   assert.equal(dashboard.utcTime("2026-11-10 20:19:00"), Date.parse("2026-11-10T20:19:00Z"));

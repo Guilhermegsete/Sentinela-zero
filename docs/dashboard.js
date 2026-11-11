@@ -103,7 +103,7 @@
     return result;
   }
 
-  const api = {utcTime, kpValue, sourceState, kpPoints, flareDays, buildDiagnosis};
+  const api = {utcTime, kpValue, sourceState, kpPoints, flareDays, buildDiagnosis, strategicSignal};
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   if (typeof document === "undefined") return;
 
@@ -128,6 +128,26 @@
     return rules.find(([, expression]) => expression.test(value))?.[0] || "other";
   }
   const NEWS_TOPIC_NAMES = {security:"Conflitos e segurança",diplomacy:"Diplomacia",economy:"Economia e energia",technology:"Tecnologia estratégica",politics:"Política internacional",other:"Outros assuntos"};
+
+  // This is a conservative, title-only lead detector, not a geopolitical verdict.
+  function strategicSignal(title) {
+    const value = String(title || "").toLowerCase();
+    if (!value || /\b(celebrity|actor|actress|football|soccer|fashion|film festival|cinema|train crash|train collision|sport|hamilton|concert|festival)\b/.test(value)) return null;
+    const categories = [
+      ["Segurança e território", /\b(military|militar|missile|míssil|troops|tropas|border|fronteira|territor|nuclear|airstrike|invasion|invasão|ceasefire|cessar.fogo|armed forces|forças armadas|warships|naval)\b/],
+      ["Diplomacia e alianças", /\b(treaty|tratado|alliance|aliança|diplomatic|diplomátic|embassy|embaixad|summit|cúpula|sanction|sanç|united nations|nato|otan)\b/],
+      ["Economia, energia e logística", /\b(tariff|tarifa|export|import|trade|comércio|oil|petróleo|gas|gás|energy|energia|shipping lane|shipping route|canal|strait|estreito|currency|moeda|central bank|banco central)\b/],
+      ["Tecnologia e recursos críticos", /\b(semiconductor|chip|rare earth|terras raras|critical mineral|mineral crítico|satellite|satélite|cyberattack|ciberataque|ai export|nuclear technology)\b/],
+      ["Instituições internacionais", /\b(un security council|conselho de segurança|world trade organization|organização mundial do comércio|international court|corte internacional|multilateral agreement|acordo multilateral)\b/]
+    ];
+    const changes = /\b(announc|anunci|sign|assin|ratif|aprov|impos|impõ|ban|proib|suspend|suspend|deploy|mobiliz|launch|lanç|attack|atac|invad|invade|withdraw|retir|seiz|apreend|block|bloque|cut off|cort|expand|expan|escalat|escal|agree|acord|reject|rejeit|sanction|sancion|restrict|restring|intercept|intercept|recogniz|reconhec|vot|votação|strik|greve|confisc|confisc|close|fech)/;
+    if (!changes.test(value)) return null;
+    const axis = categories.find(([,pattern])=>pattern.test(value));
+    if (!axis) return null;
+    return {axis: axis[0], basis: "O título menciona um possível ato ou decisão em " + axis[0].toLowerCase() +
+      ". A existência, o alcance e as consequências exigem verificação na reportagem e em fontes independentes."};
+  }
+
   const newsFilter = {source:"all",topic:"all",age:"all"};
   let lastPayload = null, inFlight = false, transportError = "", lastImageRefresh = 0;
   const imageLoaded = {};
@@ -267,6 +287,43 @@
       }
     }
     drawKp(solar.kp, states.kp, now); drawFlares(solar.flare_history, states.flare_history, now);
+    const strategicContainer = $("strategicNews");
+    strategicContainer.replaceChildren();
+    const candidates = [];
+    for (const [source, entry] of Object.entries(data.news || {})) {
+      for (const item of entry.items || []) {
+        const time = Date.parse(item.pubDate || "");
+        if (!Number.isFinite(time) || time > now + 5 * MINUTE || now - time > 7 * 24 * HOUR) continue;
+        const signal = strategicSignal(item.title_original || item.title);
+        if (!signal) continue;
+        candidates.push({item, source, signal, time, state: states[source]});
+      }
+    }
+    candidates.sort((a,b)=>b.time-a.time);
+    const seenStrategic = new Set();
+    let strategicCount = 0;
+    for (const entry of candidates) {
+      const key = String(entry.item.title_original || entry.item.title).toLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim();
+      if (!key || seenStrategic.has(key)) continue;
+      seenStrategic.add(key);
+      strategicCount++;
+      const wrap = make("div","");
+      wrap.className = "strategic-item";
+      const title = entry.item.translation_status === "translated" && entry.item.title_pt ?
+        entry.item.title_pt : (entry.item.title_original || entry.item.title);
+      const link = make("a", title);
+      if (/^https:\/\//.test(entry.item.link)) {
+        link.href = entry.item.link; link.target = "_blank"; link.rel = "noopener noreferrer";
+      }
+      wrap.append(link);
+      wrap.append(make("p", entry.source + " · " + entry.signal.axis + " · " + (entry.item.pubDate || "") + suffix(entry.state)));
+      wrap.append(make("p", entry.signal.basis));
+      strategicContainer.append(wrap);
+    }
+    $("strategicSummary").textContent = strategicCount + " manchetes candidatas nos feeds disponíveis dos últimos 7 dias. " +
+      "Triagem automática por palavras-chave, sem comprovação dos fatos nem previsão de mudança na ordem mundial.";
+    if (!strategicCount) strategicContainer.append(make("p", "Nenhuma manchete atende aos critérios conservadores nesta coleta. Isso não significa ausência de acontecimentos relevantes."));
+
     $("news").replaceChildren();
     const newsSources = Object.keys(data.news || {});
     const sourcePicker = $("newsSource");
