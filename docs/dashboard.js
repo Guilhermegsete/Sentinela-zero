@@ -119,11 +119,11 @@
   function newsTopic(title) {
     const value = String(title || "").toLowerCase();
     const rules = [
-      ["security", /\\b(war|wars|military|missile|drone|attack|attacks|ceasefire|troops|defen[cs]e|conflict|invasion|nuclear weapons|guerra|ataque|conflito|militar|míssil)\\b/],
-      ["diplomacy", /\\b(diplomacy|diplomatic|treaty|summit|negotiat|peace talks|embassy|foreign minister|united nations|sanction talks|diplomacia|tratado|cúpula|negociações)\\b/],
-      ["economy", /\\b(oil|gas|energy|trade|tariff|sanction|economy|economic|inflation|supply chain|opec|pipeline|petroleum|shipping|energia|petróleo|comércio|tarifa|sanções|economia)\\b/],
-      ["technology", /\\b(semiconductor|chips|artificial intelligence|cyber|satellite|space race|critical mineral|rare earth|technology|tecnologia|cibernétic|satélite|inteligência artificial)\\b/],
-      ["politics", /\\b(election|president|parliament|government|prime minister|minister|vote|legislation|congress|senate|eleição|presidente|parlamento|governo|congresso)\\b/]
+      ["security", /\b(war|wars|military|missile|drone|attack|attacks|ceasefire|troops|defen[cs]e|conflict|invasion|nuclear weapons|guerra|ataque|conflito|militar|míssil)\b/],
+      ["diplomacy", /\b(diplomacy|diplomatic|treaty|summit|negotiat|peace talks|embassy|foreign minister|united nations|sanction talks|diplomacia|tratado|cúpula|negociações)\b/],
+      ["economy", /\b(oil|gas|energy|trade|tariff|sanction|economy|economic|inflation|supply chain|opec|pipeline|petroleum|shipping|energia|petróleo|comércio|tarifa|sanções|economia)\b/],
+      ["technology", /\b(semiconductor|chips|artificial intelligence|cyber|satellite|space race|critical mineral|rare earth|technology|tecnologia|cibernétic|satélite|inteligência artificial)\b/],
+      ["politics", /\b(election|president|parliament|government|prime minister|minister|vote|legislation|congress|senate|eleição|presidente|parlamento|governo|congresso)\b/]
     ];
     return rules.find(([, expression]) => expression.test(value))?.[0] || "other";
   }
@@ -290,7 +290,7 @@
         const topic = newsTopic(item.title_original || item.title);
         if (newsFilter.topic !== "all" && topic !== newsFilter.topic) continue;
         if (newsFilter.age !== "all" && (!Number.isFinite(timestamp) || timestamp > now + 5 * MINUTE || now - timestamp > Number(newsFilter.age) * HOUR)) continue;
-        const duplicateKey = String(item.title_original || item.title || "").toLowerCase().replace(/[^a-z0-9\\p{L}]+/gu," ").trim();
+        const duplicateKey = String(item.title_original || item.title || "").toLowerCase().replace(/[^a-z0-9\p{L}]+/gu," ").trim();
         if (!duplicateKey || seen.has(duplicateKey)) { duplicateCount++; continue; }
         seen.add(duplicateKey); visibleCount++;
         const translated = item.translation_status === "translated" && typeof item.title_pt === "string" && item.title_pt.trim();
