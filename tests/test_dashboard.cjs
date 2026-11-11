@@ -63,19 +63,20 @@ test("geopolitical source and thematic filters retain original links", async () 
     "BBC World": {items: [{title: "Military conflict escalates", title_original: "Military conflict escalates", link: "https://www.bbc.com/news/example", pubDate: "Tue, 10 Nov 2026 20:00:00 GMT"}], fetched_at: new Date(NOW).toISOString()},
     "Al Jazeera": {items: [{title: "Energy markets fluctuate", title_original: "Energy markets fluctuate", link: "https://www.aljazeera.com/news/example", pubDate: "Tue, 10 Nov 2026 20:00:00 GMT"}], fetched_at: new Date(NOW).toISOString()}
   };
+  data.status["BBC World"] = "ok"; data.status["Al Jazeera"] = "ok";
   const app = browser(data); await settle();
   assert.match(app.get("newsSummary").textContent, /2 manchetes exibidas/);
   const selector = app.get("newsTopic");
   selector.value = "security"; selector.listeners.change.call(selector);
   assert.match(app.get("newsSummary").textContent, /1 manchetes exibidas/);
   const group = app.get("news").children[0];
-  assert.equal(group.children[0].textContent, "BBC World · INDISPONÍVEL");
+  assert.equal(group.children[0].textContent, "BBC World");
   assert.equal(group.children[2].children[0].children[0].href, "https://www.bbc.com/news/example");
   selector.value = "all"; selector.listeners.change.call(selector);
   const source = app.get("newsSource");
   source.value = "Al Jazeera"; source.listeners.change.call(source);
   assert.match(app.get("newsSummary").textContent, /1 manchetes exibidas/);
-  assert.equal(app.get("news").children[0].children[0].textContent, "Al Jazeera · INDISPONÍVEL");
+  assert.equal(app.get("news").children[0].children[0].textContent, "Al Jazeera");
 });
 
 test("NOAA timestamps without suffix are UTC in any host timezone", () => {
