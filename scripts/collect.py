@@ -1,12 +1,15 @@
 """Public-feed collector; failed refreshes retain dated observations and diagnostics."""
 import datetime as dt
 import json
+import hashlib
+import html
 import math
 import pathlib
 import re
 import time
 import urllib.error
 import urllib.request
+import urllib.parse
 import xml.etree.ElementTree as ET
 
 BASE = pathlib.Path(__file__).resolve().parents[1]
@@ -167,6 +170,97 @@ def image_data(name, raw, now):
             "stale": now - stamp > dt.timedelta(hours=2)}
 
 
+TRANSLATION_URL = "https://api.mymemory.translated.net/get"
+NEWS_LANGUAGES = {"BBC World": "en", "Al Jazeera": "en"}
+TRANSLATION_BUDGET = 4500  # Conservative rolling 24h ceiling; anonymous provider limit is 5000.
+
+
+def translation_fetch(url):
+    # A translation outage must not delay the scientific feeds with retries.
+    request = urllib.request.Request(url, headers={"User-Agent": "SentinelaZero/0.4.1"})
+    with urllib.request.urlopen(request, timeout=5) as response:
+        return response.read()
+
+
+def translate_headlines(news, previous, now):
+    old = previous if isinstance(previous, dict) else {}
+    cutoff = now - dt.timedelta(days=7)
+    cache = {key: value for key, value in old.get("cache", {}).items()
+             if isinstance(value, dict) and parse_time(value.get("at"))
+             and cutoff <= parse_time(value["at"]) <= now}
+    usage = [row for row in old.get("usage", [])
+             if isinstance(row, dict) and parse_time(row.get("at"))
+             and now - dt.timedelta(hours=24) < parse_time(row["at"]) <= now
+             and isinstance(row.get("chars"), int) and 0 < row["chars"] <= 500]
+    spent = sum(row["chars"] for row in usage)
+    blocked_until = parse_time(old.get("blocked_until"))
+    started = time.monotonic()
+    calls = 0
+    sources = list(news.items())
+    # Alternate sources so one feed cannot consume the whole run's allowance.
+    for index in range(max((len(entry.get("items", [])) for _, entry in sources), default=0)):
+        for source, entry in sources:
+            if index >= len(entry.get("items", [])):
+                continue
+            item = entry["items"][index]
+            title = item.get("title", "")
+            language = NEWS_LANGUAGES.get(source)
+            item["title_original"] = title
+            item["source_language"] = language or "unknown"
+            item.pop("title_pt", None)
+            item["translation_status"] = "unavailable"
+            if not title or not language:
+                continue
+            key = hashlib.sha256((language + "|pt-BR|" + title).encode("utf-8")).hexdigest()
+            saved = cache.get(key, {})
+            if saved.get("original") == title and saved.get("text"):
+                item["title_pt"] = saved["text"]
+                item["translation_status"] = "translated"
+                continue
+            if entry.get("stale"):
+                continue
+            retry = parse_time(saved.get("retry_after"))
+            if retry and retry > now:
+                continue
+            if (len(title.encode("utf-8")) > 500 or spent + len(title) > TRANSLATION_BUDGET
+                    or (blocked_until and blocked_until > now)
+                    or calls >= 30 or time.monotonic() - started >= 45):
+                item["translation_status"] = "limited"
+                continue
+            usage.append({"at": now.isoformat(), "chars": len(title)})
+            spent += len(title)
+            calls += 1
+            cache[key] = {"original": title, "at": now.isoformat(),
+                          "retry_after": (now + dt.timedelta(hours=1)).isoformat()}
+            try:
+                query = urllib.parse.urlencode({"q": title, "langpair": language + "|pt-BR", "mt": "1"})
+                result = json.loads(translation_fetch(TRANSLATION_URL + "?" + query))
+                if result.get("quotaFinished"):
+                    blocked_until = now + dt.timedelta(hours=24)
+                    item["translation_status"] = "limited"
+                    continue
+                if str(result.get("responseStatus")) != "200":
+                    raise ValueError("Translation provider rejected request")
+                match = float(result.get("responseData", {}).get("match", 0))
+                if not math.isfinite(match) or match < 0.7:
+                    raise ValueError("Low-confidence translation match")
+                translated = result.get("responseData", {}).get("translatedText")
+                if not isinstance(translated, str):
+                    raise ValueError("Missing translation")
+                translated = html.unescape(translated).strip()
+                if not translated or translated == title or len(translated) > 2000 or translated.upper().startswith("MYMEMORY WARNING"):
+                    raise ValueError("No usable translation")
+                cache[key] = {"original": title, "text": translated, "at": now.isoformat()}
+                item["title_pt"] = translated
+                item["translation_status"] = "translated"
+            except (OSError, ValueError, TypeError, AttributeError):
+                # Keep the source headline; never present an error as a translation.
+                pass
+    cache = dict(sorted(cache.items(), key=lambda pair: pair[1]["at"], reverse=True)[:500])
+    return {"provider": "MyMemory", "target_language": "pt-BR", "cache": cache,
+            "usage": usage, "blocked_until": blocked_until.isoformat() if blocked_until else None}
+
+
 def main(now=None):
     now = now or dt.datetime.now(dt.timezone.utc)
     try:
@@ -210,6 +304,7 @@ def main(now=None):
             result["status"][name] = "ok"
         except Exception as error:
             failure("news", name, error)
+    result["translation"] = translate_headlines(result["news"], previous.get("translation"), now)
     bad = [name for name, status in result["status"].items() if status != "ok"]
     result["health"] = "degraded" if bad else "ok"
     # Save diagnostics before signalling failure. Never renew retained timestamps.
@@ -223,4 +318,3 @@ def main(now=None):
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

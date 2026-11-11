@@ -70,7 +70,22 @@ Pages usa `main`, pasta `/docs`. Uma branch de revisão não modifica essa publi
 
 O snapshot da branch é herdado da base; os testes não fabricam observações atuais. A V0.4.1 lê o snapshot anterior e sinaliza metadados ausentes até uma coleta com a nova versão.
 
+## Manchetes em português
+
+As chamadas BBC World e Al Jazeera são traduzidas de inglês para português brasileiro pelo GET público MyMemory. O título original, a fonte, a data e o link são preservados. O painel identifica a tradução como automática e permite abrir o título original; o artigo continua no idioma do site de origem.
+
+Não há conta, chave, email ou plano pago configurado. Apenas as manchetes públicas são enviadas ao tradutor; não são enviados artigos completos, dados empresariais ou dados dos visitantes.
+
+A API anônima informa limite de 5000 caracteres/dia e 500 bytes por consulta. O coletor usa um teto conservador de 4500 caracteres numa janela móvel de 24 horas, no máximo 30 consultas e 45 segundos por execução. O limite do provedor pode ser compartilhado pelo IP de saída do runner; a disponibilidade não é garantida.
+
+Traduções são reutilizadas por título e par de idiomas no próprio snapshot, sem arquivo ou cadastro paralelo. Cache limitado a 500 entradas e sete dias. Títulos alterados exigem nova tradução. Falhas esperam uma hora antes de nova tentativa; quota esgotada pausa consultas por 24 horas. Não há migração automática para plano pago.
+
+Resposta inválida, correspondência abaixo de 0,7, idioma não configurado, título acima de 500 bytes ou quota/tempo esgotados mantêm o título original com indicação visível. A indisponibilidade do tradutor não transforma uma notícia válida em falha da coleta científica. Tradução automática pode conter erros: conferir a fonte original antes de interpretar uma manchete.
+
+O recurso é aditivo: snapshots antigos continuam mostrando os originais até uma coleta com a nova versão. Fontes atualmente configuradas são em inglês; outras línguas exigem configurar o idioma de origem, sem detecção presumida.
+
+Referências: [contrato GET MyMemory](https://mymemory.translated.net/doc/spec.php) e [limites oficiais](https://mymemory.translated.net/doc/usagelimits.php).
+
 ## Limites
 
 Visualização informativa, sem uso como alerta crítico. O Kp é estimativa NOAA atualizada por minuto, não uma medição independente. Boletins listados não são necessariamente ativos. Manchetes são conteúdo de terceiros. Fontes podem mudar de esquema ou ficar indisponíveis. Repositório e dados publicados são públicos.
-
