@@ -1,40 +1,9 @@
 {
   "schema_version": "0.4.1",
-  "generated_at": "2026-11-11T02:46:32.388907+00:00",
+  "generated_at": "2026-11-11T02:53:48.533915+00:00",
   "solar": {
     "regions": {
       "data": [
-        {
-          "observed_date": "2026-11-10",
-          "region": 4571,
-          "latitude": -14,
-          "longitude": -81,
-          "location": "S14W81",
-          "carrington_longitude": 195,
-          "old_carrington_longitude": 194,
-          "area": null,
-          "spot_class": null,
-          "extent": null,
-          "number_spots": null,
-          "mag_class": null,
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 5,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-08T05:07:05"
-        },
         {
           "observed_date": "2026-11-10",
           "region": 4566,
@@ -65,161 +34,6 @@
           "x_flare_probability": 15,
           "proton_probability": 15,
           "first_date": "2026-11-02T07:20:01"
-        },
-        {
-          "observed_date": "2026-11-10",
-          "region": 4569,
-          "latitude": -6,
-          "longitude": -50,
-          "location": "S06W50",
-          "carrington_longitude": 164,
-          "old_carrington_longitude": 162,
-          "area": null,
-          "spot_class": null,
-          "extent": null,
-          "number_spots": null,
-          "mag_class": null,
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 0,
-          "m_flare_probability": 0,
-          "x_flare_probability": 0,
-          "proton_probability": 0,
-          "first_date": "2026-11-06T06:50:18"
-        },
-        {
-          "observed_date": "2026-11-10",
-          "region": 4568,
-          "latitude": -9,
-          "longitude": -15,
-          "location": "S09W15",
-          "carrington_longitude": 129,
-          "old_carrington_longitude": 128,
-          "area": 40,
-          "spot_class": "Cso",
-          "extent": 6,
-          "number_spots": 5,
-          "mag_class": "B",
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 15,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-05T15:02:52"
-        },
-        {
-          "observed_date": "2026-11-10",
-          "region": 4573,
-          "latitude": 8,
-          "longitude": 50,
-          "location": "N08E50",
-          "carrington_longitude": 64,
-          "old_carrington_longitude": null,
-          "area": 40,
-          "spot_class": "Dro",
-          "extent": 3,
-          "number_spots": 3,
-          "mag_class": "B",
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 15,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-10T17:38:07"
-        },
-        {
-          "observed_date": "2026-11-10",
-          "region": 4565,
-          "latitude": 12,
-          "longitude": -73,
-          "location": "N12W73",
-          "carrington_longitude": 187,
-          "old_carrington_longitude": 186,
-          "area": 50,
-          "spot_class": "Hsx",
-          "extent": 3,
-          "number_spots": 2,
-          "mag_class": "A",
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 10,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-10-30T18:40:39"
-        },
-        {
-          "observed_date": "2026-11-10",
-          "region": 4572,
-          "latitude": 12,
-          "longitude": 57,
-          "location": "N12E57",
-          "carrington_longitude": 57,
-          "old_carrington_longitude": 57,
-          "area": 60,
-          "spot_class": "Hsx",
-          "extent": 3,
-          "number_spots": 2,
-          "mag_class": "A",
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 10,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-09T08:11:37"
         },
         {
           "observed_date": "2026-11-10",
@@ -254,6 +68,130 @@
         },
         {
           "observed_date": "2026-11-10",
+          "region": 4572,
+          "latitude": 12,
+          "longitude": 57,
+          "location": "N12E57",
+          "carrington_longitude": 57,
+          "old_carrington_longitude": 57,
+          "area": 60,
+          "spot_class": "Hsx",
+          "extent": 3,
+          "number_spots": 2,
+          "mag_class": "A",
+          "mag_string": null,
+          "status": "f",
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 10,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-11-09T08:11:37"
+        },
+        {
+          "observed_date": "2026-11-10",
+          "region": 4568,
+          "latitude": -9,
+          "longitude": -15,
+          "location": "S09W15",
+          "carrington_longitude": 129,
+          "old_carrington_longitude": 128,
+          "area": 40,
+          "spot_class": "Cso",
+          "extent": 6,
+          "number_spots": 5,
+          "mag_class": "B",
+          "mag_string": null,
+          "status": "f",
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 15,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-11-05T15:02:52"
+        },
+        {
+          "observed_date": "2026-11-10",
+          "region": 4569,
+          "latitude": -6,
+          "longitude": -50,
+          "location": "S06W50",
+          "carrington_longitude": 164,
+          "old_carrington_longitude": 162,
+          "area": null,
+          "spot_class": null,
+          "extent": null,
+          "number_spots": null,
+          "mag_class": null,
+          "mag_string": null,
+          "status": "f",
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 0,
+          "m_flare_probability": 0,
+          "x_flare_probability": 0,
+          "proton_probability": 0,
+          "first_date": "2026-11-06T06:50:18"
+        },
+        {
+          "observed_date": "2026-11-10",
+          "region": 4571,
+          "latitude": -14,
+          "longitude": -81,
+          "location": "S14W81",
+          "carrington_longitude": 195,
+          "old_carrington_longitude": 194,
+          "area": null,
+          "spot_class": null,
+          "extent": null,
+          "number_spots": null,
+          "mag_class": null,
+          "mag_string": null,
+          "status": "f",
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 5,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-11-08T05:07:05"
+        },
+        {
+          "observed_date": "2026-11-10",
           "region": 4570,
           "latitude": -13,
           "longitude": 6,
@@ -282,10 +220,72 @@
           "x_flare_probability": 0,
           "proton_probability": 0,
           "first_date": "2026-11-06T06:51:49"
+        },
+        {
+          "observed_date": "2026-11-10",
+          "region": 4565,
+          "latitude": 12,
+          "longitude": -73,
+          "location": "N12W73",
+          "carrington_longitude": 187,
+          "old_carrington_longitude": 186,
+          "area": 50,
+          "spot_class": "Hsx",
+          "extent": 3,
+          "number_spots": 2,
+          "mag_class": "A",
+          "mag_string": null,
+          "status": "f",
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 10,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-10-30T18:40:39"
+        },
+        {
+          "observed_date": "2026-11-10",
+          "region": 4573,
+          "latitude": 8,
+          "longitude": 50,
+          "location": "N08E50",
+          "carrington_longitude": 64,
+          "old_carrington_longitude": null,
+          "area": 40,
+          "spot_class": "Dro",
+          "extent": 3,
+          "number_spots": 3,
+          "mag_class": "B",
+          "mag_string": null,
+          "status": "f",
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 15,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-11-10T17:38:07"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/solar_regions.json",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
       "observed_at": "2026-11-10T00:00:00+00:00",
       "stale": false
     },
@@ -3125,45 +3125,81 @@
         },
         {
           "time_tag": "2026-11-11T02:40:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
         },
         {
           "time_tag": "2026-11-11T02:41:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:42:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:43:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:44:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:45:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 1.67,
+          "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-11T02:46:00+00:00",
           "kp_index": 1.0,
           "estimated_kp": 1.33,
           "kp": "1P"
         },
         {
-          "time_tag": "2026-11-11T02:42:00+00:00",
+          "time_tag": "2026-11-11T02:47:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T02:48:00+00:00",
           "kp_index": 1.0,
           "estimated_kp": 1.0,
           "kp": "1Z"
         },
         {
-          "time_tag": "2026-11-11T02:43:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
+          "time_tag": "2026-11-11T02:49:00+00:00",
+          "kp_index": 2.0,
+          "estimated_kp": 2.33,
+          "kp": "2P"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
-      "observed_at": "2026-11-11T02:43:00+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
+      "observed_at": "2026-11-11T02:49:00+00:00",
       "stale": false,
-      "coverage_hours": 7.917,
+      "coverage_hours": 8.017,
       "gap_count": 0,
-      "window_start": "2026-11-10T02:46:32.388907+00:00",
-      "window_end": "2026-11-11T02:46:32.388907+00:00"
+      "window_start": "2026-11-10T02:53:48.533915+00:00",
+      "window_end": "2026-11-11T02:53:48.533915+00:00"
     },
     "flares": {
       "data": [
         {
-          "time_tag": "2026-11-11T02:42:00+00:00",
+          "time_tag": "2026-11-11T02:49:00+00:00",
           "satellite": 18,
           "current_class": "C1.0",
-          "current_ratio": 0.05039484866094072,
+          "current_ratio": 0.047086693004376234,
           "current_int_xrlong": 0.0020133042708039284,
           "begin_time": "2026-11-10T20:23:00+00:00",
           "begin_class": "C1.2",
@@ -3177,7 +3213,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/goes/primary/xray-flares-latest.json",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
       "observed_at": "2026-11-10T20:34:00+00:00",
       "stale": false
     },
@@ -4935,7 +4971,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/goes/primary/xray-flares-7-day.json",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
       "observed_at": "2026-11-10T20:34:00+00:00",
       "stale": false
     },
@@ -5018,7 +5054,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/products/alerts.json",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
       "observed_at": "2026-11-10T05:01:21.150000+00:00",
       "stale": false
     }
@@ -5028,14 +5064,14 @@
       "source": "https://sdo.gsfc.nasa.gov/assets/img/latest/times0193.txt",
       "image_url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_512_0193.jpg",
       "observed_at": "2026-11-11T02:37:41+00:00",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
       "stale": false
     },
     "hmi": {
       "source": "https://sdo.gsfc.nasa.gov/assets/img/latest/hmitimes.txt",
       "image_url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_512_HMII.jpg",
       "observed_at": "2026-11-11T02:15:00+00:00",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
       "stale": false
     }
   },
@@ -5088,13 +5124,13 @@
           "title_pt": "'Isso pode nos matar': quenianos temem impacto do El Niño com previsão de enchentes"
         },
         {
-          "title": "Violence erupts in Bangladesh as ousted PM's supporters stage protest",
-          "link": "https://www.bbc.co.uk/news/articles/cwkg5g5pjpyko?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 19:26:42 GMT",
-          "title_original": "Violence erupts in Bangladesh as ousted PM's supporters stage protest",
+          "title": "Headquarters of Haitian gang destroyed, El Salvador's president says",
+          "link": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Wed, 11 Nov 2026 02:47:59 GMT",
+          "title_original": "Headquarters of Haitian gang destroyed, El Salvador's president says",
           "source_language": "en",
           "translation_status": "translated",
-          "title_pt": "Violência irrompe em Bangladesh enquanto apoiadores do primeiro-ministro destituídos protestam"
+          "title_pt": "Sede de gangue haitiana destruída, diz presidente de El Salvador"
         },
         {
           "title": "Anti-homosexuality laws in Trinidad and Tobago overturned",
@@ -5104,6 +5140,15 @@
           "source_language": "en",
           "translation_status": "translated",
           "title_pt": "Leis anti-homossexualidade em Trinidad e Tobago derrubadas"
+        },
+        {
+          "title": "Violence erupts in Bangladesh as ousted PM's supporters stage protest",
+          "link": "https://www.bbc.co.uk/news/articles/cwkg5g5pjpyko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 10 Nov 2026 19:26:42 GMT",
+          "title_original": "Violence erupts in Bangladesh as ousted PM's supporters stage protest",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Violência irrompe em Bangladesh enquanto apoiadores do primeiro-ministro destituídos protestam"
         },
         {
           "title": "Israel's new parliament sworn in as leaders compete to form government",
@@ -5167,19 +5212,10 @@
           "source_language": "en",
           "translation_status": "translated",
           "title_pt": "Morre a heroína da resistência francesa Solange Alexandre aos 104 anos"
-        },
-        {
-          "title": "Makers of GLP-1 drugs ordered to add warnings about rare eye condition that can lead to blindness",
-          "link": "https://www.bbc.co.uk/news/articles/crwydyde0lp3o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 10 Nov 2026 18:43:04 GMT",
-          "title_original": "Makers of GLP-1 drugs ordered to add warnings about rare eye condition that can lead to blindness",
-          "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "Fabricantes de medicamentos GLP-1 encomendados para adicionar avisos sobre condições oculares raras que podem levar à cegueira"
         }
       ],
       "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
       "stale": false
     },
     "Al Jazeera": {
@@ -5321,7 +5357,7 @@
         }
       ],
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
       "stale": false
     },
     "Deutsche Welle": {
@@ -5455,7 +5491,7 @@
         }
       ],
       "source": "https://rss.dw.com/xml/rss-en-all",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
       "stale": false
     },
     "France 24": {
@@ -5589,7 +5625,7 @@
         }
       ],
       "source": "https://www.france24.com/en/rss",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
       "stale": false
     },
     "The Guardian": {
@@ -5654,7 +5690,8 @@
           "pubDate": "Mon, 09 Nov 2026 10:59:06 GMT",
           "title_original": "Deadly floods hit Iraq as thunderstorms sweep across region",
           "source_language": "en",
-          "translation_status": "limited"
+          "translation_status": "translated",
+          "title_pt": "Inundações mortais atingem o Iraque enquanto tempestades varrem a região"
         },
         {
           "title": "Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit",
@@ -5722,7 +5759,7 @@
         }
       ],
       "source": "https://www.theguardian.com/world/rss",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
       "stale": false
     },
     "Euronews": {
@@ -5787,7 +5824,8 @@
           "pubDate": "Tue, 10 Nov 2026 19:55:26 +0100",
           "title_original": "Democrats took the House, Senate and a good deal of Republican pride: So who are the real winners and losers?",
           "source_language": "en",
-          "translation_status": "limited"
+          "translation_status": "translated",
+          "title_pt": "Os democratas tomaram a Câmara, o Senado e uma boa dose de orgulho republicano: então, quem são os verdadeiros vencedores e perdedores?"
         },
         {
           "title": "Costa seeks to reassure Merz after EU budget ultimatum",
@@ -5855,7 +5893,7 @@
         }
       ],
       "source": "https://www.euronews.com/rss",
-      "fetched_at": "2026-11-11T02:46:32.388907+00:00",
+      "fetched_at": "2026-11-11T02:53:48.533915+00:00",
       "stale": false
     }
   },
@@ -5878,6 +5916,21 @@
     "provider": "MyMemory",
     "target_language": "pt-BR",
     "cache": {
+      "49f8ef5da95c6ef5514984a2f5c283d788b99479bd84e4cb4ff2a998eef4c7ef": {
+        "original": "Headquarters of Haitian gang destroyed, El Salvador's president says",
+        "text": "Sede de gangue haitiana destruída, diz presidente de El Salvador",
+        "at": "2026-11-11T02:53:48.533915+00:00"
+      },
+      "5833171a736b87a2c8e68ff00d07d098e0db80e8a8fa50ce0d0fc97a238ef03d": {
+        "original": "Deadly floods hit Iraq as thunderstorms sweep across region",
+        "text": "Inundações mortais atingem o Iraque enquanto tempestades varrem a região",
+        "at": "2026-11-11T02:53:48.533915+00:00"
+      },
+      "afbb3c7126e146d0691d0c0922035a2d0a0177e040ebdc6518cc4474eb62c6e9": {
+        "original": "Democrats took the House, Senate and a good deal of Republican pride: So who are the real winners and losers?",
+        "text": "Os democratas tomaram a Câmara, o Senado e uma boa dose de orgulho republicano: então, quem são os verdadeiros vencedores e perdedores?",
+        "at": "2026-11-11T02:53:48.533915+00:00"
+      },
       "898d50bea8811ffa1f22c591659973dbd0a33dd1e140e18539ac81688eb74b0e": {
         "original": "Protesters throw milk at Joe Biden during Hunter event in Dublin",
         "text": "Manifestantes jogam leite em Joe Biden durante evento da Hunter em Dublin",
@@ -6419,6 +6472,18 @@
       {
         "at": "2026-11-11T02:46:32.388907+00:00",
         "chars": 94
+      },
+      {
+        "at": "2026-11-11T02:53:48.533915+00:00",
+        "chars": 68
+      },
+      {
+        "at": "2026-11-11T02:53:48.533915+00:00",
+        "chars": 59
+      },
+      {
+        "at": "2026-11-11T02:53:48.533915+00:00",
+        "chars": 109
       }
     ],
     "blocked_until": null
