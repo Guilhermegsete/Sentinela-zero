@@ -1,9 +1,226 @@
 {
   "schema_version": "0.4.1",
-  "generated_at": "2026-11-11T22:00:02.825086+00:00",
+  "generated_at": "2026-11-12T02:48:11.187829+00:00",
   "solar": {
     "regions": {
       "data": [
+        {
+          "observed_date": "2026-11-11",
+          "region": 4575,
+          "latitude": -9,
+          "longitude": 65,
+          "location": "S09E65",
+          "carrington_longitude": 35,
+          "old_carrington_longitude": null,
+          "area": 30,
+          "spot_class": "Hsx",
+          "extent": 2,
+          "number_spots": 1,
+          "mag_class": "A",
+          "mag_string": null,
+          "status": null,
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 10,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-11-11T11:02:26"
+        },
+        {
+          "observed_date": "2026-11-11",
+          "region": 4574,
+          "latitude": 16,
+          "longitude": 61,
+          "location": "N16E61",
+          "carrington_longitude": 39,
+          "old_carrington_longitude": null,
+          "area": 50,
+          "spot_class": "Dao",
+          "extent": 7,
+          "number_spots": 5,
+          "mag_class": "B",
+          "mag_string": null,
+          "status": null,
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 25,
+          "m_flare_probability": 5,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-11-11T11:01:32"
+        },
+        {
+          "observed_date": "2026-11-11",
+          "region": 4572,
+          "latitude": 12,
+          "longitude": 43,
+          "location": "N12E43",
+          "carrington_longitude": 57,
+          "old_carrington_longitude": 57,
+          "area": 30,
+          "spot_class": "Hsx",
+          "extent": 3,
+          "number_spots": 2,
+          "mag_class": "A",
+          "mag_string": null,
+          "status": null,
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 10,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-11-09T08:11:37"
+        },
+        {
+          "observed_date": "2026-11-11",
+          "region": 4568,
+          "latitude": -9,
+          "longitude": -29,
+          "location": "S09W29",
+          "carrington_longitude": 129,
+          "old_carrington_longitude": 129,
+          "area": 30,
+          "spot_class": "Cso",
+          "extent": 7,
+          "number_spots": 3,
+          "mag_class": "B",
+          "mag_string": null,
+          "status": null,
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 1,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": 0,
+          "c_flare_probability": 15,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-11-05T15:02:52"
+        },
+        {
+          "observed_date": "2026-11-11",
+          "region": 4573,
+          "latitude": 8,
+          "longitude": 36,
+          "location": "N08E36",
+          "carrington_longitude": 64,
+          "old_carrington_longitude": 64,
+          "area": 30,
+          "spot_class": "Cro",
+          "extent": 5,
+          "number_spots": 4,
+          "mag_class": "B",
+          "mag_string": null,
+          "status": null,
+          "c_xray_events": 1,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": 0,
+          "c_flare_probability": 15,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-11-10T17:38:07"
+        },
+        {
+          "observed_date": "2026-11-11",
+          "region": 4570,
+          "latitude": -9,
+          "longitude": -20,
+          "location": "S09W20",
+          "carrington_longitude": 110,
+          "old_carrington_longitude": 108,
+          "area": null,
+          "spot_class": null,
+          "extent": null,
+          "number_spots": null,
+          "mag_class": null,
+          "mag_string": null,
+          "status": null,
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 0,
+          "m_flare_probability": 0,
+          "x_flare_probability": 0,
+          "proton_probability": 0,
+          "first_date": "2026-11-06T06:51:49"
+        },
+        {
+          "observed_date": "2026-11-11",
+          "region": 4565,
+          "latitude": 14,
+          "longitude": -85,
+          "location": "N14W85",
+          "carrington_longitude": 185,
+          "old_carrington_longitude": 187,
+          "area": 50,
+          "spot_class": "Hsx",
+          "extent": 2,
+          "number_spots": 1,
+          "mag_class": "A",
+          "mag_string": null,
+          "status": null,
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 5,
+          "m_flare_probability": 1,
+          "x_flare_probability": 1,
+          "proton_probability": 1,
+          "first_date": "2026-10-30T18:40:39"
+        },
         {
           "observed_date": "2026-11-11",
           "region": 4566,
@@ -24,7 +241,7 @@
           "x_xray_events": 0,
           "proton_events": null,
           "s_flares": 0,
-          "impulse_flares_1": 0,
+          "impulse_flares_1": 1,
           "impulse_flares_2": 0,
           "impulse_flares_3": 0,
           "impulse_flares_4": 0,
@@ -68,99 +285,6 @@
         },
         {
           "observed_date": "2026-11-11",
-          "region": 4565,
-          "latitude": 14,
-          "longitude": -85,
-          "location": "N14W85",
-          "carrington_longitude": 185,
-          "old_carrington_longitude": 187,
-          "area": 50,
-          "spot_class": "Hsx",
-          "extent": 2,
-          "number_spots": 1,
-          "mag_class": "A",
-          "mag_string": null,
-          "status": null,
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 5,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-10-30T18:40:39"
-        },
-        {
-          "observed_date": "2026-11-11",
-          "region": 4574,
-          "latitude": 16,
-          "longitude": 61,
-          "location": "N16E61",
-          "carrington_longitude": 39,
-          "old_carrington_longitude": null,
-          "area": 50,
-          "spot_class": "Dao",
-          "extent": 7,
-          "number_spots": 5,
-          "mag_class": "B",
-          "mag_string": null,
-          "status": null,
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 25,
-          "m_flare_probability": 5,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-11T11:01:32"
-        },
-        {
-          "observed_date": "2026-11-11",
-          "region": 4575,
-          "latitude": -9,
-          "longitude": 65,
-          "location": "S09E65",
-          "carrington_longitude": 35,
-          "old_carrington_longitude": null,
-          "area": 30,
-          "spot_class": "Hsx",
-          "extent": 2,
-          "number_spots": 1,
-          "mag_class": "A",
-          "mag_string": null,
-          "status": null,
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 10,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-11T11:02:26"
-        },
-        {
-          "observed_date": "2026-11-11",
           "region": 4571,
           "latitude": -14,
           "longitude": -95,
@@ -189,1867 +313,15 @@
           "x_flare_probability": 0,
           "proton_probability": 0,
           "first_date": "2026-11-08T05:07:05"
-        },
-        {
-          "observed_date": "2026-11-11",
-          "region": 4568,
-          "latitude": -9,
-          "longitude": -29,
-          "location": "S09W29",
-          "carrington_longitude": 129,
-          "old_carrington_longitude": 129,
-          "area": 30,
-          "spot_class": "Cso",
-          "extent": 7,
-          "number_spots": 3,
-          "mag_class": "B",
-          "mag_string": null,
-          "status": null,
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 1,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": 0,
-          "c_flare_probability": 15,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-05T15:02:52"
-        },
-        {
-          "observed_date": "2026-11-11",
-          "region": 4570,
-          "latitude": -9,
-          "longitude": -20,
-          "location": "S09W20",
-          "carrington_longitude": 110,
-          "old_carrington_longitude": 108,
-          "area": null,
-          "spot_class": null,
-          "extent": null,
-          "number_spots": null,
-          "mag_class": null,
-          "mag_string": null,
-          "status": null,
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 0,
-          "m_flare_probability": 0,
-          "x_flare_probability": 0,
-          "proton_probability": 0,
-          "first_date": "2026-11-06T06:51:49"
-        },
-        {
-          "observed_date": "2026-11-11",
-          "region": 4572,
-          "latitude": 12,
-          "longitude": 43,
-          "location": "N12E43",
-          "carrington_longitude": 57,
-          "old_carrington_longitude": 57,
-          "area": 30,
-          "spot_class": "Hsx",
-          "extent": 3,
-          "number_spots": 2,
-          "mag_class": "A",
-          "mag_string": null,
-          "status": null,
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 10,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-09T08:11:37"
-        },
-        {
-          "observed_date": "2026-11-11",
-          "region": 4573,
-          "latitude": 8,
-          "longitude": 36,
-          "location": "N08E36",
-          "carrington_longitude": 64,
-          "old_carrington_longitude": 64,
-          "area": 30,
-          "spot_class": "Cro",
-          "extent": 5,
-          "number_spots": 4,
-          "mag_class": "B",
-          "mag_string": null,
-          "status": null,
-          "c_xray_events": 1,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": 0,
-          "c_flare_probability": 15,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-10T17:38:07"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/solar_regions.json",
-      "fetched_at": "2026-11-11T22:00:02.825086+00:00",
+      "fetched_at": "2026-11-12T02:48:11.187829+00:00",
       "observed_at": "2026-11-11T00:00:00+00:00",
       "stale": false
     },
     "kp": {
       "data": [
-        {
-          "time_tag": "2026-11-10T22:01:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:02:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:03:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:04:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:05:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:06:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:07:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:08:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:09:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:10:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:11:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:12:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:13:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:14:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:15:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:16:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:17:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:18:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:19:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:20:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:21:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:22:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:23:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:24:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:25:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:26:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:27:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:28:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:29:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:30:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:31:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:32:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:33:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:34:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:35:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:36:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:37:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:38:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:39:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:40:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:41:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:42:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:43:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:44:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:45:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:46:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:47:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:48:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:49:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:50:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:51:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:52:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:53:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:54:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:55:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:56:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:57:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:58:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T22:59:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T23:00:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T23:01:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-10T23:02:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:03:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:04:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:05:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:06:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:07:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:08:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:09:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:10:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:11:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:12:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:13:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:14:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:15:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:16:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:17:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:18:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-10T23:19:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:20:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:21:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:22:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-10T23:23:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-10T23:24:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:25:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:26:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:27:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:28:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:29:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:30:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:31:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:32:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:33:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:34:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:35:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:36:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:37:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:38:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:39:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:40:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:41:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:42:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:43:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:44:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:45:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:46:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:47:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:48:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:49:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:50:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:51:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:52:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:53:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:54:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:55:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:56:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:57:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-10T23:58:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.0,
-          "kp": "2Z"
-        },
-        {
-          "time_tag": "2026-11-10T23:59:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 2.33,
-          "kp": "2P"
-        },
-        {
-          "time_tag": "2026-11-11T00:00:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:01:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:02:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:03:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:04:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:05:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:06:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:07:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:08:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:09:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:10:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:11:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:12:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:13:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:14:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:15:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:16:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:17:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:18:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:19:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:20:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:21:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:22:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:23:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-11T00:24:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:25:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:26:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:27:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:28:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:29:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:30:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:31:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:32:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:33:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:34:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:35:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:36:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:37:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:38:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:39:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:40:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:41:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:42:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:43:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:44:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:45:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:46:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:47:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:48:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:49:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:50:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:51:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:52:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:53:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:54:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:55:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:56:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:57:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:58:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T00:59:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:00:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:01:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:02:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:03:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:04:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:05:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:06:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:07:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:08:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:09:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:10:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:11:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:12:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:13:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:14:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-11T01:15:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:16:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:17:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:18:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:19:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:20:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:21:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:22:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:23:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:24:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:25:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:26:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:27:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:28:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-11T01:29:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:30:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:31:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:32:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:33:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:34:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:35:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:36:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:37:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:38:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:39:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:40:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:41:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:42:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:43:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:44:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:45:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:46:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:47:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:48:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:49:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:50:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:51:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:52:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:53:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.0,
-          "kp": "1Z"
-        },
-        {
-          "time_tag": "2026-11-11T01:54:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T01:55:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T01:56:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T01:57:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T01:58:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T01:59:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:00:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:01:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:02:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:03:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:04:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:05:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:06:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:07:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:08:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:09:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:10:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:11:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:12:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:13:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-11T02:14:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:15:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:16:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:17:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:18:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:19:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:20:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:21:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:22:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:23:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:24:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:25:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:26:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:27:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:28:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:29:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:30:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:31:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:32:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:33:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:34:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:35:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:36:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:37:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:38:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:39:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:40:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:41:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:42:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:43:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:44:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:45:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:46:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:47:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-11T02:48:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
         {
           "time_tag": "2026-11-11T02:49:00+00:00",
           "kp_index": 2.0,
@@ -7909,36 +6181,1770 @@
         {
           "time_tag": "2026-11-11T21:52:00+00:00",
           "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
+          "estimated_kp": 0.33,
+          "kp": "0P"
         },
         {
           "time_tag": "2026-11-11T21:53:00+00:00",
           "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
+          "estimated_kp": 0.33,
+          "kp": "0P"
         },
         {
           "time_tag": "2026-11-11T21:54:00+00:00",
           "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
+          "estimated_kp": 0.33,
+          "kp": "0P"
         },
         {
           "time_tag": "2026-11-11T21:55:00+00:00",
           "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T21:56:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T21:57:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T21:58:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T21:59:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:00:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:01:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:02:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:03:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:04:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:05:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:06:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:07:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:08:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:09:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:10:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:11:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:12:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:13:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:14:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:15:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:16:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:17:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:18:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:19:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:20:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:21:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:22:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:23:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:24:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:25:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:26:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:27:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:28:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:29:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:30:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:31:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:32:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:33:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:34:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:35:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:36:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:37:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:38:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:39:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:40:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:41:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:42:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:43:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:44:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:45:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:46:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:47:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:48:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:49:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:50:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:51:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:52:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:53:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:54:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:55:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:56:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:57:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-11T22:58:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T22:59:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:00:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:01:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:02:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:03:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:04:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:05:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:06:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:07:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:08:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:09:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:10:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:11:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:12:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:13:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:14:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:15:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:16:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:17:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-11T23:18:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:19:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:20:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:21:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:22:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:23:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:24:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:25:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:26:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:27:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:28:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:29:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:30:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:31:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:32:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:33:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:34:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:35:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-11T23:36:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:37:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:38:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:39:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:40:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:41:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:42:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:43:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:44:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:45:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:46:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:47:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:48:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:49:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:50:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:51:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:52:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:53:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:54:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:55:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:56:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:57:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:58:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-11T23:59:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-12T00:00:00+00:00",
+          "kp_index": 0.0,
           "estimated_kp": 0.0,
           "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:01:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:02:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:03:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:04:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:05:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:06:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:07:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:08:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:09:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:10:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:11:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:12:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:13:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:14:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:15:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:16:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:17:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:18:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:19:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:20:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:21:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-12T00:22:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:23:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:24:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:25:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:26:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:27:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:28:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:29:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:30:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:31:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:32:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:33:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:34:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:35:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:36:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:37:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:38:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:39:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:40:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:41:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:42:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:43:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:44:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:45:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:46:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:47:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:48:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:49:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:50:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:51:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-12T00:52:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T00:53:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T00:54:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T00:55:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T00:56:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T00:57:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T00:58:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T00:59:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:00:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:01:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:02:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:03:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:04:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:05:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:06:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:07:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:08:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:09:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:10:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:11:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:12:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:13:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:14:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:15:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:16:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:17:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:18:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:19:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:20:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:21:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:22:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:23:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:24:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:25:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:26:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:27:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:28:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:29:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:30:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:31:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:32:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:33:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:34:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:35:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:36:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:37:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:38:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:39:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:40:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:41:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:42:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:43:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:44:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:45:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:46:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:47:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:48:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:49:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:50:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:51:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:52:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T01:53:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:54:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:55:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:56:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:57:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:58:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T01:59:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:00:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:01:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:02:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:03:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:04:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:05:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:06:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:07:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:08:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:09:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:10:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:11:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:12:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:13:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:14:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:15:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:16:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:17:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:18:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:19:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:20:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:21:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:22:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:23:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:24:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:25:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:26:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:27:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:28:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:29:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:30:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:31:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:32:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:33:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:34:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:35:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:36:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:37:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:38:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:39:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:40:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:41:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-12T02:42:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T02:43:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-12T02:44:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-      "fetched_at": "2026-11-11T22:00:02.825086+00:00",
-      "observed_at": "2026-11-11T21:55:00+00:00",
+      "fetched_at": "2026-11-12T02:48:11.187829+00:00",
+      "observed_at": "2026-11-12T02:44:00+00:00",
       "stale": false,
-      "coverage_hours": 23.9,
+      "coverage_hours": 23.917,
       "gap_count": 2,
-      "window_start": "2026-11-10T22:00:02.825086+00:00",
-      "window_end": "2026-11-11T22:00:02.825086+00:00"
+      "window_start": "2026-11-11T02:48:11.187829+00:00",
+      "window_end": "2026-11-12T02:48:11.187829+00:00"
     },
     "flares": {
       "data": [
@@ -7962,38 +7968,10 @@
       "source": "https://services.swpc.noaa.gov/json/goes/primary/xray-flares-latest.json",
       "fetched_at": "2026-11-11T22:00:02.825086+00:00",
       "observed_at": "2026-11-11T21:21:00+00:00",
-      "stale": false
+      "stale": true
     },
     "flare_history": {
       "data": [
-        {
-          "time_tag": "2026-11-05T00:04:00+00:00",
-          "begin_time": "2026-11-05T00:04:00+00:00",
-          "begin_class": "B4.9",
-          "max_time": "2026-11-05T00:13:00+00:00",
-          "max_class": "B9.4",
-          "max_xrlong": 9.423889082427195e-07,
-          "max_ratio": 0.36375170517201477,
-          "max_ratio_time": "2026-11-05T00:06:52Z",
-          "current_int_xrlong": 0.0005328704137355089,
-          "end_time": "2026-11-05T00:15:00+00:00",
-          "end_class": "B6.5",
-          "satellite": 18
-        },
-        {
-          "time_tag": "2026-11-05T02:13:00+00:00",
-          "begin_time": "2026-11-05T02:13:00+00:00",
-          "begin_class": "B5.3",
-          "max_time": "2026-11-05T02:18:00+00:00",
-          "max_class": "B9.1",
-          "max_xrlong": 9.10461835701426e-07,
-          "max_ratio": null,
-          "max_ratio_time": null,
-          "current_int_xrlong": 0.0003990258846897632,
-          "end_time": "2026-11-05T02:21:00+00:00",
-          "end_class": "B6.7",
-          "satellite": 18
-        },
         {
           "time_tag": "2026-11-05T05:09:00+00:00",
           "begin_time": "2026-11-05T05:09:00+00:00",
@@ -9827,11 +9805,25 @@
           "end_time": "2026-11-11T21:29:00+00:00",
           "end_class": "C9.5",
           "satellite": 18
+        },
+        {
+          "time_tag": "2026-11-12T00:25:00+00:00",
+          "begin_time": "2026-11-12T00:25:00+00:00",
+          "begin_class": "B6.4",
+          "max_time": "2026-11-12T00:37:00+00:00",
+          "max_class": "C1.8",
+          "max_xrlong": 1.8249518234370044e-06,
+          "max_ratio": 0.15433348526238347,
+          "max_ratio_time": "2026-11-12T00:25:56Z",
+          "current_int_xrlong": 0.00211098394356668,
+          "end_time": "2026-11-12T00:52:00+00:00",
+          "end_class": "C1.2",
+          "satellite": 18
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/goes/primary/xray-flares-7-day.json",
-      "fetched_at": "2026-11-11T22:00:02.825086+00:00",
-      "observed_at": "2026-11-11T21:21:00+00:00",
+      "fetched_at": "2026-11-12T02:48:11.187829+00:00",
+      "observed_at": "2026-11-12T00:37:00+00:00",
       "stale": false
     },
     "alerts": {
@@ -9913,7 +9905,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/products/alerts.json",
-      "fetched_at": "2026-11-11T22:00:02.825086+00:00",
+      "fetched_at": "2026-11-12T02:48:11.187829+00:00",
       "observed_at": "2026-11-11T05:01:52.690000+00:00",
       "stale": false
     }
@@ -9922,15 +9914,15 @@
     "aia": {
       "source": "https://sdo.gsfc.nasa.gov/assets/img/latest/times0193.txt",
       "image_url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_512_0193.jpg",
-      "observed_at": "2026-11-11T21:48:07+00:00",
-      "fetched_at": "2026-11-11T22:00:02.825086+00:00",
+      "observed_at": "2026-11-12T02:38:05+00:00",
+      "fetched_at": "2026-11-12T02:48:11.187829+00:00",
       "stale": false
     },
     "hmi": {
       "source": "https://sdo.gsfc.nasa.gov/assets/img/latest/hmitimes.txt",
       "image_url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_512_HMII.jpg",
-      "observed_at": "2026-11-11T21:15:00+00:00",
-      "fetched_at": "2026-11-11T22:00:02.825086+00:00",
+      "observed_at": "2026-11-12T02:15:00+00:00",
+      "fetched_at": "2026-11-12T02:48:11.187829+00:00",
       "stale": false
     }
   },
@@ -9940,10 +9932,20 @@
         {
           "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
           "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 11 Nov 2026 20:52:52 GMT",
+          "pubDate": "Wed, 11 Nov 2026 22:07:37 GMT",
           "title_original": "Clashes erupt in Barcelona after thousands join Spain general strike",
           "source_language": "en",
-          "translation_status": "limited"
+          "translation_status": "translated",
+          "title_pt": "Confrontos eclodem em Barcelona depois que milhares de pessoas aderiram à greve geral na Espanha"
+        },
+        {
+          "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+          "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 12 Nov 2026 02:09:08 GMT",
+          "title_original": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "O democrata Scott Colom conquista uma vitória histórica na disputa pelo Senado do Mississippi"
         },
         {
           "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
@@ -9951,13 +9953,41 @@
           "pubDate": "Wed, 11 Nov 2026 18:04:58 GMT",
           "title_original": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
           "source_language": "en",
-          "translation_status": "limited"
+          "translation_status": "translated",
+          "title_pt": "As negociações entre a Rússia e a Ucrânia passam a tratar da segurança pós-guerra, mas terminam sem avanços"
         },
         {
-          "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-          "link": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 11 Nov 2026 16:45:11 GMT",
-          "title_original": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+          "title": "New York building collapse kills one person and injures 12",
+          "link": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 12 Nov 2026 02:33:12 GMT",
+          "title_original": "New York building collapse kills one person and injures 12",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Desabamento de prédio em Nova York mata uma pessoa e deixa 12 feridas"
+        },
+        {
+          "title": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
+          "link": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Wed, 11 Nov 2026 16:38:07 GMT",
+          "title_original": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "O vice-presidente da Indonésia renuncia em meio a sinais de que a aliança governista está se desfazendo"
+        },
+        {
+          "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
+          "link": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Wed, 11 Nov 2026 14:56:11 GMT",
+          "title_original": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Sequestrador de 74 anos foge de prisão domiciliar na Argentina rapelando da varanda"
+        },
+        {
+          "title": "Famed ship SS United States to be sunk off coast of Florida",
+          "link": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Wed, 11 Nov 2026 18:42:27 GMT",
+          "title_original": "Famed ship SS United States to be sunk off coast of Florida",
           "source_language": "en",
           "translation_status": "limited"
         },
@@ -9970,26 +10000,18 @@
           "translation_status": "limited"
         },
         {
-          "title": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
-          "link": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 11 Nov 2026 16:38:07 GMT",
-          "title_original": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
-          "link": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 11 Nov 2026 14:56:11 GMT",
-          "title_original": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Missing 11-month-old baby found buried alive in a crate in South Carolina",
+          "title": "Missing 11-month-old baby rescued after being buried alive in a crate in South Carolina",
           "link": "https://www.bbc.co.uk/news/articles/c8e391xzg6z2o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 11 Nov 2026 18:10:57 GMT",
-          "title_original": "Missing 11-month-old baby found buried alive in a crate in South Carolina",
+          "title_original": "Missing 11-month-old baby rescued after being buried alive in a crate in South Carolina",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+          "link": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Wed, 11 Nov 2026 16:45:11 GMT",
+          "title_original": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
           "source_language": "en",
           "translation_status": "limited"
         },
@@ -10032,173 +10054,191 @@
           "title_original": "Vinícius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal",
           "source_language": "en",
           "translation_status": "limited"
-        },
-        {
-          "title": "Transport workers in Chile block highways in protest over surging fuel prices",
-          "link": "https://www.bbc.co.uk/news/articles/c6e3d895zne7o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 11 Nov 2026 11:34:50 GMT",
-          "title_original": "Transport workers in Chile block highways in protest over surging fuel prices",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-          "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 11 Nov 2026 16:59:34 GMT",
-          "title_original": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-          "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "Três suspeitos apoiados pelo Irã planejaram ataques, incluindo o incidente da RAF em Fairford, dizem os EUA"
-        },
-        {
-          "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
-          "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 11 Nov 2026 11:47:22 GMT",
-          "title_original": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
-          "source_language": "en",
-          "translation_status": "limited"
         }
       ],
       "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "fetched_at": "2026-11-11T22:00:02.825086+00:00",
+      "fetched_at": "2026-11-12T02:48:11.187829+00:00",
       "stale": false
     },
     "Al Jazeera": {
       "items": [
         {
-          "title": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
-          "link": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 21:03:40 +0000",
-          "title_original": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
+          "title": "Indonesian VP resigns over education qualification row",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/indonesian-vp-resigns-over-education-qualification-row?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 02:22:48 +0000",
+          "title_original": "Indonesian VP resigns over education qualification row",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Vice-presidente da Indonésia renuncia devido a controvérsia sobre qualificação educacional"
+        },
+        {
+          "title": "Argentina’s Milei cries as he bids farewell to the Pope",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/argentinas-milei-cries-as-he-bids-farewell-to-the-pope?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 02:03:30 +0000",
+          "title_original": "Argentina’s Milei cries as he bids farewell to the Pope",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Milei, da Argentina, chora ao se despedir do Papa"
+        },
+        {
+          "title": "Three-storey building collapses in Brooklyn",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/three-storey-building-collapses-in-brooklyn?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 01:50:36 +0000",
+          "title_original": "Three-storey building collapses in Brooklyn",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Prédio de três andares desaba no Brooklyn"
+        },
+        {
+          "title": "What could Chinese intelligence have learned from Nvidia CEO’s affair?",
+          "link": "https://www.aljazeera.com/news/2026/11/12/what-could-chinese-intelligence-have-learned-from-nvidia-ceos-affair?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 01:33:09 +0000",
+          "title_original": "What could Chinese intelligence have learned from Nvidia CEO’s affair?",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "O que a inteligência chinesa poderia ter descoberto com o caso do CEO da Nvidia?"
+        },
+        {
+          "title": "Israel strikes intensive care at Gaza’s Nasser Hospital",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 01:20:55 +0000",
+          "title_original": "Israel strikes intensive care at Gaza’s Nasser Hospital",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Israel ataca a unidade de terapia intensiva do Hospital Nasser, em Gaza"
+        },
+        {
+          "title": "Former Italian Red Brigades member escapes house arrest in Argentina",
+          "link": "https://www.aljazeera.com/news/2026/11/12/former-italian-red-brigades-member-escapes-house-arrest-in-argentina?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 01:04:28 +0000",
+          "title_original": "Former Italian Red Brigades member escapes house arrest in Argentina",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Ex-membro das Brigadas Vermelhas italianas foge de prisão domiciliar na Argentina"
+        },
+        {
+          "title": "Nvidia shares plunge amid reports board to discuss CEO Huang’s future",
+          "link": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 00:43:26 +0000",
+          "title_original": "Nvidia shares plunge amid reports board to discuss CEO Huang’s future",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Thousands march to mark Poland’s Independence Day",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/thousands-march-to-mark-polands-independence-day?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 21:02:02 +0000",
-          "title_original": "Thousands march to mark Poland’s Independence Day",
+          "title": "Hegseth entourage reprimanded by guard at Tomb of the Unknown Soldier",
+          "link": "https://www.aljazeera.com/news/2026/11/12/hegseth-entourage-reprimanded-by-guard-at-tomb-of-the-unknown-soldier?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 00:42:37 +0000",
+          "title_original": "Hegseth entourage reprimanded by guard at Tomb of the Unknown Soldier",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Hoax bomb threats target schools across Italy, UK and Ireland",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/hoax-bomb-threats-target-schools-across-italy-uk-and-ireland?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 21:01:42 +0000",
-          "title_original": "Hoax bomb threats target schools across Italy, UK and Ireland",
+          "title": "Why the US, Mexico and Guatemala may lose their measles-free status",
+          "link": "https://www.aljazeera.com/news/2026/11/12/why-the-us-mexico-and-guatemala-may-lose-their-measles-free-status?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 00:33:44 +0000",
+          "title_original": "Why the US, Mexico and Guatemala may lose their measles-free status",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Oil production nears pre-Iran war levels, OPEC says",
-          "link": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 20:45:30 +0000",
-          "title_original": "Oil production nears pre-Iran war levels, OPEC says",
+          "title": "Cameroon: Who is really calling the shots?",
+          "link": "https://www.aljazeera.com/news/2026/11/12/cameroon-who-is-really-calling-the-shots?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 00:29:33 +0000",
+          "title_original": "Cameroon: Who is really calling the shots?",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Gaza goalkeeper killed in Israeli attack",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/gaza-goalkeeper-killed-in-israeli-attack?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 20:44:34 +0000",
-          "title_original": "Gaza goalkeeper killed in Israeli attack",
+          "title": "Hegseth scolded by security at Tomb of the Unknown Soldier",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/hegseth-scolded-by-security-at-tomb-of-the-unknown-soldier?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 00:18:46 +0000",
+          "title_original": "Hegseth scolded by security at Tomb of the Unknown Soldier",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Trump’s White House calls Democratic plans for congressional probes ‘abuse’",
-          "link": "https://www.aljazeera.com/news/2026/11/11/trumps-white-house-calls-democratic-plans-for-congressional-probes-abuse?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 20:39:50 +0000",
-          "title_original": "Trump’s White House calls Democratic plans for congressional probes ‘abuse’",
+          "title": "US election results could be positive for Lebanon, Hezbollah chief says",
+          "link": "https://www.aljazeera.com/news/2026/11/12/us-election-results-could-be-positive-for-lebanon-hezbollah-chief-says?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 00:06:50 +0000",
+          "title_original": "US election results could be positive for Lebanon, Hezbollah chief says",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Scenes show aftermath of horrific Israeli strike on Gaza tents",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/scenes-show-aftermath-of-horrific-israeli-strike-on-gaza-tents?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 20:33:35 +0000",
-          "title_original": "Scenes show aftermath of horrific Israeli strike on Gaza tents",
+          "title": "Iran war live: Iran warns of Europe retaliation, Israel attacks Gaza",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/11/12/iran-war-live-tehran-warns-of-wider-retaliation-israel-kills-in-gaza?traffic_source=rss",
+          "pubDate": "Thu, 12 Nov 2026 00:00:44 +0000",
+          "title_original": "Iran war live: Iran warns of Europe retaliation, Israel attacks Gaza",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "F1 champion Lewis Hamilton calls on Israel to open Gaza’s Rafah border",
-          "link": "https://www.aljazeera.com/news/2026/11/11/f1-champion-lewis-hamilton-calls-on-israel-to-open-rafah-border?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 20:24:51 +0000",
-          "title_original": "F1 champion Lewis Hamilton calls on Israel to open Gaza’s Rafah border",
+          "title": "Barcelona erupts in violence after general strike",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/barcelona-erupts-in-violence-after-general-strike?traffic_source=rss",
+          "pubDate": "Wed, 11 Nov 2026 23:50:01 +0000",
+          "title_original": "Barcelona erupts in violence after general strike",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "First Palestinian American elected in New York talks to Al Jazeera",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/first-palestinian-american-elected-in-new-york-talks-to-al-jazeera?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 20:24:01 +0000",
-          "title_original": "First Palestinian American elected in New York talks to Al Jazeera",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Uzbekistan: the crossroads of Central Asian cultures",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/uzbekistan-the-crossroads-of-central-asian-cultures?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 20:07:31 +0000",
-          "title_original": "Uzbekistan: the crossroads of Central Asian cultures",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Three women killed in LA crash as driver arrested",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/three-women-killed-in-la-crash-as-driver-arrested?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 20:03:45 +0000",
-          "title_original": "Three women killed in LA crash as driver arrested",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "How much did pro-Israel groups spend against Hasan Piker at midterms?",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/how-much-did-pro-israel-groups-spend-against-hasan-piker-at-midterms?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 19:51:58 +0000",
-          "title_original": "How much did pro-Israel groups spend against Hasan Piker at midterms?",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Which key races remain undecided one week after the US midterms?",
-          "link": "https://www.aljazeera.com/news/2026/11/11/which-key-races-remain-undecided-one-week-after-the-us-midterms?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 19:14:29 +0000",
-          "title_original": "Which key races remain undecided one week after the US midterms?",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "More than one million people in Lebanon face acute food shortages, UN says",
-          "link": "https://www.aljazeera.com/news/2026/11/11/one-million-people-in-lebanon-facing-acute-food-insecurity-un-says?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 18:43:40 +0000",
-          "title_original": "More than one million people in Lebanon face acute food shortages, UN says",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Will Sheikh Hasina return to Bangladesh?",
-          "link": "https://www.aljazeera.com/video/inside-story/2026/11/11/will-sheikh-hasina-return-to-bangladesh?traffic_source=rss",
-          "pubDate": "Wed, 11 Nov 2026 18:43:21 +0000",
-          "title_original": "Will Sheikh Hasina return to Bangladesh?",
+          "title": "Democrat Scott Colom wins closely watched US Senate race in Mississippi",
+          "link": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi?traffic_source=rss",
+          "pubDate": "Wed, 11 Nov 2026 23:05:34 +0000",
+          "title_original": "Democrat Scott Colom wins closely watched US Senate race in Mississippi",
           "source_language": "en",
           "translation_status": "limited"
         }
       ],
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "fetched_at": "2026-11-11T22:00:02.825086+00:00",
+      "fetched_at": "2026-11-12T02:48:11.187829+00:00",
       "stale": false
     },
     "Deutsche Welle": {
       "items": [
+        {
+          "title": "Nvidia board reportedly weighs ousting Huang amid alleged affairs with exec and suspected Chinese spy",
+          "link": "https://www.dw.com/en/nvidia-board-reportedly-weighs-ousting-huang-amid-alleged-affairs-with-exec-and-suspected-chinese-spy/a-79925002?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Thu, 12 Nov 2026 00:01:00 GMT",
+          "title_original": "Nvidia board reportedly weighs ousting Huang amid alleged affairs with exec and suspected Chinese spy",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "O conselho da Nvidia estaria considerando destituir Huang em meio a supostos casos com uma executiva e suspeitas de espionagem chinesa"
+        },
+        {
+          "title": "Mississippi Senate race: Democrat Scott Colom defeats Republican Cindy Hyde-Smith",
+          "link": "https://www.dw.com/en/mississippi-senate-race-democrat-scott-colom-defeats-republican-cindy-hyde-smith/a-79924938?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Wed, 11 Nov 2026 23:33:00 GMT",
+          "title_original": "Mississippi Senate race: Democrat Scott Colom defeats Republican Cindy Hyde-Smith",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Disputa pelo Senado de Mississippi: o democrata Scott Colom derrota a republicana Cindy Hyde-Smith"
+        },
+        {
+          "title": "Russian Foreign Ministry says its ambassador to US has died",
+          "link": "https://www.dw.com/en/russian-foreign-ministry-says-its-ambassador-to-us-has-died/a-79924829?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Wed, 11 Nov 2026 23:20:00 GMT",
+          "title_original": "Russian Foreign Ministry says its ambassador to US has died",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Ministério das Relações Exteriores da Rússia informa que seu embaixador nos EUA faleceu"
+        },
+        {
+          "title": "Spain: Housing crisis prompts general strike, mass nighttime protests",
+          "link": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike-mass-nighttime-protests/a-79915208?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Wed, 11 Nov 2026 21:58:00 GMT",
+          "title_original": "Spain: Housing crisis prompts general strike, mass nighttime protests",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Espanha: crise imobiliária leva a greve geral e protestos noturnos em massa"
+        },
         {
           "title": "Fears of rising antisemitism in Europe",
           "link": "https://www.dw.com/en/fears-of-rising-antisemitism-in-europe/a-79921783?maca=en-rss-en-all-1573-xml-mrss",
           "pubDate": "Wed, 11 Nov 2026 20:37:00 GMT",
           "title_original": "Fears of rising antisemitism in Europe",
           "source_language": "en",
-          "translation_status": "limited"
+          "translation_status": "translated",
+          "title_pt": "Temores de aumento do antissemitismo na Europa"
         },
         {
           "title": "VW scraps production modernization plan citing tough financial straits",
@@ -10206,7 +10246,8 @@
           "pubDate": "Wed, 11 Nov 2026 19:06:00 GMT",
           "title_original": "VW scraps production modernization plan citing tough financial straits",
           "source_language": "en",
-          "translation_status": "limited"
+          "translation_status": "translated",
+          "title_pt": "A VW abandona o plano de modernização da produção, citando dificuldades financeiras severas"
         },
         {
           "title": "Integration of immigrants in Germany: Much has been accomplished but problems remain",
@@ -10279,46 +10320,77 @@
           "title_original": "Germany news: Only 1/3 of Germans satisfied with state of democracy",
           "source_language": "en",
           "translation_status": "limited"
-        },
-        {
-          "title": "Iran classes Argentina navy, air force as 'terrorist organizations'",
-          "link": "https://www.dw.com/en/iran-classes-argentina-navy-air-force-as-terrorist-organizations/a-79916290?maca=en-rss-en-all-1573-xml-mrss",
-          "pubDate": "Wed, 11 Nov 2026 11:24:00 GMT",
-          "title_original": "Iran classes Argentina navy, air force as 'terrorist organizations'",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Spain: Housing crisis prompts general strike, mass nighttime protests",
-          "link": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike-mass-nighttime-protests/a-79915208?maca=en-rss-en-all-1573-xml-mrss",
-          "pubDate": "Wed, 11 Nov 2026 09:11:00 GMT",
-          "title_original": "Spain: Housing crisis prompts general strike, mass nighttime protests",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "DW Science explainer on the default mode network: what your brain does when you aren't focusing on anything, and why it's important.",
-          "link": "https://www.dw.com/en/dw-science-explainer-on-the-default-mode-network-what-your-brain-does-when-you-aren-t-focusing-on-anything-and-why-it-s-important/a-79908787?maca=en-rss-en-all-1573-xml-mrss",
-          "pubDate": "Wed, 11 Nov 2026 06:57:00 GMT",
-          "title_original": "DW Science explainer on the default mode network: what your brain does when you aren't focusing on anything, and why it's important.",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "India: CPCB addresses stark Delhi pollution data gap on Diwali night",
-          "link": "https://www.dw.com/en/india-cpcb-addresses-stark-delhi-pollution-data-gap-on-diwali-night/live-79914190?maca=en-rss-en-all-1573-xml-mrss",
-          "pubDate": "Wed, 11 Nov 2026 06:46:00 GMT",
-          "title_original": "India: CPCB addresses stark Delhi pollution data gap on Diwali night",
-          "source_language": "en",
-          "translation_status": "limited"
         }
       ],
       "source": "https://rss.dw.com/xml/rss-en-all",
-      "fetched_at": "2026-11-11T22:00:02.825086+00:00",
+      "fetched_at": "2026-11-12T02:48:11.187829+00:00",
       "stale": false
     },
     "France 24": {
       "items": [
+        {
+          "title": "Live: US envoys to meet Putin and Zelensky after Abu Dhabi talks",
+          "link": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks",
+          "pubDate": "Thu, 12 Nov 2026 02:31:55 GMT",
+          "title_original": "Live: US envoys to meet Putin and Zelensky after Abu Dhabi talks",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Ao vivo: Enviados dos EUA se reunirão com Putin e Zelensky após conversas em Abu Dhabi"
+        },
+        {
+          "title": "Democrat Scott Colom wins historic Senate race in Mississippi",
+          "link": "https://www.france24.com/en/americas/20261111-democrat-scott-colom-wins-historic-senate-race-in-mississippi",
+          "pubDate": "Wed, 11 Nov 2026 23:47:50 GMT",
+          "title_original": "Democrat Scott Colom wins historic Senate race in Mississippi",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "O democrata Scott Colom vence a histórica disputa pelo Senado no Mississippi"
+        },
+        {
+          "title": "Democrat Scott Colom wins historic Senate race in Mississippi",
+          "link": "https://www.france24.com/en/americas/20261111-democrat-scott-colom-wins-historic-senate-race-in-mississippi",
+          "pubDate": "Wed, 11 Nov 2026 23:47:17 GMT",
+          "title_original": "Democrat Scott Colom wins historic Senate race in Mississippi",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "O democrata Scott Colom vence a histórica disputa pelo Senado no Mississippi"
+        },
+        {
+          "title": "Pope Leo XIV returns to second homeland Peru to a nationwide welcome",
+          "link": "https://www.france24.com/en/americas/20261111-pope-leo-xiv-returns-to-second-homeland-peru-to-a-nationwide-welcome",
+          "pubDate": "Wed, 11 Nov 2026 23:43:24 GMT",
+          "title_original": "Pope Leo XIV returns to second homeland Peru to a nationwide welcome",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "O Papa Leão XIV retorna à sua segunda pátria, o Peru, para uma recepção nacional"
+        },
+        {
+          "title": "European leaders gather in Dublin under the shadow of hybrid threats",
+          "link": "https://www.france24.com/en/european-leaders-gather-in-dublin-under-the-shadow-of-hybrid-threats",
+          "pubDate": "Wed, 11 Nov 2026 22:46:57 GMT",
+          "title_original": "European leaders gather in Dublin under the shadow of hybrid threats",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Líderes europeus se reúnem em Dublin sob a sombra de ameaças híbridas"
+        },
+        {
+          "title": "Gadi Eisenkot unveils agenda to reverse Netanyahu’s policies",
+          "link": "https://www.france24.com/en/tv-shows/a-propos/20261111-gadi-eisenkot-unveils-agenda-to-reverse-netanyahu-s-policies",
+          "pubDate": "Wed, 11 Nov 2026 22:13:05 GMT",
+          "title_original": "Gadi Eisenkot unveils agenda to reverse Netanyahu’s policies",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Gadi Eisenkot revela agenda para reverter as políticas de Netanyahu"
+        },
+        {
+          "title": "Gadi Eisenkot unveils agenda to reverse Netanyahu’s policies",
+          "link": "https://www.france24.com/en/gadi-eisenkot-unveils-agenda-to-reverse-netanyahu-s-policies",
+          "pubDate": "Wed, 11 Nov 2026 22:11:46 GMT",
+          "title_original": "Gadi Eisenkot unveils agenda to reverse Netanyahu’s policies",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Gadi Eisenkot revela agenda para reverter as políticas de Netanyahu"
+        },
         {
           "title": "Russia and Ukraine agree to major prisoner swap as peace talks end",
           "link": "https://www.france24.com/en/europe/20261111-russia-and-ukraine-agree-to-major-prisoner-swap-as-peace-talks-end",
@@ -10382,66 +10454,10 @@
           "title_original": "Undone by a honey trap? Nvidia's Jensen Huang at heart of China spy scandal",
           "source_language": "en",
           "translation_status": "limited"
-        },
-        {
-          "title": "Tens of thousands attend Polish nationalist march days after shootings",
-          "link": "https://www.france24.com/en/tens-of-thousands-attend-polish-nationalist-march-days-afer-shootings-1",
-          "pubDate": "Wed, 11 Nov 2026 19:31:16 GMT",
-          "title_original": "Tens of thousands attend Polish nationalist march days after shootings",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Schools evacuated across Italy after bomb threats",
-          "link": "https://www.france24.com/en/schools-evacuated-across-italy-after-bomb-threats",
-          "pubDate": "Wed, 11 Nov 2026 19:29:19 GMT",
-          "title_original": "Schools evacuated across Italy after bomb threats",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Nvidia's Jensen Huang at heart of China spy scandal",
-          "link": "https://www.france24.com/en/tv-shows/the-debate/20261111-nvidia-s-jensen-huang-at-heart-of-china-spy-scandal",
-          "pubDate": "Wed, 11 Nov 2026 19:23:56 GMT",
-          "title_original": "Nvidia's Jensen Huang at heart of China spy scandal",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "The most hacked country in Europe? Why is France the target of so many cyberattacks",
-          "link": "https://www.france24.com/en/france/20261111-the-most-hacked-country-in-europe-why-is-france-the-target-of-so-many-cyberattacks",
-          "pubDate": "Wed, 11 Nov 2026 17:09:03 GMT",
-          "title_original": "The most hacked country in Europe? Why is France the target of so many cyberattacks",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Tens of thousands attend Polish nationalist march days afer shootings",
-          "link": "https://www.france24.com/en/tens-of-thousands-attend-polish-nationalist-march-days-afer-shootings",
-          "pubDate": "Wed, 11 Nov 2026 17:08:32 GMT",
-          "title_original": "Tens of thousands attend Polish nationalist march days afer shootings",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Tehran will strike US bases in Europe if used to attack Iran, security chief says",
-          "link": "https://www.france24.com/en/france/20261111-tehran-will-strike-us-bases-in-europe-if-used-to-attack-iran-security-chief-says",
-          "pubDate": "Wed, 11 Nov 2026 16:45:46 GMT",
-          "title_original": "Tehran will strike US bases in Europe if used to attack Iran, security chief says",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Haiti: 'We need to know the truth, but so far, it’s totally dark'",
-          "link": "https://www.france24.com/en/bukele-says-salvadoran-troops-destroyed-gang-hq-in-haiti",
-          "pubDate": "Wed, 11 Nov 2026 16:38:52 GMT",
-          "title_original": "Haiti: 'We need to know the truth, but so far, it’s totally dark'",
-          "source_language": "en",
-          "translation_status": "limited"
         }
       ],
       "source": "https://www.france24.com/en/rss",
-      "fetched_at": "2026-11-11T22:00:02.825086+00:00",
+      "fetched_at": "2026-11-12T02:48:11.187829+00:00",
       "stale": false
     },
     "The Guardian": {
@@ -10492,6 +10508,15 @@
           "title_pt": "ANC enfrenta derrota contundente nas eleições locais da África do Sul com 80% dos votos contados"
         },
         {
+          "title": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
+          "link": "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil",
+          "pubDate": "Wed, 11 Nov 2026 22:50:37 GMT",
+          "title_original": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Dois crânios que provavelmente pertenciam a pessoas escravizadas foram devolvidos ao Brasil depois que Harvard os usou em estudos de eugenia"
+        },
+        {
           "title": "Ex-member of radical Marxist group scales balcony, escapes house arrest in Argentina",
           "link": "https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina",
           "pubDate": "Wed, 11 Nov 2026 19:00:33 GMT",
@@ -10523,14 +10548,6 @@
           "source_language": "en",
           "translation_status": "translated",
           "title_pt": "Ilhas Falkland enfrentam ‘consequências devastadoras’ se Argentina bloquear projeto de petróleo, diz Reino Unido"
-        },
-        {
-          "title": "Democrats demand answers on 8-year-old Haitian boy detained by ICE",
-          "link": "https://www.theguardian.com/us-news/2026/nov/10/haitian-boy-ice-california",
-          "pubDate": "Tue, 10 Nov 2026 15:51:42 GMT",
-          "title_original": "Democrats demand answers on 8-year-old Haitian boy detained by ICE",
-          "source_language": "en",
-          "translation_status": "limited"
         },
         {
           "title": "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment",
@@ -10574,18 +10591,37 @@
         }
       ],
       "source": "https://www.theguardian.com/world/rss",
-      "fetched_at": "2026-11-11T22:00:02.825086+00:00",
+      "fetched_at": "2026-11-12T02:48:11.187829+00:00",
       "stale": false
     },
     "Euronews": {
       "items": [
+        {
+          "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
+          "link": "https://www.euronews.com/video/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march",
+          "pubDate": "Wed, 11 Nov 2026 23:54:27 +0100",
+          "title_original": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Espanha: Conflitos irrompem em Barcelona após marcha pacífica de greve geral"
+        },
+        {
+          "title": "Spain: 120,000 brave rain to demand affordable housing and better wages",
+          "link": "https://www.euronews.com/video/2026/11/11/spain-120000-brave-rain-to-demand-affordable-housing-and-better-wages",
+          "pubDate": "Wed, 11 Nov 2026 23:36:54 +0100",
+          "title_original": "Spain: 120,000 brave rain to demand affordable housing and better wages",
+          "source_language": "en",
+          "translation_status": "translated",
+          "title_pt": "Espanha: 120 mil pessoas enfrentam a chuva para exigir moradias a preços acessíveis e salários melhores"
+        },
         {
           "title": "France's 11 November ceremonies: Macron, Le Pen, Mélenchon between memory and pacifism",
           "link": "https://www.euronews.com/2026/11/11/frances-11-november-ceremonies-macron-le-pen-melenchon-between-memory-and-pacifism",
           "pubDate": "Wed, 11 Nov 2026 22:08:40 +0100",
           "title_original": "France's 11 November ceremonies: Macron, Le Pen, Mélenchon between memory and pacifism",
           "source_language": "en",
-          "translation_status": "limited"
+          "translation_status": "translated",
+          "title_pt": "Cerimônias de 11 de novembro na França: Macron, Le Pen e Mélenchon entre a memória e o pacifismo"
         },
         {
           "title": "German ministries spend €5.8 million on office décor, drawing taxpayers' criticism",
@@ -10593,7 +10629,8 @@
           "pubDate": "Wed, 11 Nov 2026 21:58:40 +0100",
           "title_original": "German ministries spend €5.8 million on office décor, drawing taxpayers' criticism",
           "source_language": "en",
-          "translation_status": "limited"
+          "translation_status": "translated",
+          "title_pt": "Ministérios alemães gastam € 5,8 milhões em decoração de escritórios, atraindo críticas dos contribuintes"
         },
         {
           "title": "Zaporizhzhia mayor: city lives in constant fear as Russian attacks continue",
@@ -10601,7 +10638,8 @@
           "pubDate": "Wed, 11 Nov 2026 21:43:21 +0100",
           "title_original": "Zaporizhzhia mayor: city lives in constant fear as Russian attacks continue",
           "source_language": "en",
-          "translation_status": "limited"
+          "translation_status": "translated",
+          "title_pt": "Prefeito de Zaporíjia: a cidade vive em constante medo enquanto os ataques russos continuam"
         },
         {
           "title": "Is the EU setting the right priorities? MEPs slug it out on The Ring",
@@ -10609,7 +10647,8 @@
           "pubDate": "Wed, 11 Nov 2026 21:32:41 +0100",
           "title_original": "Is the EU setting the right priorities? MEPs slug it out on The Ring",
           "source_language": "en",
-          "translation_status": "limited"
+          "translation_status": "translated",
+          "title_pt": "A UE está definindo as prioridades certas? Os eurodeputados se enfrentam no ringue"
         },
         {
           "title": "German tech company signs €60 million contract with Elon Musk for satellite solar cell supply",
@@ -10682,33 +10721,17 @@
           "title_original": "Russia bars four French figures over expulsion of Xenia Fedorova",
           "source_language": "en",
           "translation_status": "limited"
-        },
-        {
-          "title": "A Portuguese group will manufacture components for Swedish Saab fighter jets",
-          "link": "https://www.euronews.com/2026/11/11/a-portuguese-group-will-manufacture-components-for-swedish-saab-fighter-jets",
-          "pubDate": "Wed, 11 Nov 2026 15:44:23 +0100",
-          "title_original": "A Portuguese group will manufacture components for Swedish Saab fighter jets",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "How ancient nomadic survival skills became global sporting events",
-          "link": "https://www.euronews.com/2026/11/11/how-ancient-nomadic-survival-skills-became-global-sporting-events",
-          "pubDate": "Wed, 11 Nov 2026 15:00:48 +0100",
-          "title_original": "How ancient nomadic survival skills became global sporting events",
-          "source_language": "en",
-          "translation_status": "limited"
         }
       ],
       "source": "https://www.euronews.com/rss",
-      "fetched_at": "2026-11-11T22:00:02.825086+00:00",
+      "fetched_at": "2026-11-12T02:48:11.187829+00:00",
       "stale": false
     }
   },
   "status": {
     "regions": "ok",
     "kp": "ok",
-    "flares": "ok",
+    "flares": "failed: ValueError",
     "flare_history": "ok",
     "alerts": "ok",
     "nasa_aia": "ok",
@@ -10724,6 +10747,156 @@
     "provider": "MyMemory",
     "target_language": "pt-BR",
     "cache": {
+      "584ec92dd758573c93a5f1589d7a7461fa4840f92cda06e47457c3d32ca1aebc": {
+        "original": "Clashes erupt in Barcelona after thousands join Spain general strike",
+        "text": "Confrontos eclodem em Barcelona depois que milhares de pessoas aderiram à greve geral na Espanha",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "6c23e5607b8c42a49bb6d55e04dd331bd43a533e6316fd919292776320efa93f": {
+        "original": "Indonesian VP resigns over education qualification row",
+        "text": "Vice-presidente da Indonésia renuncia devido a controvérsia sobre qualificação educacional",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "c26d71b6684d645ddb3ae7e1068a4ea1ca3b4b25c4d90457f50ec523fe79d85f": {
+        "original": "Nvidia board reportedly weighs ousting Huang amid alleged affairs with exec and suspected Chinese spy",
+        "text": "O conselho da Nvidia estaria considerando destituir Huang em meio a supostos casos com uma executiva e suspeitas de espionagem chinesa",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "b6eb3674ae3324b41b409403bdd173c6541244706e5710c6db60a3e785c3bea7": {
+        "original": "Live: US envoys to meet Putin and Zelensky after Abu Dhabi talks",
+        "text": "Ao vivo: Enviados dos EUA se reunirão com Putin e Zelensky após conversas em Abu Dhabi",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "2ab546d48ec7fba85fa2b0c1a1661af89247c3b3954b7b8033118b3c6cbca0c3": {
+        "original": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
+        "text": "Espanha: Conflitos irrompem em Barcelona após marcha pacífica de greve geral",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "b26af77be19a75ac6b390e32c44f6f639179f667a52e7791ebc82d3d10db2068": {
+        "original": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+        "text": "O democrata Scott Colom conquista uma vitória histórica na disputa pelo Senado do Mississippi",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "3fc58e2581168fc6e66c91eac6a69f3dbacae6da6934c683289bbd52861a58f2": {
+        "original": "Argentina’s Milei cries as he bids farewell to the Pope",
+        "text": "Milei, da Argentina, chora ao se despedir do Papa",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "580e8fed5240ec7d443dae2a4c69530f71adb7bca137fcd7dd27ef64865c47a5": {
+        "original": "Mississippi Senate race: Democrat Scott Colom defeats Republican Cindy Hyde-Smith",
+        "text": "Disputa pelo Senado de Mississippi: o democrata Scott Colom derrota a republicana Cindy Hyde-Smith",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "99064f48ec143cb8e8fa272cd130f6b25760172c924f4f1e88ce7f1c216a92e6": {
+        "original": "Democrat Scott Colom wins historic Senate race in Mississippi",
+        "text": "O democrata Scott Colom vence a histórica disputa pelo Senado no Mississippi",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "6524bfdc1c240df9d0bdd9fce43cd8898764da1b579bc31f0b6fe50c9734512e": {
+        "original": "Spain: 120,000 brave rain to demand affordable housing and better wages",
+        "text": "Espanha: 120 mil pessoas enfrentam a chuva para exigir moradias a preços acessíveis e salários melhores",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "c9b58dd2859d497ef8a1065684ea7d9f0db34bcd99cb2305ac86d75b2b48a993": {
+        "original": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+        "text": "As negociações entre a Rússia e a Ucrânia passam a tratar da segurança pós-guerra, mas terminam sem avanços",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "03371e8c6b37dd01c1be8028e98ecae939ececb84320474ad6423a12e84e07bf": {
+        "original": "Three-storey building collapses in Brooklyn",
+        "text": "Prédio de três andares desaba no Brooklyn",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "608bd0c2a611cb177e0d13d55052fc039223a9fe07b78472d04a23d86085b2d6": {
+        "original": "Russian Foreign Ministry says its ambassador to US has died",
+        "text": "Ministério das Relações Exteriores da Rússia informa que seu embaixador nos EUA faleceu",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "6fc7a39eabef28df74d37560d24ac3474f22584ea03113d81e76244ae85f2794": {
+        "original": "France's 11 November ceremonies: Macron, Le Pen, Mélenchon between memory and pacifism",
+        "text": "Cerimônias de 11 de novembro na França: Macron, Le Pen e Mélenchon entre a memória e o pacifismo",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "95013794c6f09abd93b1154b0e09a0c098b4e8f0dd1edf30c722701091c83ef7": {
+        "original": "New York building collapse kills one person and injures 12",
+        "text": "Desabamento de prédio em Nova York mata uma pessoa e deixa 12 feridas",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "faa9d145810179209043e6f38486a16d568688b64d6cd4988abebd3c875cfce7": {
+        "original": "What could Chinese intelligence have learned from Nvidia CEO’s affair?",
+        "text": "O que a inteligência chinesa poderia ter descoberto com o caso do CEO da Nvidia?",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "741b18a3dcb5a8a50679f43fae4d01c038509dc57d250ad3d7d91f5c87f7c860": {
+        "original": "Spain: Housing crisis prompts general strike, mass nighttime protests",
+        "text": "Espanha: crise imobiliária leva a greve geral e protestos noturnos em massa",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "eb28bc4091198c91b6b146813b499eeef8bd955cdf89f4565e2cae65857078f3": {
+        "original": "Pope Leo XIV returns to second homeland Peru to a nationwide welcome",
+        "text": "O Papa Leão XIV retorna à sua segunda pátria, o Peru, para uma recepção nacional",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "4c538c4524f7d29bca315c62f6fa2febb7865cf1b1fea1e3331bf5da90f4f043": {
+        "original": "German ministries spend €5.8 million on office décor, drawing taxpayers' criticism",
+        "text": "Ministérios alemães gastam € 5,8 milhões em decoração de escritórios, atraindo críticas dos contribuintes",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "2ffd85c3068af6dcd492839b7b03e25e6800436b969369b181a8017145f834d5": {
+        "original": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
+        "text": "O vice-presidente da Indonésia renuncia em meio a sinais de que a aliança governista está se desfazendo",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "c0b37edcc3ddf724602d76d9c9cd98d8b619e3df61f92b8c19b8ae2e26b7b67e": {
+        "original": "Israel strikes intensive care at Gaza’s Nasser Hospital",
+        "text": "Israel ataca a unidade de terapia intensiva do Hospital Nasser, em Gaza",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "b9442a3282f83a4e5492a2c792950ba3337db2ebd208d1c2f809f81dd8877bbb": {
+        "original": "Fears of rising antisemitism in Europe",
+        "text": "Temores de aumento do antissemitismo na Europa",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "e5303957dbca0772d31c47b5018bde31639c4d6bc4945089f332a4fa103ff65a": {
+        "original": "European leaders gather in Dublin under the shadow of hybrid threats",
+        "text": "Líderes europeus se reúnem em Dublin sob a sombra de ameaças híbridas",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "313a793ed7dd70e5321b1ed4853062948c3c5c48b26cd0fd1b471093d680193f": {
+        "original": "Zaporizhzhia mayor: city lives in constant fear as Russian attacks continue",
+        "text": "Prefeito de Zaporíjia: a cidade vive em constante medo enquanto os ataques russos continuam",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "2d86160bf3fa3650dbbbb1b6f412b7401d14dcbdb3d0d4d131f645476413dec8": {
+        "original": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
+        "text": "Sequestrador de 74 anos foge de prisão domiciliar na Argentina rapelando da varanda",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "5dd633c1b9f3f6cb90dda9bf270917145afff0494750555a4b4f6d45552ede97": {
+        "original": "Former Italian Red Brigades member escapes house arrest in Argentina",
+        "text": "Ex-membro das Brigadas Vermelhas italianas foge de prisão domiciliar na Argentina",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "7bfb8a2eb949911d6e5bc9e7bd3e81f041bd20367e6263fe3710c80b7d6be1c4": {
+        "original": "VW scraps production modernization plan citing tough financial straits",
+        "text": "A VW abandona o plano de modernização da produção, citando dificuldades financeiras severas",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "a94e7cba0484c67962c8ff474a28ace24b14322265dbe4891b36b59d49e80219": {
+        "original": "Gadi Eisenkot unveils agenda to reverse Netanyahu’s policies",
+        "text": "Gadi Eisenkot revela agenda para reverter as políticas de Netanyahu",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "35a2b187b5c2de2f3bbafb52fb1e35e08fbc139770dd3ef6e189425aca3f2a18": {
+        "original": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
+        "text": "Dois crânios que provavelmente pertenciam a pessoas escravizadas foram devolvidos ao Brasil depois que Harvard os usou em estudos de eugenia",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
+      "ce9d9c7621bffd454a825382790fa0beabf5effd74779162a9e3d5b1c910fbb2": {
+        "original": "Is the EU setting the right priorities? MEPs slug it out on The Ring",
+        "text": "A UE está definindo as prioridades certas? Os eurodeputados se enfrentam no ringue",
+        "at": "2026-11-12T02:48:11.187829+00:00"
+      },
       "49f8ef5da95c6ef5514984a2f5c283d788b99479bd84e4cb4ff2a998eef4c7ef": {
         "original": "Headquarters of Haitian gang destroyed, El Salvador's president says",
         "text": "Sede de gangue haitiana destruída, diz presidente de El Salvador",
@@ -11042,246 +11215,6 @@
     },
     "usage": [
       {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 83
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 74
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 61
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 62
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 70
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 73
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 92
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 69
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 70
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 57
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 69
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 63
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 57
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 71
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 70
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 51
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 69
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 58
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 85
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 50
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 73
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 75
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 60
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 63
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 72
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 56
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 65
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 75
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 97
-      },
-      {
-        "at": "2026-11-11T01:32:12.164146+00:00",
-        "chars": 59
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 64
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 68
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 82
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 68
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 65
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 58
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 96
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 59
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 53
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 65
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 75
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 113
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 78
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 88
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 72
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 44
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 87
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 93
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 75
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 82
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 58
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 74
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 86
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 54
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 57
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 67
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 91
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 81
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 58
-      },
-      {
-        "at": "2026-11-11T02:46:32.388907+00:00",
-        "chars": 94
-      },
-      {
         "at": "2026-11-11T02:53:48.533915+00:00",
         "chars": 68
       },
@@ -11292,9 +11225,129 @@
       {
         "at": "2026-11-11T02:53:48.533915+00:00",
         "chars": 109
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 68
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 54
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 101
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 64
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 69
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 66
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 55
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 81
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 61
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 71
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 75
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 43
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 59
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 86
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 58
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 70
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 69
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 68
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 82
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 72
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 55
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 38
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 68
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 75
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 79
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 68
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 70
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 60
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 109
+      },
+      {
+        "at": "2026-11-12T02:48:11.187829+00:00",
+        "chars": 68
       }
     ],
     "blocked_until": null
   },
-  "health": "ok"
+  "health": "degraded"
 }
