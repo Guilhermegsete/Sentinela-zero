@@ -1,117 +1,55 @@
 {
   "schema_version": "0.4.1",
-  "generated_at": "2026-11-23T23:47:25.583772+00:00",
+  "generated_at": "2026-11-24T07:07:40.176333+00:00",
   "solar": {
     "regions": {
       "data": [
         {
-          "observed_date": "2026-11-23",
-          "region": 4574,
-          "latitude": 16,
-          "longitude": -99,
-          "location": "N16W99",
-          "carrington_longitude": 41,
-          "old_carrington_longitude": 40,
-          "area": null,
-          "spot_class": null,
-          "extent": null,
-          "number_spots": null,
-          "mag_class": null,
-          "mag_string": null,
-          "status": "d",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": 0,
-          "c_flare_probability": 0,
-          "m_flare_probability": 0,
-          "x_flare_probability": 0,
-          "proton_probability": 0,
-          "first_date": "2026-11-11T11:01:32"
-        },
-        {
-          "observed_date": "2026-11-23",
-          "region": 4581,
-          "latitude": -7,
-          "longitude": -21,
-          "location": "S07W21",
-          "carrington_longitude": 323,
-          "old_carrington_longitude": 316,
-          "area": 20,
-          "spot_class": "Hsx",
-          "extent": 1,
-          "number_spots": 2,
-          "mag_class": "A",
-          "mag_string": null,
-          "status": "f",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 15,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-17T15:47:56"
-        },
-        {
-          "observed_date": "2026-11-23",
-          "region": 4575,
-          "latitude": -11,
-          "longitude": -98,
-          "location": "S11W98",
-          "carrington_longitude": 40,
-          "old_carrington_longitude": 39,
-          "area": null,
-          "spot_class": null,
-          "extent": null,
-          "number_spots": null,
-          "mag_class": null,
-          "mag_string": null,
-          "status": "d",
-          "c_xray_events": 0,
-          "m_xray_events": 0,
-          "x_xray_events": 0,
-          "proton_events": null,
-          "s_flares": 0,
-          "impulse_flares_1": 0,
-          "impulse_flares_2": 0,
-          "impulse_flares_3": 0,
-          "impulse_flares_4": 0,
-          "protons": null,
-          "c_flare_probability": 0,
-          "m_flare_probability": 0,
-          "x_flare_probability": 0,
-          "proton_probability": 0,
-          "first_date": "2026-11-11T11:02:26"
-        },
-        {
-          "observed_date": "2026-11-23",
+          "observed_date": "2026-11-24",
           "region": 4579,
-          "latitude": 16,
-          "longitude": -49,
-          "location": "N16W49",
-          "carrington_longitude": 351,
+          "latitude": 12,
+          "longitude": -62,
+          "location": "N12W62",
+          "carrington_longitude": 350,
           "old_carrington_longitude": 351,
           "area": 130,
-          "spot_class": "Hsx",
+          "spot_class": null,
           "extent": 2,
           "number_spots": 1,
-          "mag_class": "A",
+          "mag_class": null,
           "mag_string": null,
-          "status": "f",
+          "status": null,
+          "c_xray_events": 0,
+          "m_xray_events": 0,
+          "x_xray_events": 0,
+          "proton_events": null,
+          "s_flares": 0,
+          "impulse_flares_1": 0,
+          "impulse_flares_2": 0,
+          "impulse_flares_3": 0,
+          "impulse_flares_4": 0,
+          "protons": null,
+          "c_flare_probability": 0,
+          "m_flare_probability": 0,
+          "x_flare_probability": 0,
+          "proton_probability": 0,
+          "first_date": "2026-11-14T08:22:02"
+        },
+        {
+          "observed_date": "2026-11-24",
+          "region": 4581,
+          "latitude": -10,
+          "longitude": -35,
+          "location": "S10W35",
+          "carrington_longitude": 323,
+          "old_carrington_longitude": 323,
+          "area": 10,
+          "spot_class": null,
+          "extent": 1,
+          "number_spots": 1,
+          "mag_class": null,
+          "mag_string": null,
+          "status": null,
           "c_xray_events": 0,
           "m_xray_events": 0,
           "x_xray_events": 0,
@@ -122,1532 +60,20 @@
           "impulse_flares_3": 0,
           "impulse_flares_4": 0,
           "protons": 0,
-          "c_flare_probability": 10,
-          "m_flare_probability": 1,
-          "x_flare_probability": 1,
-          "proton_probability": 1,
-          "first_date": "2026-11-14T08:22:02"
+          "c_flare_probability": 0,
+          "m_flare_probability": 0,
+          "x_flare_probability": 0,
+          "proton_probability": 0,
+          "first_date": "2026-11-17T15:47:56"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/solar_regions.json",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
-      "observed_at": "2026-11-23T00:00:00+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
+      "observed_at": "2026-11-24T00:00:00+00:00",
       "stale": false
     },
     "kp": {
       "data": [
-        {
-          "time_tag": "2026-11-22T23:48:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-22T23:49:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 1.33,
-          "kp": "1P"
-        },
-        {
-          "time_tag": "2026-11-22T23:50:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-22T23:51:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-22T23:52:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-22T23:53:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-22T23:54:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-22T23:55:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-22T23:56:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-22T23:57:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-22T23:58:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-22T23:59:00+00:00",
-          "kp_index": 2.0,
-          "estimated_kp": 1.67,
-          "kp": "2M"
-        },
-        {
-          "time_tag": "2026-11-23T00:00:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:01:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:02:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:03:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:04:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:05:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:06:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:07:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:08:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:09:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:10:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:11:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:12:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:13:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:14:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:15:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:16:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:17:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:18:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:19:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:20:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:21:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:22:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:23:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:24:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:25:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:26:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:27:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:28:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:29:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:30:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:31:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:32:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:33:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:34:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:35:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:36:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:37:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:38:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:39:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:40:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:41:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:42:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:43:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:44:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:45:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:46:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:47:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:48:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:49:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:50:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:51:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:52:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:53:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:54:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:55:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:56:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:57:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:58:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T00:59:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:00:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:01:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:02:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:03:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:04:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:05:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:06:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:07:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:08:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:09:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:10:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:11:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T01:12:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:13:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:14:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:15:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:16:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:17:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:18:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:19:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:20:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:21:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:22:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:23:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:24:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:25:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:26:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:27:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:28:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:29:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:30:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:31:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:32:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:33:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:34:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:35:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:36:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:37:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:38:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:39:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:40:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:41:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:42:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:43:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:44:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:45:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:46:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:47:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:48:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:49:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:50:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:51:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:52:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:53:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:54:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:55:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:56:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:57:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:58:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T01:59:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:00:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:01:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:02:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:03:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:04:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:05:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:06:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:07:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:08:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:09:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:10:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:11:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:12:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:13:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:14:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:15:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:16:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:17:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:18:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:19:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:20:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:21:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:22:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:23:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:24:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:25:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:26:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:27:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:28:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:29:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:30:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:31:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:32:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:33:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:34:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:35:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:36:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:37:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:38:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:39:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:40:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:41:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:42:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:43:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:44:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:45:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:46:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:47:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:48:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:49:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:50:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:51:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:52:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:53:00+00:00",
-          "kp_index": 1.0,
-          "estimated_kp": 0.67,
-          "kp": "1M"
-        },
-        {
-          "time_tag": "2026-11-23T02:54:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:55:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.33,
-          "kp": "0P"
-        },
-        {
-          "time_tag": "2026-11-23T02:56:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T02:57:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:06:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:07:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:08:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:09:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:10:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:11:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:12:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:13:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:14:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:15:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:16:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:17:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:18:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:19:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:20:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:21:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:22:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:23:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:24:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:25:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:26:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:27:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:28:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:29:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:30:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:31:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:32:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:33:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:34:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:35:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:36:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:37:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:38:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:39:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:40:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:41:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:42:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:43:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:44:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:45:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:46:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:47:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:48:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:49:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:50:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:51:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:52:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:53:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:54:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:55:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:56:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:57:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:58:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T06:59:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T07:00:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T07:01:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T07:02:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T07:03:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T07:04:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T07:05:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T07:06:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
-        {
-          "time_tag": "2026-11-23T07:07:00+00:00",
-          "kp_index": 0.0,
-          "estimated_kp": 0.0,
-          "kp": "0Z"
-        },
         {
           "time_tag": "2026-11-23T07:08:00+00:00",
           "kp_index": 0.0,
@@ -5559,99 +3985,2191 @@
           "kp_index": 2.0,
           "estimated_kp": 1.67,
           "kp": "2M"
+        },
+        {
+          "time_tag": "2026-11-24T01:05:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:06:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:07:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:08:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:09:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:10:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:11:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:12:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:13:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:14:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:15:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:16:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:17:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:18:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:19:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:20:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:21:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:22:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:23:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:24:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:25:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:26:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 0.67,
+          "kp": "1M"
+        },
+        {
+          "time_tag": "2026-11-24T01:27:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T01:28:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T01:29:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T01:30:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T01:31:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T01:32:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T01:33:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T01:34:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T01:35:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T01:36:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T01:37:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T01:38:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T01:39:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:40:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:41:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:42:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:43:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:44:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:45:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:46:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:47:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:48:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:49:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:50:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:51:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:52:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:53:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:54:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:55:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:56:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:57:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:58:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T01:59:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T02:00:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T02:01:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T02:02:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T02:03:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.33,
+          "kp": "1P"
+        },
+        {
+          "time_tag": "2026-11-24T02:04:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:05:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:06:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:07:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:08:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:09:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:10:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:11:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:12:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:13:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:14:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:15:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:16:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:17:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:18:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:19:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:20:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:21:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:22:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:23:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:24:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:25:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:26:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:27:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:28:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:29:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:30:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:31:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:32:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:33:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:34:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:35:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:36:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:37:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:38:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:39:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:40:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:41:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:42:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:43:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:44:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:45:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:46:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:47:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:48:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:49:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:50:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:51:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:52:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:53:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:54:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:55:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:56:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:57:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:58:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T02:59:00+00:00",
+          "kp_index": 1.0,
+          "estimated_kp": 1.0,
+          "kp": "1Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:00:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:01:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:02:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:03:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:04:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:05:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:06:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:07:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:08:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:09:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:10:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:11:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:12:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:13:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:14:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:15:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:16:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:17:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:18:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:19:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:20:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:21:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:22:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:23:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:24:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:25:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:26:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:27:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:28:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:29:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:30:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:31:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:32:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:33:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:34:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:35:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:36:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:37:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:38:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:39:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:40:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:41:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:42:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:43:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:44:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:45:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:46:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:47:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:48:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:49:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:50:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T03:51:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T03:52:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T03:53:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T03:54:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T03:55:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T03:56:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T03:57:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T03:58:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T03:59:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:00:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:01:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:02:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:03:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:04:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:05:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:06:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:07:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:08:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:09:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:10:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:11:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:12:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:13:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:14:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:15:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:16:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:17:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:18:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:19:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:20:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:21:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:22:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:23:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:24:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:25:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:26:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:27:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:28:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:29:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:30:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:31:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:32:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:33:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:34:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:35:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:36:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:37:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:38:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:39:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:40:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:41:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:42:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:43:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:44:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:45:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:46:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:47:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:48:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:49:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:50:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:51:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:52:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:53:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:54:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:55:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:56:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:57:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:58:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T04:59:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:00:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:01:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:02:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:03:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:04:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:05:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:06:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:07:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:08:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:09:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:10:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:11:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:12:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:13:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:14:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:15:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:16:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:17:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:18:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:19:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:20:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:21:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:22:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:23:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:24:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:25:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:26:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:27:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:28:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:29:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:30:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:31:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:32:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:33:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:34:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:35:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:36:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:37:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:38:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:39:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:40:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:41:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:42:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:43:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:44:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:45:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:46:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:47:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:48:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:49:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:50:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:51:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:52:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:53:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:54:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:55:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:56:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:57:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:58:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T05:59:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T06:00:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:01:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:02:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:03:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:04:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:05:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:06:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:07:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:08:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:09:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:10:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:11:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:12:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:13:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:14:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:15:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:16:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:17:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:18:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:19:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:20:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:21:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:22:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:23:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:24:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:25:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:26:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:27:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:28:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:29:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:30:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:31:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:32:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:33:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:34:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:35:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:36:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:37:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:38:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:39:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:40:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:41:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:42:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:43:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:44:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:45:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:46:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:47:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:48:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:49:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:50:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:51:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:52:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:53:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:54:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:55:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:56:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:57:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:58:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T06:59:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.0,
+          "kp": "0Z"
+        },
+        {
+          "time_tag": "2026-11-24T07:00:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T07:01:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
+        },
+        {
+          "time_tag": "2026-11-24T07:02:00+00:00",
+          "kp_index": 0.0,
+          "estimated_kp": 0.33,
+          "kp": "0P"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
-      "observed_at": "2026-11-23T23:42:00+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
+      "observed_at": "2026-11-24T07:02:00+00:00",
       "stale": false,
       "coverage_hours": 23.9,
       "gap_count": 2,
-      "window_start": "2026-11-22T23:47:25.583772+00:00",
-      "window_end": "2026-11-23T23:47:25.583772+00:00"
+      "window_start": "2026-11-23T07:07:40.176333+00:00",
+      "window_end": "2026-11-24T07:07:40.176333+00:00"
     },
     "flares": {
       "data": [
         {
-          "time_tag": "2026-11-23T23:44:00+00:00",
+          "time_tag": "2026-11-24T07:03:00+00:00",
           "satellite": 18,
-          "current_class": "B2.2",
-          "current_ratio": 0.004410395217678549,
-          "current_int_xrlong": 0.0002422067045699805,
-          "begin_time": "2026-11-23T23:22:00+00:00",
-          "begin_class": "B2.1",
-          "max_time": "2026-11-23T23:30:00+00:00",
-          "max_class": "B3.6",
-          "max_xrlong": 3.603606160140771e-07,
-          "end_time": "2026-11-23T23:34:00+00:00",
-          "max_ratio_time": "Unk",
-          "max_ratio": null,
-          "end_class": "B2.9"
+          "current_class": "B1.4",
+          "current_ratio": 0.011598353102492921,
+          "current_int_xrlong": 0.00017013087926898152,
+          "begin_time": "2026-11-24T00:34:00+00:00",
+          "begin_class": "B1.7",
+          "max_time": "2026-11-24T00:41:00+00:00",
+          "max_class": "B2.6",
+          "max_xrlong": 2.625031640945963e-07,
+          "end_time": "2026-11-24T00:45:00+00:00",
+          "max_ratio_time": "2026-11-24T00:38:53Z",
+          "max_ratio": 0.7534220119814661,
+          "end_class": "B2.1"
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/goes/primary/xray-flares-latest.json",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
-      "observed_at": "2026-11-23T23:30:00+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
+      "observed_at": "2026-11-24T00:41:00+00:00",
       "stale": false
     },
     "flare_history": {
       "data": [
-        {
-          "time_tag": "2026-11-17T00:25:00+00:00",
-          "begin_time": "2026-11-17T00:25:00+00:00",
-          "begin_class": "B7.3",
-          "max_time": "2026-11-17T00:32:00+00:00",
-          "max_class": "C1.0",
-          "max_xrlong": 1.06783897990681e-06,
-          "max_ratio": null,
-          "max_ratio_time": null,
-          "current_int_xrlong": 0.0006833545630797744,
-          "end_time": "2026-11-17T00:36:00+00:00",
-          "end_class": "B8.7",
-          "satellite": 18
-        },
-        {
-          "time_tag": "2026-11-17T02:05:00+00:00",
-          "begin_time": "2026-11-17T02:05:00+00:00",
-          "begin_class": "B6.6",
-          "max_time": "2026-11-17T02:12:00+00:00",
-          "max_class": "C1.0",
-          "max_xrlong": 1.0143513691218686e-06,
-          "max_ratio": null,
-          "max_ratio_time": null,
-          "current_int_xrlong": 0.0007386523648165166,
-          "end_time": "2026-11-17T02:18:00+00:00",
-          "end_class": "B8.2",
-          "satellite": 18
-        },
-        {
-          "time_tag": "2026-11-17T04:47:00+00:00",
-          "begin_time": "2026-11-17T04:47:00+00:00",
-          "begin_class": "B5.7",
-          "max_time": "2026-11-17T04:54:00+00:00",
-          "max_class": "C2.0",
-          "max_xrlong": 2.0792222130694427e-06,
-          "max_ratio": 0.22082788138464868,
-          "max_ratio_time": "2026-11-17T04:49:41Z",
-          "current_int_xrlong": 0.0008364806417375803,
-          "end_time": "2026-11-17T04:57:00+00:00",
-          "end_class": "C1.3",
-          "satellite": 18
-        },
-        {
-          "time_tag": "2026-11-17T05:33:00+00:00",
-          "begin_time": "2026-11-17T05:33:00+00:00",
-          "begin_class": "B5.0",
-          "max_time": "2026-11-17T05:48:00+00:00",
-          "max_class": "C4.3",
-          "max_xrlong": 4.395433279569261e-06,
-          "max_ratio": 0.15047715709293713,
-          "max_ratio_time": "2026-11-17T05:43:55Z",
-          "current_int_xrlong": 0.0032564098946750164,
-          "end_time": "2026-11-17T05:55:00+00:00",
-          "end_class": "C2.4",
-          "satellite": 18
-        },
         {
           "time_tag": "2026-11-17T10:46:00+00:00",
           "begin_time": "2026-11-17T10:46:00+00:00",
@@ -6491,11 +7009,25 @@
           "end_time": "2026-11-23T23:34:00+00:00",
           "end_class": "B2.9",
           "satellite": 18
+        },
+        {
+          "time_tag": "2026-11-24T00:34:00+00:00",
+          "begin_time": "2026-11-24T00:34:00+00:00",
+          "begin_class": "B1.7",
+          "max_time": "2026-11-24T00:41:00+00:00",
+          "max_class": "B2.6",
+          "max_xrlong": 2.625031640945963e-07,
+          "max_ratio": 0.7534220119814661,
+          "max_ratio_time": "2026-11-24T00:38:53Z",
+          "current_int_xrlong": 0.00017013087926898152,
+          "end_time": "2026-11-24T00:45:00+00:00",
+          "end_class": "B2.1",
+          "satellite": 18
         }
       ],
       "source": "https://services.swpc.noaa.gov/json/goes/primary/xray-flares-7-day.json",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
-      "observed_at": "2026-11-23T23:30:00+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
+      "observed_at": "2026-11-24T00:41:00+00:00",
       "stale": false
     },
     "alerts": {
@@ -6577,7 +7109,7 @@
         }
       ],
       "source": "https://services.swpc.noaa.gov/products/alerts.json",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
       "observed_at": "2026-11-19T01:18:16.670000+00:00",
       "stale": false
     }
@@ -6586,21 +7118,29 @@
     "aia": {
       "source": "https://sdo.gsfc.nasa.gov/assets/img/latest/times0193.txt",
       "image_url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_512_0193.jpg",
-      "observed_at": "2026-11-23T23:37:17+00:00",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
+      "observed_at": "2026-11-24T06:57:29+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
       "stale": false
     },
     "hmi": {
       "source": "https://sdo.gsfc.nasa.gov/assets/img/latest/hmitimes.txt",
       "image_url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_512_HMII.jpg",
-      "observed_at": "2026-11-23T23:15:00+00:00",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
+      "observed_at": "2026-11-24T06:30:00+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
       "stale": false
     }
   },
   "news": {
     "BBC World": {
       "items": [
+        {
+          "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+          "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 24 Nov 2026 04:36:31 GMT",
+          "title_original": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+          "source_language": "en",
+          "translation_status": "unavailable"
+        },
         {
           "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
           "link": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
@@ -6611,13 +7151,20 @@
           "title_pt": "EUA colocam na lista negra a empresa asiática de IA Megaspeed após o escândalo da Nvidia"
         },
         {
-          "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-          "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 23 Nov 2026 15:41:23 GMT",
-          "title_original": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+          "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+          "link": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 24 Nov 2026 02:15:59 GMT",
+          "title_original": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
           "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "Navio de guerra russo atingido por drones ucranianos na Líbia, diz Zelensky"
+          "translation_status": "limited"
+        },
+        {
+          "title": "India's 'cockroach' party leader says he was stopped from flying to UK",
+          "link": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 24 Nov 2026 05:33:07 GMT",
+          "title_original": "India's 'cockroach' party leader says he was stopped from flying to UK",
+          "source_language": "en",
+          "translation_status": "limited"
         },
         {
           "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
@@ -6629,22 +7176,12 @@
           "title_pt": "O que o ataque ao navio russo na Líbia diz sobre a disseminação da guerra na Ucrânia"
         },
         {
-          "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
-          "link": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 23 Nov 2026 18:04:20 GMT",
-          "title_original": "Iranian authorities flog singer who performed without hijab, lawyers say",
+          "title": "Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book",
+          "link": "https://www.bbc.co.uk/news/articles/cm3eg502nxw2o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Mon, 23 Nov 2026 21:24:47 GMT",
+          "title_original": "Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book",
           "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "Autoridades iranianas açoitaram cantora que se apresentou sem usar hijabe, segundo advogados"
-        },
-        {
-          "title": "What failure of COP31 reveals about a divided world",
-          "link": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 23 Nov 2026 17:24:25 GMT",
-          "title_original": "What failure of COP31 reveals about a divided world",
-          "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "O que o fracasso da COP31 revela sobre um mundo dividido"
+          "translation_status": "limited"
         },
         {
           "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
@@ -6656,27 +7193,19 @@
           "title_pt": "Os ataques israelenses transformaram Gaza em um \"deserto tóxico\", afirma a Oxfam"
         },
         {
-          "title": "India pledges $1.6bn to Nepal in reset of ties",
-          "link": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 23 Nov 2026 13:39:30 GMT",
-          "title_original": "India pledges $1.6bn to Nepal in reset of ties",
+          "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
+          "link": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Mon, 23 Nov 2026 18:04:20 GMT",
+          "title_original": "Iranian authorities flog singer who performed without hijab, lawyers say",
           "source_language": "en",
           "translation_status": "translated",
-          "title_pt": "Índia promete US$ 1,6 bilhão ao Nepal para restabelecer as relações"
+          "title_pt": "Autoridades iranianas açoitaram cantora que se apresentou sem usar hijabe, segundo advogados"
         },
         {
-          "title": "Search and rescue teams race against time to find survivors after Nigeria boat tragedy",
-          "link": "https://www.bbc.co.uk/news/articles/cq7820xjm49po?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 23 Nov 2026 12:43:40 GMT",
-          "title_original": "Search and rescue teams race against time to find survivors after Nigeria boat tragedy",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Prominent Zimbabwean preacher arrested on sexual assault allegations",
-          "link": "https://www.bbc.co.uk/news/articles/cxyvdmjr893zo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 23 Nov 2026 14:55:14 GMT",
-          "title_original": "Prominent Zimbabwean preacher arrested on sexual assault allegations",
+          "title": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
+          "link": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 24 Nov 2026 00:23:25 GMT",
+          "title_original": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
           "source_language": "en",
           "translation_status": "limited"
         },
@@ -6689,186 +7218,195 @@
           "translation_status": "limited"
         },
         {
-          "title": "Flights cancelled in Belgium due to cost-of-living strike",
-          "link": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 23 Nov 2026 13:34:02 GMT",
-          "title_original": "Flights cancelled in Belgium due to cost-of-living strike",
+          "title": "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
+          "link": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 24 Nov 2026 06:23:01 GMT",
+          "title_original": "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Mexican soldiers attacked in wake of drug lord's arrest",
-          "link": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 23 Nov 2026 14:54:03 GMT",
-          "title_original": "Mexican soldiers attacked in wake of drug lord's arrest",
+          "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
+          "link": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Mon, 23 Nov 2026 21:03:34 GMT",
+          "title_original": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Miley Cyrus marries Maxx Morando in California ceremony",
-          "link": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sun, 22 Nov 2026 21:22:40 GMT",
-          "title_original": "Miley Cyrus marries Maxx Morando in California ceremony",
+          "title": "How Nvidia is reacting to Jensen Huang's return as CEO",
+          "link": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 24 Nov 2026 01:21:41 GMT",
+          "title_original": "How Nvidia is reacting to Jensen Huang's return as CEO",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Kenya and DR Congo agree to restore ties after tensions over conflict",
-          "link": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 23 Nov 2026 08:53:01 GMT",
-          "title_original": "Kenya and DR Congo agree to restore ties after tensions over conflict",
+          "title": "Outrage after ICE arrest father and daughter at Seattle airport",
+          "link": "https://www.bbc.co.uk/news/videos/crd910g5x882o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Mon, 23 Nov 2026 22:59:07 GMT",
+          "title_original": "Outrage after ICE arrest father and daughter at Seattle airport",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Nigeria's president says he is also hit by water and power cuts plaguing country",
-          "link": "https://www.bbc.co.uk/news/articles/cv1j65xjjk65o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 23 Nov 2026 14:26:33 GMT",
-          "title_original": "Nigeria's president says he is also hit by water and power cuts plaguing country",
+          "title": "First Lady Melania Trump welcomes this year's White House Christmas tree",
+          "link": "https://www.bbc.co.uk/news/videos/c51k9vp48d2vo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Mon, 23 Nov 2026 18:49:19 GMT",
+          "title_original": "First Lady Melania Trump welcomes this year's White House Christmas tree",
           "source_language": "en",
           "translation_status": "limited"
         }
       ],
       "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
       "stale": false
     },
     "Al Jazeera": {
       "items": [
         {
-          "title": "What Nvidia’s Jensen Huang’s return means for Washington and Wall Street?",
-          "link": "https://www.aljazeera.com/economy/2026/11/23/what-nvidias-jensen-huangs-return-means-for-washington-and-wall-street?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 23:06:03 +0000",
-          "title_original": "What Nvidia’s Jensen Huang’s return means for Washington and Wall Street?",
+          "title": "Nvidia live: Markets surge as Jensen Huang returns as CEO",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/11/24/nvidia-live-markets-surge-as-jensen-huang-returns-as-ceo?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 06:24:25 +0000",
+          "title_original": "Nvidia live: Markets surge as Jensen Huang returns as CEO",
           "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "O que o retorno de Jensen Huang, da Nvidia, significa para Washington e Wall Street?"
+          "translation_status": "unavailable"
         },
         {
-          "title": "Trump postpones US Army plan to detonate toxic explosives in Iowa",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/trump-postpones-us-army-plan-to-detonate-toxic-explosives-in-iowa?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 22:54:47 +0000",
-          "title_original": "Trump postpones US Army plan to detonate toxic explosives in Iowa",
+          "title": "Arsenal vs Dortmund: Champions League – Predictions, how to watch, lineups",
+          "link": "https://www.aljazeera.com/sports/2026/11/24/arsenal-borussia-dortmund-champions-league-predictions-lineups-streaming?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 05:56:41 +0000",
+          "title_original": "Arsenal vs Dortmund: Champions League – Predictions, how to watch, lineups",
           "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "Trump adia plano do Exército dos EUA de detonar explosivos tóxicos em Iowa"
+          "translation_status": "unavailable"
         },
         {
-          "title": "US escalates sanctions on Iran, targets ‘shadow banking’ networks",
-          "link": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 21:30:40 +0000",
-          "title_original": "US escalates sanctions on Iran, targets ‘shadow banking’ networks",
-          "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "Os EUA intensificam as sanções contra o Irã, visando redes de \"bancos paralelos\""
-        },
-        {
-          "title": "Israel’s southern Syria incursion triggers fear and destruction",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/israels-southern-syria-incursion-triggers-fear-and-destruction?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 21:19:17 +0000",
-          "title_original": "Israel’s southern Syria incursion triggers fear and destruction",
-          "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "Incursão de Israel no sul da Síria gera medo e destruição"
-        },
-        {
-          "title": "US states sue SpaceX over Grok AI’s creation of child sexual abuse material",
-          "link": "https://www.aljazeera.com/economy/2026/11/23/us-states-sue-spacex-over-grok-ais-creation-of-child-sexual-abuse-material?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 21:15:33 +0000",
-          "title_original": "US states sue SpaceX over Grok AI’s creation of child sexual abuse material",
-          "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "Estados dos EUA processam a SpaceX pela criação de material de abuso sexual infantil pela IA Grok"
-        },
-        {
-          "title": "US drug prices leave patients facing impossible choices",
-          "link": "https://www.aljazeera.com/news/2026/11/23/us-drug-prices-leave-patients-facing-impossible-choices?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 21:02:00 +0000",
-          "title_original": "US drug prices leave patients facing impossible choices",
-          "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "Os preços dos medicamentos nos EUA colocam os pacientes diante de escolhas impossíveis"
-        },
-        {
-          "title": "Iran flogs singer Parastoo Ahmadi for performing without headscarf",
-          "link": "https://www.aljazeera.com/news/2026/11/23/iran-flogs-singer-parastoo-ahmadi-for-performing-without-headscarf?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 20:41:56 +0000",
-          "title_original": "Iran flogs singer Parastoo Ahmadi for performing without headscarf",
-          "source_language": "en",
-          "translation_status": "translated",
-          "title_pt": "Irã açoita a cantora Parastoo Ahmadi por se apresentar sem usar o véu"
-        },
-        {
-          "title": "Iran hits US bases and civilian sites in the Gulf after a lull",
-          "link": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 20:26:40 +0000",
-          "title_original": "Iran hits US bases and civilian sites in the Gulf after a lull",
+          "title": "Pennsylvania reports ninth measles death in ongoing state outbreak",
+          "link": "https://www.aljazeera.com/news/2026/11/24/pennsylvania-reports-ninth-measles-death-in-ongoing-state-outbreak?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 04:59:13 +0000",
+          "title_original": "Pennsylvania reports ninth measles death in ongoing state outbreak",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Turkish police hunting for lioness stalking Istanbul",
-          "link": "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 20:22:28 +0000",
-          "title_original": "Turkish police hunting for lioness stalking Istanbul",
+          "title": "Danish court backs ‘ghetto law’ used to evict ‘non-Western’ residents",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/danish-court-backs-ghetto-law-used-to-evict-non-western-residents?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 04:52:06 +0000",
+          "title_original": "Danish court backs ‘ghetto law’ used to evict ‘non-Western’ residents",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Jensen Huang reinstated as Nvidia chief: How did we get here?",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/jensen-huang-reinstated-as-nvidia-chief-how-did-we-get-here?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 20:22:12 +0000",
-          "title_original": "Jensen Huang reinstated as Nvidia chief: How did we get here?",
+          "title": "Car bomb strikes governor’s office in Meta, Colombia",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 04:49:31 +0000",
+          "title_original": "Car bomb strikes governor’s office in Meta, Colombia",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Protesting Bangladesh garment workers reject pay offer",
-          "link": "https://www.aljazeera.com/news/2026/11/23/protesting-bangladesh-garment-workers-reject-pay-offer?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 20:03:48 +0000",
-          "title_original": "Protesting Bangladesh garment workers reject pay offer",
+          "title": "India’s best known bottled water under scrutiny",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/indias-best-known-bottled-water-under-scrutiny?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 04:44:35 +0000",
+          "title_original": "India’s best known bottled water under scrutiny",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Trump delays explosive detonation in US state of Iowa amid legal battles",
-          "link": "https://www.aljazeera.com/news/2026/11/23/trump-delays-explosive-detonation-in-us-state-of-iowa-amid-legal-battles?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 20:01:41 +0000",
-          "title_original": "Trump delays explosive detonation in US state of Iowa amid legal battles",
+          "title": "WHO chief visits Cuba as healthcare system deteriorates",
+          "link": "https://www.aljazeera.com/news/2026/11/24/who-chief-visits-cuba-as-healthcare-system-deteriorates?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 04:35:37 +0000",
+          "title_original": "WHO chief visits Cuba as healthcare system deteriorates",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "As tech outages mount, some New Yorkers prepare for the worst",
-          "link": "https://www.aljazeera.com/news/2026/11/23/as-tech-outages-mount-some-new-yorkers-prepare-for-the-worst?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 19:43:45 +0000",
-          "title_original": "As tech outages mount, some New Yorkers prepare for the worst",
+          "title": "Mexico to try ‘El Chapo Isidro’ despite US extradition request",
+          "link": "https://www.aljazeera.com/news/2026/11/24/mexico-to-try-el-chapo-isidro-despite-us-extradition-request?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 03:20:55 +0000",
+          "title_original": "Mexico to try ‘El Chapo Isidro’ despite US extradition request",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "CEO Jensen Huang returns to Nvidia’s office",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/ceo-jensen-huang-returns-to-nvidias-office?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 19:40:41 +0000",
-          "title_original": "CEO Jensen Huang returns to Nvidia’s office",
+          "title": "Excavator threatens sacred alpine lake in the Himalayas",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/24-11-sv-sheshnag-lake-excavators-kashmir?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 02:35:27 +0000",
+          "title_original": "Excavator threatens sacred alpine lake in the Himalayas",
           "source_language": "en",
           "translation_status": "limited"
         },
         {
-          "title": "Russia threatens ‘hostile’ Estonia with ‘open war’",
-          "link": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war?traffic_source=rss",
-          "pubDate": "Mon, 23 Nov 2026 19:20:30 +0000",
-          "title_original": "Russia threatens ‘hostile’ Estonia with ‘open war’",
+          "title": "UN chief calls for world to agree on AI oversight within a year",
+          "link": "https://www.aljazeera.com/news/2026/11/24/un-chief-calls-for-world-to-agree-on-ai-oversight-within-a-year?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 02:27:19 +0000",
+          "title_original": "UN chief calls for world to agree on AI oversight within a year",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Qatar PM looks to revive US-Iran talks after meeting Rubio",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/qatar-pm-looks-to-revive-us-iran-talks-after-meeting-rubio?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 01:32:12 +0000",
+          "title_original": "Qatar PM looks to revive US-Iran talks after meeting Rubio",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Appeals court renews Trump bid for federal jurisdiction in hush-money case",
+          "link": "https://www.aljazeera.com/news/2026/11/24/appeals-court-renews-trump-bid-for-federal-jurisdiction-in-hush-money-case?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 01:17:48 +0000",
+          "title_original": "Appeals court renews Trump bid for federal jurisdiction in hush-money case",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Israeli minister approves return of Flydubai flights to Tel Aviv",
+          "link": "https://www.aljazeera.com/news/2026/11/24/israeli-minister-approves-return-of-flydubai-flights?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 01:09:51 +0000",
+          "title_original": "Israeli minister approves return of Flydubai flights to Tel Aviv",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Bukele shares details on deaths of El Salvador’s troops in Haiti",
+          "link": "https://www.aljazeera.com/news/2026/11/24/bukele-shares-details-on-deaths-of-salvadoran-troops-in-haiti-intervention?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 01:06:00 +0000",
+          "title_original": "Bukele shares details on deaths of El Salvador’s troops in Haiti",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "US adds Megaspeed to trade blacklist as Nvidia’s Huang returns as CEO",
+          "link": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list?traffic_source=rss",
+          "pubDate": "Tue, 24 Nov 2026 00:52:47 +0000",
+          "title_original": "US adds Megaspeed to trade blacklist as Nvidia’s Huang returns as CEO",
           "source_language": "en",
           "translation_status": "limited"
         }
       ],
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
       "stale": false
     },
     "Deutsche Welle": {
       "items": [
+        {
+          "title": "Weapons, war and wavering trust: Germans want to see more restraint in foreign policy",
+          "link": "https://www.dw.com/en/weapons-war-and-wavering-trust-germans-want-to-see-more-restraint-in-foreign-policy/a-80026254?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 24 Nov 2026 05:59:00 GMT",
+          "title_original": "Weapons, war and wavering trust: Germans want to see more restraint in foreign policy",
+          "source_language": "en",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "India: Report warns of deepening authoritarianism under Modi",
+          "link": "https://www.dw.com/en/india-report-warns-of-deepening-authoritarianism-under-modi/live-80027405?maca=en-rss-en-all-1573-xml-mrss",
+          "pubDate": "Tue, 24 Nov 2026 04:33:00 GMT",
+          "title_original": "India: Report warns of deepening authoritarianism under Modi",
+          "source_language": "en",
+          "translation_status": "unavailable"
+        },
         {
           "title": "US adds Megaspeed, at center of Nvidia scandal, to a trade blacklist",
           "link": "https://www.dw.com/en/us-adds-megaspeed-at-center-of-nvidia-scandal-to-a-trade-blacklist/a-80026849?maca=en-rss-en-all-1573-xml-mrss",
@@ -6980,30 +7518,46 @@
           "source_language": "en",
           "translation_status": "translated",
           "title_pt": "A polícia alemã responde a várias ameaças de bomba em escolas"
-        },
-        {
-          "title": "'I've lost her forever' — Why German voice actors are refusing to sign Netflix's AI contract",
-          "link": "https://www.dw.com/en/i-ve-lost-her-forever-why-german-voice-actors-are-refusing-to-sign-netflix-s-ai-contract/a-80004381?maca=en-rss-en-all-1573-xml-mrss",
-          "pubDate": "Mon, 23 Nov 2026 10:58:00 GMT",
-          "title_original": "'I've lost her forever' — Why German voice actors are refusing to sign Netflix's AI contract",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Budget cuts threaten Germany's fight against antisemitism and racism",
-          "link": "https://www.dw.com/en/budget-cuts-threaten-germany-s-fight-against-antisemitism-and-racism/a-80018644?maca=en-rss-en-all-1573-xml-mrss",
-          "pubDate": "Mon, 23 Nov 2026 10:55:00 GMT",
-          "title_original": "Budget cuts threaten Germany's fight against antisemitism and racism",
-          "source_language": "en",
-          "translation_status": "limited"
         }
       ],
       "source": "https://rss.dw.com/xml/rss-en-all",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
       "stale": false
     },
     "France 24": {
       "items": [
+        {
+          "title": "Live: Tripoli demands explanation from Kyiv for striking Russian ships in Libyan waters",
+          "link": "https://www.france24.com/en/europe/20261124-live-tripoli-demands-explanation-from-kyiv-for-striking-russian-ships-in-libyan-waters",
+          "pubDate": "Tue, 24 Nov 2026 05:50:16 GMT",
+          "title_original": "Live: Tripoli demands explanation from Kyiv for striking Russian ships in Libyan waters",
+          "source_language": "en",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "Jensen Huang's surprise return to Nvidia sparks mixed reactions in Washington",
+          "link": "https://www.france24.com/en/video/20261124-jensen-huang-s-surprise-return-to-nvidia-sparks-mixed-reactions-in-washington",
+          "pubDate": "Tue, 24 Nov 2026 03:16:47 GMT",
+          "title_original": "Jensen Huang's surprise return to Nvidia sparks mixed reactions in Washington",
+          "source_language": "en",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "US flew surveillance drone over Mexico to help capture top drug lord",
+          "link": "https://www.france24.com/en/americas/20261124-us-flew-surveillance-drone-over-mexico-to-help-capture-top-drug-lord",
+          "pubDate": "Tue, 24 Nov 2026 02:09:11 GMT",
+          "title_original": "US flew surveillance drone over Mexico to help capture top drug lord",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Zelensky urges four-way peace talks with Russia, Europe and US 'as soon as possible'",
+          "link": "https://www.france24.com/en/europe/20261124-zelensky-urges-four-way-peace-talks-with-russia-europe-and-us-as-soon-as-possible",
+          "pubDate": "Tue, 24 Nov 2026 00:30:11 GMT",
+          "title_original": "Zelensky urges four-way peace talks with Russia, Europe and US 'as soon as possible'",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
         {
           "title": "14 countries acknowledge ICJ ruling of genocide against Rohingya",
           "link": "https://www.france24.com/en/asia-pacific/20261123-14-countries-acknowledge-icj-ruling-of-genocide-against-rohingya",
@@ -7097,42 +7651,10 @@
           "title_original": "Nvidia reinstates Huang as CEO after Trump intervention",
           "source_language": "en",
           "translation_status": "limited"
-        },
-        {
-          "title": "'Maintain control': UN chief calls for creation of global AI safety framework within a year",
-          "link": "https://www.france24.com/en/americas/20261123-un-chief-antonio-guterres-calls-for-global-ai-safety-framework-within-a-year",
-          "pubDate": "Mon, 23 Nov 2026 19:06:15 GMT",
-          "title_original": "'Maintain control': UN chief calls for creation of global AI safety framework within a year",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "'Deeply shocked': Gisèle Pelicot to sue publisher after nude photos used in book campaign",
-          "link": "https://www.france24.com/en/france/20261123-deeply-shocked-gis%C3%A8le-pelicot-sue-publisher-nude-photos-used-book-campaign",
-          "pubDate": "Mon, 23 Nov 2026 17:52:50 GMT",
-          "title_original": "'Deeply shocked': Gisèle Pelicot to sue publisher after nude photos used in book campaign",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Finland summons Russian ambassador after suspected airspace violation",
-          "link": "https://www.france24.com/en/europe/20261123-finland-summons-russian-ambassador-after-suspected-airspace-violation",
-          "pubDate": "Mon, 23 Nov 2026 16:50:41 GMT",
-          "title_original": "Finland summons Russian ambassador after suspected airspace violation",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "🔴Democrats vow probe after Trump admits role in Huang's return as Nvidia CEO",
-          "link": "https://www.france24.com/en/americas/20261123-nvidia-board-reinstates-disgraced-jensen-huang-as-ceo-president-says",
-          "pubDate": "Mon, 23 Nov 2026 16:37:04 GMT",
-          "title_original": "🔴Democrats vow probe after Trump admits role in Huang's return as Nvidia CEO",
-          "source_language": "en",
-          "translation_status": "limited"
         }
       ],
       "source": "https://www.france24.com/en/rss",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
       "stale": false
     },
     "The Guardian": {
@@ -7225,6 +7747,30 @@
           "title_pt": "Suposto chefe do cartel mexicano de drogas \"El Chapo Isidro\" preso em operação das forças especiais"
         },
         {
+          "title": "Malaysia to send thousands of migrants back to Myanmar as PM acknowledges junta’s ‘atrocities’",
+          "link": "https://www.theguardian.com/world/2026/nov/24/malaysia-to-send-thousands-of-migrants-back-to-myanmar",
+          "pubDate": "Tue, 24 Nov 2026 05:54:14 GMT",
+          "title_original": "Malaysia to send thousands of migrants back to Myanmar as PM acknowledges junta’s ‘atrocities’",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "South Korea tells island residents to take shelter after Russian military aircraft approach",
+          "link": "https://www.theguardian.com/world/2026/nov/24/south-korea-tells-island-residents-to-take-shelter-after-russian-military-aircraft-approach",
+          "pubDate": "Tue, 24 Nov 2026 04:14:43 GMT",
+          "title_original": "South Korea tells island residents to take shelter after Russian military aircraft approach",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "China sentences official to death for spying for foreign country",
+          "link": "https://www.theguardian.com/world/2026/nov/24/china-official-ma-death-sentence-spying-leaking-national-secrets",
+          "pubDate": "Tue, 24 Nov 2026 02:37:36 GMT",
+          "title_original": "China sentences official to death for spying for foreign country",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
           "title": "Lucy Powell to visit China to promote UK education weeks after MI5 warning",
           "link": "https://www.theguardian.com/politics/2026/nov/23/uk-visit-china-lucy-powell-education-mi5-universities-warning",
           "pubDate": "Mon, 23 Nov 2026 16:42:09 GMT",
@@ -7239,38 +7785,70 @@
           "title_original": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
           "source_language": "en",
           "translation_status": "limited"
-        },
-        {
-          "title": "South Korean minister quits after AI cheating scandal engulfs university exams",
-          "link": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
-          "pubDate": "Sun, 22 Nov 2026 12:12:07 GMT",
-          "title_original": "South Korean minister quits after AI cheating scandal engulfs university exams",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "China commits to low-carbon electrification and help for others to improve",
-          "link": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
-          "pubDate": "Sat, 21 Nov 2026 09:47:57 GMT",
-          "title_original": "China commits to low-carbon electrification and help for others to improve",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
-          "link": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
-          "pubDate": "Fri, 20 Nov 2026 21:47:41 GMT",
-          "title_original": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
-          "source_language": "en",
-          "translation_status": "limited"
         }
       ],
       "source": "https://www.theguardian.com/world/rss",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
       "stale": false
     },
     "Euronews": {
       "items": [
+        {
+          "title": "Is no deal better than a bad deal? Why some see hope in COP31’s collapse",
+          "link": "https://www.euronews.com/2026/11/24/is-no-deal-better-than-a-bad-deal-why-some-see-hope-in-cop31s-collapse",
+          "pubDate": "Tue, 24 Nov 2026 07:02:11 +0100",
+          "title_original": "Is no deal better than a bad deal? Why some see hope in COP31’s collapse",
+          "source_language": "en",
+          "translation_status": "unavailable"
+        },
+        {
+          "title": "Latest news bulletin | November 24th, 2026 – Morning",
+          "link": "https://www.euronews.com/video/2026/11/24/latest-news-bulletin-november-24th-2026-morning",
+          "pubDate": "Tue, 24 Nov 2026 07:00:33 +0100",
+          "title_original": "Latest news bulletin | November 24th, 2026 – Morning",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "All the major hotel loyalty programmes you need to know about in Europe",
+          "link": "https://www.euronews.com/2026/11/24/all-the-major-hotel-loyalty-programmes-you-need-to-know-about-in-europe",
+          "pubDate": "Tue, 24 Nov 2026 07:00:20 +0100",
+          "title_original": "All the major hotel loyalty programmes you need to know about in Europe",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Exclusive: EU migration pact delivers just 1,283 asylum relocations in first year",
+          "link": "https://www.euronews.com/2026/11/24/exclusive-eu-migration-pact-delivers-just-1283-asylum-relocations-in-first-year",
+          "pubDate": "Tue, 24 Nov 2026 07:00:08 +0100",
+          "title_original": "Exclusive: EU migration pact delivers just 1,283 asylum relocations in first year",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Jensen Huang is back at Nvidia. What does it mean for Europe's AI stocks?",
+          "link": "https://www.euronews.com/2026/11/24/jensen-huang-is-back-at-nvidia-what-does-it-mean-for-europes-ai-stocks",
+          "pubDate": "Tue, 24 Nov 2026 06:47:21 +0100",
+          "title_original": "Jensen Huang is back at Nvidia. What does it mean for Europe's AI stocks?",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Signs of heart attack and stroke risk can appear decades earlier, study finds",
+          "link": "https://www.euronews.com/2026/11/24/signs-of-heart-attack-and-stroke-risk-can-appear-decades-earlier-study-finds",
+          "pubDate": "Tue, 24 Nov 2026 06:00:42 +0100",
+          "title_original": "Signs of heart attack and stroke risk can appear decades earlier, study finds",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
+        {
+          "title": "Stocks climb as Huang's return to Nvidia lifts investor optimism",
+          "link": "https://www.euronews.com/2026/11/24/stocks-climb-as-huangs-return-to-nvidia-lifts-investor-optimism",
+          "pubDate": "Tue, 24 Nov 2026 05:30:05 +0100",
+          "title_original": "Stocks climb as Huang's return to Nvidia lifts investor optimism",
+          "source_language": "en",
+          "translation_status": "limited"
+        },
         {
           "title": "Visegrád Four leaders voice concerns over EU budget proposal",
           "link": "https://www.euronews.com/2026/11/23/visegrad-four-leaders-voice-concerns-over-eu-budget-proposal",
@@ -7340,66 +7918,10 @@
           "title_original": "'Don't waste those talents': GTA VI hacker released on licence",
           "source_language": "en",
           "translation_status": "limited"
-        },
-        {
-          "title": "Iran carries out flogging of singer who performed without hijab",
-          "link": "https://www.euronews.com/2026/11/23/iran-carries-out-flogging-of-singer-who-performed-without-hijab",
-          "pubDate": "Mon, 23 Nov 2026 19:29:34 +0100",
-          "title_original": "Iran carries out flogging of singer who performed without hijab",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "No, Greenland isn't being handed over to Trump. But what exactly has Washington secured?",
-          "link": "https://www.euronews.com/2026/11/23/no-greenland-isnt-being-handed-over-to-trump-but-what-exactly-has-washington-secured",
-          "pubDate": "Mon, 23 Nov 2026 18:35:17 +0100",
-          "title_original": "No, Greenland isn't being handed over to Trump. But what exactly has Washington secured?",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "United Kingdom to host 2035 Women's World Cup, FIFA confirms",
-          "link": "https://www.euronews.com/2026/11/23/united-kingdom-to-host-2035-womens-world-cup-fifa-confirms",
-          "pubDate": "Mon, 23 Nov 2026 18:23:33 +0100",
-          "title_original": "United Kingdom to host 2035 Women's World Cup, FIFA confirms",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Von der Leyen and Kushner clash over peace talks sequence",
-          "link": "https://www.euronews.com/2026/11/23/von-der-leyen-and-kushner-clash-over-peace-talks-sequence",
-          "pubDate": "Mon, 23 Nov 2026 18:12:32 +0100",
-          "title_original": "Von der Leyen and Kushner clash over peace talks sequence",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Latest news bulletin | November 23rd, 2026 – Evening",
-          "link": "https://www.euronews.com/video/2026/11/23/latest-news-bulletin-november-23rd-2026-evening",
-          "pubDate": "Mon, 23 Nov 2026 18:00:26 +0100",
-          "title_original": "Latest news bulletin | November 23rd, 2026 – Evening",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "Europe Tonight: NATO security warnings, COP31 fallout, and Spain’s elections",
-          "link": "https://www.euronews.com/2026/11/23/europe-tonight-nato-security-warnings-cop31-fallout-and-spains-elections",
-          "pubDate": "Mon, 23 Nov 2026 18:00:18 +0100",
-          "title_original": "Europe Tonight: NATO security warnings, COP31 fallout, and Spain’s elections",
-          "source_language": "en",
-          "translation_status": "limited"
-        },
-        {
-          "title": "How artists from Qatar, Canada and Mexico are connecting cultures through creativity",
-          "link": "https://www.euronews.com/2026/11/23/how-artists-from-qatar-canada-and-mexico-are-connecting-cultures-through-creativity",
-          "pubDate": "Mon, 23 Nov 2026 18:00:15 +0100",
-          "title_original": "How artists from Qatar, Canada and Mexico are connecting cultures through creativity",
-          "source_language": "en",
-          "translation_status": "limited"
         }
       ],
       "source": "https://www.euronews.com/rss",
-      "fetched_at": "2026-11-23T23:47:25.583772+00:00",
+      "fetched_at": "2026-11-24T07:07:40.176333+00:00",
       "stale": false
     }
   },
@@ -7422,6 +7944,46 @@
     "provider": "MyMemory",
     "target_language": "pt-BR",
     "cache": {
+      "895b2dc422d8354a06ef4a7fcc0db3b50cabf0c3922b5fca0fd6930a7c7cf0ff": {
+        "original": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "retry_after": "2026-11-24T08:07:40.176333+00:00"
+      },
+      "e73591f2b3dcc2b36e5a626625f5d1e1754c499b7904cd35941b940c7d22ebc0": {
+        "original": "Nvidia live: Markets surge as Jensen Huang returns as CEO",
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "retry_after": "2026-11-24T08:07:40.176333+00:00"
+      },
+      "94f9531c714a806a0b842dd1b0e602f7c3d74656088d75997e3a6a4a3a933810": {
+        "original": "Weapons, war and wavering trust: Germans want to see more restraint in foreign policy",
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "retry_after": "2026-11-24T08:07:40.176333+00:00"
+      },
+      "5196ef0966f0eaaeda100deab5f1620138ae3626b790c6b350c359bb34e93a4f": {
+        "original": "Live: Tripoli demands explanation from Kyiv for striking Russian ships in Libyan waters",
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "retry_after": "2026-11-24T08:07:40.176333+00:00"
+      },
+      "7ad7ddc7caacf66cf9439179115d5d523ccc6aaa68e0f9c2d33dd0f430a46f43": {
+        "original": "Is no deal better than a bad deal? Why some see hope in COP31’s collapse",
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "retry_after": "2026-11-24T08:07:40.176333+00:00"
+      },
+      "adcc5052d826f8d3dbd865ece4c166224a474a8540864d3cf67273dc3882d9dd": {
+        "original": "Arsenal vs Dortmund: Champions League – Predictions, how to watch, lineups",
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "retry_after": "2026-11-24T08:07:40.176333+00:00"
+      },
+      "3c79a53a3a0d29261e03170872474f1c8dd57060e6388b98e6f812443d8cc2b8": {
+        "original": "India: Report warns of deepening authoritarianism under Modi",
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "retry_after": "2026-11-24T08:07:40.176333+00:00"
+      },
+      "a0a4d97ffb103070da27d973d76b3498e3c530501275dfadfddb49ef0e753a79": {
+        "original": "Jensen Huang's surprise return to Nvidia sparks mixed reactions in Washington",
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "retry_after": "2026-11-24T08:07:40.176333+00:00"
+      },
       "c7761e7d8b132767ba0da8f6b67cae9aa06d63df796491e23bbe86f07e28030d": {
         "original": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
         "text": "EUA colocam na lista negra a empresa asiática de IA Megaspeed após o escândalo da Nvidia",
@@ -9366,167 +9928,9 @@
         "original": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
         "text": "Ucrânia acusa a Rússia de atacar uma operação de resgate após um ataque de \"duplo impacto\" matar 72 pessoas",
         "at": "2026-11-17T10:28:13.922341+00:00"
-      },
-      "cabf1b7ddf035f5e94ce8c1ac0be8f9090d2e93f2446b467cf0fb7e782af6838": {
-        "original": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
-        "text": "Exército iemenita relata 661 ataques aos houthis enquanto o grupo avança em direção a Áden",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "947f10ba0ba81bbe3eb1f1b20951fefcf3fb53e6fab09006c778f7fed9b25432": {
-        "original": "Germany beat Netherlands 5-0 to win Nations League group",
-        "text": "A Alemanha venceu a Holanda por 5 x 0 e conquistou o grupo da Liga das Nações",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "e67a323befbda3af9b0b0f0e18aeee9f567eb8051c8d27fa76688893c71d6d95": {
-        "original": "Live: Russian attacks target bridges in Kyiv, knocking out heating and water",
-        "text": "Ao vivo: ataques russos atingem pontes em Kiev, interrompendo o fornecimento de aquecimento e água",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "c78045e4ef510c34ab476d319e59d43041d8ecb44af70131e7d1215f8dd7d5b2": {
-        "original": "Sánchez and Lula meet in Madrid to strengthen ties amid 'threat of the far right'",
-        "text": "Sánchez e Lula se reúnem em Madri para fortalecer laços em meio à \"ameaça da extrema direita\"",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "aed554d8110d86274b412213b3c419fc883a81ffe08593aa971f5e190bbb7eb0": {
-        "original": "Houthi rebel advance in Yemen may further destabilise global economy",
-        "text": "O avanço dos rebeldes houtis no Iêmen pode desestabilizar ainda mais a economia global",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "1647139e4795d2a1d13e7ba7faade4b395a482063101977eb67848b00949b709": {
-        "original": "Irish court jails man for life over Dublin knife attack that sparked riots",
-        "text": "Tribunal irlandês condena homem à prisão perpétua por ataque com faca em Dublin que provocou tumultos",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "347d861cfcb0d8b8e200c7e72c48ef46b8982f04ca6abbb4b5f8f09460448971": {
-        "original": "United Airlines resolves tech outage that delayed flights",
-        "text": "A United Airlines resolve a falha técnica que atrasou os voos",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "f77301978e6ca6d2ca0a2363e996e94a3ac4c20d71c482dff7ad09749767b604": {
-        "original": "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies",
-        "text": "Ataques russos atingem duas pontes importantes em Kiev, interrompendo o fornecimento de água e energia elétrica",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "52e55d580ef064f6dbe5f4a93d22c430d45f0cfbe52b0c0f2ed257f914186bd7": {
-        "original": "Europe Tonight: MEPs debate Rwanda deportation scheme announced by five EU countries",
-        "text": "Europe Tonight: Eurodeputados debatem o plano de deportação para Ruanda anunciado por cinco países da UE",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "4bdf77b2b221afa5a0e74fc10d4fce3823e6d50e9cb2aff83569f63134f9f6a0": {
-        "original": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-        "text": "A Nvidia rejeita a campanha \"Bring Jensen Back\" (Tragam Jensen de volta), enquanto Trump apoia a iniciativa de reintegrar o ex-CEO",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "fd2676d4475f7ad01398993ee7f1cf5c703fbd277679925dcdaca4533210f388": {
-        "original": "EU countries announce migrant deportation centre in Rwanda",
-        "text": "Países da UE anunciam centro de deportação de migrantes em Ruanda",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "5cc312a1f894d2d2c64e67e777249fde5d740dd45adedea04514f89eba987cb1": {
-        "original": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
-        "text": "O francês Philippe Diallo vai disputar a presidência da FIFA com Infantino",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "cab9965925546ef70a63b8110ad89d7a5c31ab8cdc36e19b5ca8fc74ccccbde8": {
-        "original": "Ukraine hits key Crimea bridge with drones",
-        "text": "Ucrânia atinge ponte estratégica da Crimeia com drones",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "b67f857ea1ab3b7b742f48029cfb54d97d8116abb33935681255e3c79bbbe116": {
-        "original": "Pope Leo XIV struck in eye by rosary during tour of South America",
-        "text": "O Papa Leão XIV foi atingido no olho por um terço durante sua turnê pela América do Sul",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "7ddc5c6e3c277a04d4de1ba605fda92ade9f8f63420cfd49d8308dc4c09631b1": {
-        "original": "Ukraine holds peace talks with US, Europe as conflict escalates",
-        "text": "A Ucrânia realiza negociações de paz com os Estados Unidos e a Europa à medida que o conflito se intensifica",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "2f073d3bbe7f1a58e9d79eaa621f60fb82b91f4e9f95f009bc19a7292a886548": {
-        "original": "EU sanctions Wildberries CEO Tatyana Kim, Russia's richest woman",
-        "text": "A UE sanciona a CEO da Wildberries, Tatyana Kim, a mulher mais rica da Rússia",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "108ce1cb76b171a247fc4094368a18657c88143da9014c6172f12e1bde134805": {
-        "original": "Chase outage disrupts online banking and Zelle payments in United States",
-        "text": "Interrupção no Chase afeta os serviços de banco online e os pagamentos com Zelle nos Estados Unidos",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "ac77c0f2987ab91fce2c9ad6954e94f9df1c0cee9f3f5958f512368400fe7c0f": {
-        "original": "Video shows rocket failure that destroys 40 Amazon satellites",
-        "text": "Vídeo mostra falha de foguete que destrói 40 satélites da Amazon",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "f89e46182d7a17b8079b30603e0a251e9c013d476889499b8984e3d4e98aa387": {
-        "original": "When will we see Robert Pattinson as Bond in cinemas?",
-        "text": "Quando veremos Robert Pattinson como Bond nos cinemas?",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "7706e635926035fa6a9fae77622363d54d70bed895d315865fd87ad05921e035": {
-        "original": "UK seeks closer ties with EU after Brexit fail",
-        "text": "Reino Unido busca laços mais estreitos com a UE após o fracasso do Brexit",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "e19bdf5be8ed9ff956720f062c9cc762a673d291a4663dc04afa065ed1246218": {
-        "original": "Pakistan: Former leader Khan pleads for medical care",
-        "text": "Paquistão: ex-líder Khan pede atendimento médico",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "b23526d2a7c5c2f8ce834532b4f5d1ff67069acbdd115faac09b33de4f43ef4d": {
-        "original": "La Francophonie 'waning in global influence': Linguistic institutions becoming 'less important'",
-        "text": "A Francofonia \"perde influência global\": instituições linguísticas ficam \"menos importantes\"",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "d35e82f9237ced91357e7c3d580e9af94b238c230e999fe1c337e2cf7f4e83c2": {
-        "original": "France can no longer support Kyiv 'financially,' Le Pen tells Ukrainian ambassador",
-        "text": "A França não pode mais apoiar Kiev \"financeiramente\", diz Le Pen ao embaixador ucraniano",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "aba6abaff4ad9556963d5e5dfa60bf9cc37b4ec6b29ff5a5321fddfb884873ed": {
-        "original": "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
-        "text": "Perito forense afirma que sua análise das fotos da autópsia sugere que Epstein foi assassinado",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "e04d8d02b932c10f3a4d33e54af7c89172b310c8d0bd4f3e0cc2396023ef1e8a": {
-        "original": "Ethiopia Moyale clashes disrupt livelihoods as territorial dispute deepens",
-        "text": "Confrontos em Moyale, Etiópia, prejudicam os meios de subsistência à medida que a disputa territorial se intensifica",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "12e7bfad3edf4dfa0d85fb21a3d5f7726318c1d9ec5a4ff08a39cd5b6c3b6d54": {
-        "original": "Europe hunts for Palantir alternatives as militaries seek to limit US dependence",
-        "text": "A Europa procura alternativas à Palantir, enquanto as forças armadas buscam limitar a dependência dos EUA",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "be27e538ffb8fedc296c5710c68434de6e01317ea2cd406e74d442289bf86d5d": {
-        "original": "Delaware hit by rare November tornado",
-        "text": "Delaware é atingido por um raro tornado em novembro",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "52fcdd6e426ae190034c8e5da292a64673b56967961ebfa41911d704f44d6d17": {
-        "original": "Germany's 'bratwurst tax' sparks backlash as community groups face new VAT rules",
-        "text": "O \"imposto sobre a salsicha\" da Alemanha gera reação negativa, enquanto grupos comunitários enfrentam novas regras de IVA",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "a916550a0d9d3cea24bc45402f77b3718a0519e859868b9f7474286d329aaf14": {
-        "original": "Lindsay Clancy to face retrial next year for deaths of her three children",
-        "text": "Lindsay Clancy enfrentará um novo julgamento no ano que vem pelas mortes de seus três filhos",
-        "at": "2026-11-17T01:52:34.845283+00:00"
-      },
-      "b1146b26d5e95f770bdc3455d25ed4ec44d790fb47368173e13c60d672ea112a": {
-        "original": "Live: Houthis advance in Yemen as tankers hit sea mines in Strait of Hormuz",
-        "text": "Ao vivo: Houthis avançam no Iêmen enquanto petroleiros atingem minas marinhas no Estreito de Ormuz",
-        "at": "2026-11-17T01:52:34.845283+00:00"
       }
     },
     "usage": [
-      {
-        "at": "2026-11-23T03:01:32.471750+00:00",
-        "chars": 60
-      },
-      {
-        "at": "2026-11-23T03:01:32.471750+00:00",
-        "chars": 38
-      },
       {
         "at": "2026-11-23T12:06:54.446569+00:00",
         "chars": 63
@@ -9766,6 +10170,38 @@
       {
         "at": "2026-11-23T23:47:25.583772+00:00",
         "chars": 66
+      },
+      {
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "chars": 85
+      },
+      {
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "chars": 57
+      },
+      {
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "chars": 85
+      },
+      {
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "chars": 87
+      },
+      {
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "chars": 72
+      },
+      {
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "chars": 74
+      },
+      {
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "chars": 60
+      },
+      {
+        "at": "2026-11-24T07:07:40.176333+00:00",
+        "chars": 77
       }
     ],
     "blocked_until": null
